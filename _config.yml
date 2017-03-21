@@ -1,0 +1,22 @@
+# Site settings
+title: "JavaScript Conf China"
+baseurl: ""
+url: "http://2017.jsconf.cn"
+exclude: ['README.md', 'package.json', 'bower.json', 'Gemfile', 'gulpfile.js', 'node_modules', 'dist/scss', 'dist/js']
+languages:          ['en', 'cn']
+language_default:   'en'
+
+
+
+collections:
+  pastspeakers:
+    output: false
+  companies:
+    output: false
+
+
+# Plugins
+gems:
+- jekyll-redirect-from
+- jekyll-paginate
+- jekyll-multiple-languages

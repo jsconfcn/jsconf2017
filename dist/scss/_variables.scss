@@ -1,0 +1,54 @@
+/* Colors (stolen from http://flatuicolors.com/) */
+
+$blue: #3498db !default;
+$green: #2ecc71 !default;
+$yellow: #FFF029 !default;
+$orange: #e67e22 !default;
+$red: #e74c3c !default;
+$purple: #4921CC !default;
+$black: #1F1D1D !default;
+$grey: #878787 !default;
+$silver: #ecf0f1 !default;
+$fushia: #EC008C !default;
+$navy: #2121FB !default;
+$white: #fff !default;
+
+$primary: $yellow !default;
+$secondary: transparent !default;
+$light: $silver !default;
+$line: shade($silver, 5%) !default;
+$background: #FFF !default;
+
+/* Sizes */
+
+$pico: 10 !default;
+$micro: 11 !default;
+$small: 12 !default;
+$smaller: 14 !default;
+$normal: 16 !default;
+$larger: 18 !default;
+$large: 24 !default;
+$huge: 32 !default;
+$gigantic: 48 !default;
+$humongous: 64 !default;
+
+/* Fonts */
+
+// @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700,400italic,700italic);
+// @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,700italic,400italic);
+
+$body: 'Proxima Nova', Arial, 'Helvetica Neue', Helvetica, sans-serif !default;
+$headline: 'Proxima Nova', 'Helvetica Neue', Helvetica, sans-serif !default;
+$code: 'Lucida Sans Typewriter', 'Lucida Console', monaco, 'Bitstream Vera Sans Mono', monospace !default;
+$font: '/dist/fonts/';
+
+/* Misc */
+
+$ease: 0.2s !default;
+$space: 24px !default;
+$radius: 2px !default;
+$shadow: rgba(0, 0, 0, 0.05) 0 1px 0 0 !default;
+
+
+/* layout */
+$wrapper: 1200px;

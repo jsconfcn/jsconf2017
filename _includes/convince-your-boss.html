@@ -1,0 +1,21 @@
+<section class='content'>
+  <div class='wrapper'>
+  {% if page.language == 'cn' %}
+    <img src='/dist/images/cyb-h-cn.png' class='title cn'>{% else %}
+    <img src='/dist/images/cyb-h.png' class='title'>
+    {% endif %}
+    <div class='col-right'>
+      <div class='col'>{{ site.data.i18n[page.language].cyb_p1 }}</div>
+      <div class='img'><img src='/dist/images/cyb-1.png'></div>
+    </div>
+    <div class='col-right'>
+      <div class='col'>{{ site.data.i18n[page.language].cyb_p2 }}</div>
+      <div class='img'><img src='/dist/images/cyb-2.png'></div>
+    </div>
+    <p>{{ site.data.i18n[page.language].cyb_p3 }}</p>
+    <div>{{ site.data.i18n[page.language].cyb_p4 }}</div>
+    <p>{{ site.data.i18n[page.language].cyb_p5 }}</p>
+    <div>{{ site.data.i18n[page.language].cyb_p6 }}</div>
+    <div class='action'><a class='button primary' href='http://www.bagevent.com/event/156568' target='new'>{{ site.data.i18n[page.language].buyticket}}</a></div>
+  </div>
+</section>

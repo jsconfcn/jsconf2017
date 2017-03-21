@@ -1,0 +1,19 @@
+<div class='wrapper'>
+  {% include subscription.html %}
+  <div class='sns'>
+    <a href='https://www.instagram.com/uiuxconfchina' class='ins' target='new'></a>
+    <a href='https://twitter.com/uiuxconf' class='twitter' target='new'></a>
+    <a href='http://weibo.com/uiuxconf' class='weibo' target='new'></a>
+  </div>
+  <div class='copyright'>
+    <span> <a href='http://wiredcraft.com/' target='new'>&copy;Wiredcraft 2016 </a> |</span> {% if page.language == 'cn' %}
+    <a href='/cn/code-of-conduct/'>Code Of Conduct </a>{% else %}
+    <a href='/code-of-conduct/'>Code Of Conduct </a> {% endif %}
+    <a href='mailto:info@uiuxconf.cn'>Media Contact</a>
+    
+    {% if page.language == 'cn' %}
+    <a href='/cn/press/'>Press</a>{% else %}
+    <a href='/press/'>Press</a> {% endif %}
+    <a href='https://creativecommons.org/licenses/by/3.0/' target='new'>CCA 3.0 License</a>
+  </div>
+</div>

@@ -1,0 +1,62 @@
+#footer {
+  display: inline-block;
+  background: $black;
+  text-align: center;
+  width: 100%;
+  .wrapper {
+    margin: $space*2 auto;
+    a.hashtag {
+      color: #fff;
+    }
+    .sns {
+      margin-top: $space;
+      text-align: center;
+      a {
+        display: inline-block;
+        line-height: $space*2;
+        height: $space*2;
+        width: $space*2;
+        &:hover {
+          text-decoration: none;
+          &:before {
+            color: rgba(255, 255, 255, 1);
+          }
+        }
+        &:before {
+          @include icon;
+          color: rgba(255, 255, 255, 0.5);
+          @include font-size($large + 1);
+          content: '';
+        }
+        &.ins {
+          &:before {
+            content: 'I';
+          }
+        }
+        &.twitter {
+          &:before {
+            content: 'T';
+          }
+        }
+        &.weibo {
+          &:before {
+             @include font-size($large + 2);
+            content: 'W';
+          }
+        }
+      }
+    }
+    .copyright {
+      margin-top: $space;
+      span,
+      span a {
+        color: rgba(255, 255, 255, 0.5)
+      }
+      a {
+        @include font-size($smaller);
+        color: #fff;
+        margin: 0 $space/2;
+      }
+    }
+  }
+}

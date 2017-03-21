@@ -1,0 +1,147 @@
+#header {
+  background: rgba(0,0,0,0.7);
+  box-sizing: border-box;
+  display: table;
+  position: absolute;
+  padding: $space/2 3%;
+  width: 100%;
+  z-index: 10;
+  @include breakpoint(mobile) {
+    font-size: 80%;
+  }
+  @include breakpoint(tablet) {
+    font-size: 95%;
+  }
+  @include breakpoint(desktop) {
+    font-size: 100%;
+  }
+  .button.nav {
+    display: inline-block;
+    padding: $space/6;
+    margin: -1px 0 0 $space/3;
+    @include breakpoint(desktop) {
+      display: none;
+      margin: $space/3 + 3 0 0 $space/3;
+    }
+    &:before {
+      @include font-size($large);
+      @include icon;
+      display: block;
+      content: 'm';
+      margin-top: -1px;
+    }
+  }
+  #nav {
+    @include transition(all 0.1s ease-in-out);
+    -webkit-backface-visibility: hidden;
+    @include transform-style(preserve-3d);
+    background: rgba(255, 255, 255, 0.95);
+    visibility: hidden;
+    opacity: 0;
+    position: fixed;
+    left: 0;
+    line-height: 56px;
+    top: 0;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    display: table;
+    .box {
+      height: 272px;
+      display: table-cell;
+      vertical-align: middle;
+      width: 100%;
+      a {
+        @include font-size($huge);
+        color: $black;
+        display: block;
+        padding: 0 $space/2;
+        margin: 0 $space/2;
+        width: auto;
+        &.active {
+          color: $navy;
+          font-weight: 500;
+        }
+      }
+    }
+    @include breakpoint(desktop) {
+      visibility: visible;
+      opacity: 1;
+      background: none;
+      box-sizing: border-box;
+      left: 50%;
+      margin-left: -340px;
+      padding: $space/2 0;
+      position: absolute;
+      text-align: center;
+      width: 680px;
+      .box {
+        height: auto;
+        display: block;
+        a {
+          font-weight: 300;
+          @include font-size($normal);
+          display: inline-block;
+          color: $white;
+          padding: 0 $space/2;
+          margin: 0 $space/2;
+          &.active {
+            color: $navy;
+            font-weight: 500;
+          }
+        }
+      }
+      button.close {
+        display: none;
+      }
+    }
+  }
+  .logo,
+  .lang {
+    display: block;
+    position: relative;
+    z-index: 1;
+  }
+  .logo {
+    width: $space*3.5;
+    margin-top: -$space/4;
+    vertical-align: middle;
+    display: table-cell;
+    img {
+      float: left;
+      width: 100%;
+    }
+    @include breakpoint(desktop) {
+      margin-top: 0;
+      width: $space*6;
+    }
+  }
+  .lang {
+    color: $white;
+    line-height: 28px;
+    @include breakpoint(desktop) {
+      line-height: 56px;
+    }
+  }
+  .ticket,
+  .lang {
+    float: right;
+  }
+  .ticket {
+    padding: $space/6 $space/2;
+    margin: -1px $space/2 0;
+    @include breakpoint(desktop) {
+      margin: $space/3 + 3 0 0 $space;
+    }
+  }
+}
+
+.menu-open #header #nav {
+  visibility: visible;
+  opacity: 1;
+  @include breakpoint(desktop) {
+    visibility: hidden;
+    opacity: 0;
+  }
+}

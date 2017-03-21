@@ -1,0 +1,79 @@
+.content {
+  .wrapper:first-child {
+    margin-top: $space*2;
+  }
+  h2 {
+    margin-top: $space*3.5;
+  }
+  .action {
+    width: 100%;
+    text-align: center;
+    .button {
+      display: inline-block;
+      margin: $space*3.5 auto;
+    }
+  }
+  ul.perks,
+  ul.options {
+    display: inline-block;
+    list-style: none;
+    width: 100%;
+    margin: $space 0;
+    li {
+      float: left;
+      height: 160px;
+      display: table;
+      margin-right: 4%;
+      margin-bottom: $space;
+      padding-left: 0;
+      width: 48%;
+      @include breakpoint(mobile) {
+        width: 100%;
+        margin-right: 0;
+      }
+      &:nth-child(2n) {
+        margin-right: 0;
+      }
+      img {
+        float: left;
+        height: 140px;
+        margin: 10px 0;
+        @include breakpoint(desktop) {
+          height: 160px;
+          margin: 0;
+        }
+      }
+      span {
+        padding-left: $space;
+        font-family: $headline;
+        display: table-cell;
+        vertical-align: middle;
+        width: 100%;
+        @include breakpoint(mobile) {
+          padding-left: $space/2;
+        }
+      }
+    }
+  }
+  ul.options {
+    li {
+      height: auto;
+      width: 33%;
+      text-align: center;
+      img {
+        margin: 0 auto $space/2 auto;
+        display: block;
+        float: none;
+      }
+      span {
+        padding-left: 0;
+        display: block;
+      }
+      margin-right: 0;
+      @include breakpoint(mobile) {
+        width: 100%;
+        margin-right: 0;
+      }
+    }
+  }
+}

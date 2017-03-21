@@ -1,0 +1,50 @@
+.field {
+  margin-bottom: $space/2;
+  .description {
+    color: $grey;
+    display: block;
+    @include font-size($small);
+    margin-top: $space/4;
+  }
+}
+
+label,
+.label {
+  @include font-size($smaller);
+  display: block;
+  margin: 0 0 $space/4;
+  text-align: left;
+}
+
+.select {
+  select {
+    @include button($light, true);
+    padding: $space/6 1.5*$space $space/6 $space/2;
+  }
+}
+
+input:not([type=submit]),
+textarea,
+.select select {
+  box-shadow: 0;
+  border: 1px solid $navy;
+  @include font-size($normal);
+  &:hover {
+    border-color: $grey;
+  }
+  &:focus {
+    border-color: $black;
+  }
+  &::-webkit-input-placeholder {
+    color: lighten($navy, 32%);
+  }
+  &:-moz-placeholder {
+    color: lighten($navy, 32%);
+  }
+  &::-moz-placeholder {
+    color: lighten($navy, 32%);
+  }
+  &:-ms-input-placeholder {
+    color: lighten($navy, 32%);
+  }
+}

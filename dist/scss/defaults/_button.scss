@@ -1,0 +1,52 @@
+.button {
+  @include button($light, true);
+  @include font-size($normal);
+  padding: $space/3 $space;
+  letter-spacing: 0.9px;
+  font-weight: 500;
+  text-align: center;
+  text-transform: Capitalize;
+  &.primary {
+    @include button($primary);
+    border-radius: 50px;
+    color: $black;
+    &:hover,&:active,&:focus {
+      color: $black;
+      background: darken($primary,10%);
+    }
+  }
+  &.secondary {
+    @include button($secondary);
+    border-color: $yellow;
+    border-radius: 50px;
+    color: $white;
+    &:hover,&:active,&:focus {
+      background: transparent;
+      color: $white;
+    }
+    &:hover {
+      background-color: rgba(255,255,255,0.1);
+    }
+  }
+  &.subscription {
+    @include button($purple);
+    border-color: none;
+    border-radius: 50px;
+    color: $white;
+    min-width: $space*5;
+    &:hover,&:active,&:focus {
+      background: $purple;
+      color: $white;
+    }
+    &:hover {
+      color: $white;
+    }
+  }
+}
+
+.bundle .button {
+  @include bundle;
+  &.secondary {
+    @include bundle;
+  }
+}

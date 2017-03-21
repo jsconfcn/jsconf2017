@@ -1,0 +1,153 @@
+html {
+  @include breakpoint(mobile) {
+    font-size: 50%;
+  }
+  @include breakpoint(tablet) {
+    font-size: 50%;
+  }
+  @include breakpoint(desktop) {
+    font-size: 62.5%;
+  }
+}
+
+body {
+  color: tint($black, 10%);
+  position: relative;
+  letter-spacing: 0.3px;
+  @include font-size($normal);
+  min-width: 320px;
+}
+
+a {
+  cursor: pointer;
+  color: $purple;
+  text-decoration: none;
+  @include transition-property(color);
+  @include transition-duration($ease);
+  &:hover {
+    color: shade($purple, 10%);
+    text-decoration: underline;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: $black;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  margin: 0 0 $space;
+}
+
+h3 {
+  @include font-size($large);
+  margin-bottom: $space/2;
+}
+
+h1 {
+  @include font-size($humongous);
+  @include breakpoint(mobile) {
+    @include font-size($huge + 2);
+  }
+}
+h2 {
+  @include font-size($huge);
+  font-weight: normal;
+  font-family: 'GalanoGrotesque';
+  @include breakpoint(mobile) {
+    @include font-size($huge - 2);
+  }
+}
+
+// h3,
+// h4,
+// h5,
+// h6 {
+//   text-transform: uppercase;
+// }
+p,
+pre {
+  margin: 0 0 $space;
+}
+
+ul,
+ol {
+  margin: 0 0 $space $space;
+  padding: 0;
+  li {
+    padding: 0 0 $space/2;
+  }
+  ul,
+  ol {
+    margin-bottom: 0;
+    li {
+      padding: $space/2 0 0;
+    }
+  }
+}
+
+small {
+  @include font-size($small);
+}
+
+blockquote {
+  border-left: $space/4 solid $light;
+  color: tint($black, 40%);
+  margin: 0 $space $space;
+  padding-left: $space;
+  > *:last-child {
+    margin-bottom: 0;
+  }
+}
+
+
+/* LAYOUT */
+
+.wrapper {
+  box-sizing: border-box;
+  margin: $space*4 auto;
+  max-width: $wrapper;
+  position: relative;
+  width: 80%;
+  @include breakpoint(mobile) {
+    margin: $space*3 auto;
+  }
+}
+
+#content {
+  section {
+    float: left;
+    width: 100%;
+    h2 {
+      text-align: center;
+    }
+  }
+}
+
+button.close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 0;
+  font-family: arial;
+  @include font-size($huge);
+  -webkit-appearance: none;
+  background: transparent;
+  outline: none;
+  border: 0;
+  height: $space*2;
+  line-height: $space*2;
+  width: $space*2;
+  &:before {
+    @include icon;
+    content: 'x';
+  }
+  &:hover {
+    &:before {
+      opacity: 0.8;
+    }
+  }
+}

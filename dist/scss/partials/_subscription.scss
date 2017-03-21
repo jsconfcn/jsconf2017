@@ -1,0 +1,43 @@
+form.subscription {
+  text-align: left;
+  width: 100%;
+  p {
+    color: $black;
+    @include font-size($normal);
+    line-height: 100%;
+    text-align: left;
+    margin-bottom: $space/2;
+  }
+  input {
+    float: left;
+    width: 100%;
+  }
+  .action {
+    display: inline-block;
+    text-align: center;
+    margin-top: $space/2;
+    width: 100%;
+    button {
+      @include button($purple);
+      border-radius: 50px;
+    }
+  }
+  @include breakpoint(mobile) {
+    width: 100%;
+    input {
+      width: 100%;
+    }
+    // button {
+    //   width: 130px;
+    // }
+  }
+  @include breakpoint(desktop) {
+    width: 100%;
+    input {
+      width: 100%;
+    }
+    // button {
+    //   width: $space*6;
+    // }
+  }
+}

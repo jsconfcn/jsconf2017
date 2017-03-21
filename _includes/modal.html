@@ -1,0 +1,14 @@
+<div id='modal'>
+  <div class='scroller'>
+    <div class='container'>
+      <div class='box'>
+        <button class='close modal'></button>
+        <h2>{{ site.data.i18n[page.language].dont_miss_out }}</h2>
+        <p>{{ site.data.i18n[page.language].dont_miss_out_p }}</p>
+        <div>
+          {% include subscription.html %}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

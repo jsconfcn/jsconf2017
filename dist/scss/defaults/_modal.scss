@@ -1,0 +1,83 @@
+#modal {
+  background: rgba(0, 0, 0, 0.75);
+  height: 100%;
+  left: 0px;
+  opacity: 0;
+  overflow-y: scroll;
+  position: fixed;
+  top: 0px;
+  visibility: hidden;
+  width: 100%;
+  @include transition(all 0.1s ease-in-out);
+  -webkit-backface-visibility: hidden;
+  @include transform-style(preserve-3d);
+  z-index: 100;
+  .scroller {
+    @include display(flex);
+    @include box-orient(vertical);
+    @include box-direction(normal);
+    @include flex-direction(column);
+    @include justify-content(space-around);
+    overflow-y: scroll;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    position: fixed;
+    .container {
+      min-height: 0;
+      .box {
+        box-sizing: border-box;
+        background: $background;
+        border-radius: $radius;
+        box-shadow: $shadow;
+        padding: $space*2.5;
+        position: relative;
+        margin: 15px auto;
+        max-width: 600px;
+        width: 90%;
+        text-align: left;
+        z-index: 3000;
+        h2 {
+          white-space: normal;
+          word-break: break-word;
+        }
+        form.subscription {
+          margin: 0;
+          width: 100%;
+          label {
+            @include font-size($normal);
+            color: tint($black, 10%);
+            margin-bottom: $space/6;
+            text-align: left;
+          }
+          p {
+            display: none;
+          }
+          input {
+            width: 60%;
+          }
+          button {
+            @include button($navy);
+            width: 40%;
+          }
+          @include breakpoint(mobile) {
+            input {
+              border-right: 1px solid $navy;
+              margin-bottom: $space/6;
+              width: 100%!important;
+            }
+            button {
+              width: 60%!important;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.modal-open #modal {
+  opacity: 1;
+  visibility: visible;
+}
