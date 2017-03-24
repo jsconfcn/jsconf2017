@@ -6,12 +6,12 @@
 
   You also may need to install the `githug-pages` gem:
 
-      sudo gem install github-pages
+      gem install github-pages
 
   ## run & Build
 
   You'll need to build the JS and CSS:
 
-      gulp
+      npm run gulp
 
-  localhost:3000
+  Open `localhost:3000` in the browser.
