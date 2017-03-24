@@ -2,6 +2,9 @@
   "name": "uiuxconf",
   "version": "0.0.1",
   "description": "123",
+  "scripts": {
+    "gulp": "gulp"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/uiuxconf/uiuxconf-2016.git"
@@ -10,7 +13,6 @@
   "license": "WTFPL",
   "dependencies": {
     "bower": "*",
-    "gulp": "*",
     "gulp-concat": "*",
     "gulp-minify-css": "*",
     "gulp-sass": "*",
@@ -18,7 +20,8 @@
     "node-bourbon": "*"
   },
   "devDependencies": {
-    "gulp": "^3.9.1",
+    "gulp": "*",
+    "browser-sync": "*",
     "gulp-livereload": "^3.8.1"
   }
 }
