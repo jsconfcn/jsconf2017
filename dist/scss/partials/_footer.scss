@@ -8,6 +8,20 @@
     a.hashtag {
       color: #fff;
     }
+    .wechat {
+      text-align: center;
+      h3,
+      p {
+        color: $white;
+      }
+      img {
+        max-width: 100%;
+      }
+      > div {
+        max-width: 8em;
+        margin: 0 auto;
+      }
+    }
     .sns {
       margin-top: $space;
       text-align: center;
@@ -19,7 +33,7 @@
         &:hover {
           text-decoration: none;
           &:before {
-            color: rgba(255, 255, 255, 1);
+            color: $yellow;
           }
         }
         &:before {
@@ -35,13 +49,19 @@
         }
         &.twitter {
           &:before {
-            content: 'T';
+            content: '\ea96';
           }
         }
         &.weibo {
           &:before {
              @include font-size($large + 2);
-            content: 'W';
+            content: 'S';
+          }
+        }
+        &.github {
+          &:before {
+             @include font-size($large + 2);
+            content: 'G';
           }
         }
       }

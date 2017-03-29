@@ -184,7 +184,7 @@
       padding: 0 $space;
       &:first-child {
         width: 34%;
-      }     
+      }
     div {
       color: $yellow;
       @include font-size($large);
@@ -252,309 +252,64 @@
 
 #past-speakers {
   background: $black;
+  .slick-slide {
+    height: 240px;
+    text-align: center;
+    img {
+      position: inherit;
+      margin-bottom: 1em;
+    }
+    span {
+      color: $white;
+      display: block;
+      &.name {
+        font-size: 110%;
+      }
+      &:last-child {
+        color: $yellow;
+      }
+    }
+  }
+  .album {
+    margin-top: 2em;
+    img {
+      max-width: 100%;
+    }
+    .left {
+      width: 33.5%;
+      float: left;
+    }
+    .right {
+      width: 66.5%;
+      float: right;
+      img {
+        &:nth-child(1),
+        &:nth-child(2) {
+          width: 50%;
+        }
+        &:nth-child(2) {
+          float: right;
+        }
+        &:nth-child(3) {
+          width: 100%;
+        }
+      }
+    }
+  }
 }
 
-// #hero {
-//   box-sizing: border-box;
-//   height: 100%;
-//   .wrapper {
-//     margin-top: $space*2;
-//     .masthead {
-//       text-align: center;
-//       time {
-//         color: $fushia;
-//         display: block;
-//         @include font-size($large);
-//         font-weight: 500;
-//         font-family: $body;
-//         margin-bottom: $space*2;
-//         text-transform: capitalize;
-//         width: 100%;
-//       }
-//       form.subscription {
-//         label {
-//           @include font-size($normal);
-//           color: $black;
-//           text-align: left;
-//         }
-//         p {
-//           display: none;
-//         }
-//         button {
-//           @include button($navy);
-//         }
-//       }
-//       button {
-//         margin-bottom: $space*2;
-//       }
-//     }
-//     .img {
-//       display: block;
-//       margin: 0 auto;
-//       width: 100%;
-//       @include breakpoint(desktop) {
-//         max-width: $wrapper;
-//       }
-//     }
-//   }
-// }
-// #call-for-proposal {
-//   .wrapper {
-//     div {
-//       box-sizing: border-box;
-//       position: relative;
-//       padding: 0;
-//       width: 100%;
-//       img {
-//         width: 100%;
-//       }
-//       .col {
-//         position: absolute;
-//         top: 50%;
-//         @include transform(translateY(-50%));
-//       }
-//       @include breakpoint(mobile) {
-//         &#call-for-speakers {
-//           margin-bottom: $space*4;
-//         }
-//         img {
-//           display: block;
-//           margin: $space auto $space auto;
-//           width: 50%;
-//         }
-//         .col {
-//           position: relative;
-//           top: 0;
-//           left: 0;
-//           right: 0;
-//           transform: translateY(0);
-//           text-align: center;
-//         }
-//       }
-//       &#call-for-speakers {
-//         padding-right: 68%;
-//         .col {
-//           right: 0px;
-//           width: 60%;
-//         }
-//         @include breakpoint(mobile) {
-//           padding: 0px;
-//           .col {
-//             right: 0px;
-//             width: 100%;
-//           }
-//         }
-//       }
-//       &#call-for-sponsors {
-//         // margin-top: $space*8;
-//         padding-left: 68%;
-//         .col {
-//           left: 0px;
-//           width: 60%;
-//         }
-//         @include breakpoint(mobile) {
-//           padding: 0px;
-//           .col {
-//             right: 0px;
-//             width: 100%;
-//           }
-//         }
-//       }
-//       p {
-//         color: $grey;
-//       }
-//     }
-//   }
-// }
-// #about {
-//   .wrapper {
-//     margin-top: 0;
-//     padding-top: $space*5;
-//     border-top: 1px solid $line;
-//     .block {
-//       display: inline-block;
-//       margin-top: $space*4;
-//       width: 100%;
-//       &.past {
-//         ul {
-//           li {
-//             img {
-//               margin-bottom: $space*2;
-//               width: $space*2;
-//             }
-//           }
-//         }
-//       }
-//       ul {
-//         margin: $space*2 0 0 0;
-//         padding: 0;
-//         li {
-//           list-style: none;
-//           text-align: center;
-//           float: left;
-//           width: 33.33%;
-//           a {
-//             display: block;
-//           }
-//           @include breakpoint(mobile) {
-//             margin-bottom: $space*2;
-//             img {
-//               margin-bottom: $space;
-//             }
-//           }
-//           em {
-//             @include font-size($humongous);
-//             font-weight: 700;
-//             font-style: normal;
-//           }
-//           @include breakpoint(mobile) {
-//             width: 100%;
-//           }
-//         }
-//       }
-//       .cols {
-//         position: relative;
-//         display: inline-block;
-//         width: 100%;
-//         div {
-//           position: absolute;
-//           height: 100%;
-//           left: 0;
-//           top: 0;
-//           text-align: center;
-//           float: left;
-//           width: 33.33%;
-//           a {
-//             text-align: center;
-//             display: block;
-//             img {
-//               width: 70%;
-//               position: absolute;
-//               top: 0;
-//               left: 0;
-//               top: 0;
-//               bottom: 0;
-//               margin: auto 15%;
-//             }
-//           }
-//         }
-//         p.intro {
-//           margin: 0;
-//           padding-left: 33.33%;
-//           width: 66.66%;
-//         }
-//         @include breakpoint(mobile) {
-//           div {
-//             height: 100px;
-//             position: relative;
-//             width: 100%;
-//             margin-bottom: $space*2;
-//           }
-//           p.intro {
-//             padding: 0;
-//             width: 100%;
-//           }
-//         }
-//       }
-//       &.logos {
-//         ul {
-//           li {
-//             display: table;
-//             a {
-//               height: $space*7;
-//               text-align: center;
-//               display: table-cell;
-//               vertical-align: middle;
-//               img {
-//                 @include filter(grayscale(100%));
-//                 @include transition(all 0.1s ease-in-out);
-//                 -webkit-backface-visibility: hidden;
-//                 @include transform-style(preserve-3d);
-//                 opacity: 0.4;
-//                 margin: 0px;
-//               }
-//               @include breakpoint(mobile) {
-//                 height: $space*5;
-//                 img {
-//                   width: 45%;
-//                 }
-//               }
-//               &:hover {
-//                 img {
-//                   opacity: 0.9;
-//                 }
-//               }
-//             }
-//             &:nth-child(2) {
-//               img {
-//                 width: 35%;
-//                 @include breakpoint(mobile) {
-//                   width: 30%;
-//                 }
-//               }
-//             }
-//             &:nth-child(3) {
-//               img {
-//                 width: 40%;
-//                 @include breakpoint(mobile) {
-//                   width: 35%;
-//                 }
-//               }
-//             }
-//           }
-//         }
-//       }
-//     }
-//     .photos {
-//       list-style: none;
-//       margin: 0;
-//       padding-top: $space;
-//       li {
-//         float: left;
-//         box-sizing: border-box;
-//         padding: 0 $space/3;
-//         width: 100%;
-//         a {
-//           float: left;
-//           margin-bottom: $space/3*2;
-//           img {
-//             @include transition(all 0.1s ease-in-out);
-//             -webkit-backface-visibility: hidden;
-//             @include transform-style(preserve-3d);
-//             float: left;
-//             width: 100%;
-//           }
-//           &:hover {
-//             img {
-//               opacity: 0.9;
-//             }
-//           }
-//         }
-//         &:nth-child(1) {
-//           padding-left: 0;
-//           width: 32.95%;
-//         }
-//         &:nth-child(2) {
-//           width: 33.6%;
-//         }
-//         &:nth-child(3) {
-//           padding-right: 0;
-//           width: 33.35%;
-//         }
-//         @include breakpoint(mobile) {
-//           &:nth-child(1) {
-//             padding-left: 0;
-//             width: 100%;
-//           }
-//           &:nth-child(2) {
-//             width: 100%;
-//           }
-//           &:nth-child(3) {
-//             padding-right: 0;
-//             width: 100%;
-//           }
-//         }
-//       }
-//     }
-//   }
-// }
+#companies {
+  .wrapper {
+    > div {
+      display: inline-block;
+      vertical-align: middle;
+      text-align: center;
+      max-width: 10em;
+      margin-left: 1em;
+      margin-right: 1em;
+      > img {
+        max-width: 100%;
+      }
+    }
+  }
+}

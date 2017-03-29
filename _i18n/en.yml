@@ -1,0 +1,64 @@
+big_title: 2017 JSConf China
+call_for_speakers: Call For Speakers
+call_for_sponsors: Call For Sponsors
+about: About
+media: Media
+share: Share
+shanghai: Shanghai
+get_tickets: Buy ticket
+follow_wechat: Follow Us On Wechat
+be_first: Be the first to hear about ticket sales, confirmed speakers and more.
+view_more: View more..
+# dont_miss_out: "Don't miss out on the Early Bird ticket sale!"
+# dont_miss_out_p: "Subscribe to the UI/UX Conf newsletter to be the first to know about our Early Bird ticket sale. We will have a limited number of discounted tickets during this sale, so don't miss out."
+# be_first: Be the first to hear about ticket sales, confirmed speakers and more.
+notify_me: Notify me
+call_for_speakers_p: Have a cool idea or project that you'd like to share with the JavaScript community? We're now taking submissions for the upcoming JSConf CN ( 15-16 July 2017, Shanghai). This Call for Presentation <strong>closes on April 20th</strong> (UTC +8:00).
+call_for_sponsors_p: <strong>Connect</strong>. Experience the local design community in China. Support the first ever UI/UX Conference in Shanghai - limited sponsorship opportunities available. Open until <strong>Aug. 1st</strong>.
+about_us: About us
+about_us_p: <p>JSConf China is a developer-driven, non-profit conference where both the Chinese and International JS community share and discuss the latest tools and techniques for the JavaScript language. Over the two-day event, you can hear from notable figures within the community, and share your passion and knowledge with like-minded people. Now in its 6th year, it has become a must-attend event in the local developer community. For information on past programs, check out our <a href='http://jsconf.cn/' target='new'>JSConf China website</a> or our <a href='https://www.youtube.com/playlist?list=PLEHsmTsBKpKWWKs6gDQ_kssSV32UkaQNs' target='new'>YouTube channel</a>. This year's JSConf is in Shanghai on 15-16 July.</p>
+years: Years
+attendees: Attendees
+talks: Talks
+connections: Connections
+past_sponsors: Past Sponsors
+company_participated_title: Company Participated
+who_is_the_organizer: Who's the organizer?
+who_is_the_organizer_p: <a href='http://wiredcraft.com' target='new'>Wiredcraft</a> is a full service digital agency based in Shanghai, Washington DC and Berlin. We are Design, Data Science, API and DevOps experts. Think data visualizations for the World Bank Open Data Portal, or election software for the first democratic elections in Myanmar in 25 years. We support our local tech and design communities by organizing monthly meetups, <a href='http://2016.jsconf.cn' target='new'>JSConf China</a> and UI/UX Conf China.
+why_organize: Why are we organizing this?
+why_organize_p: "Wiredcraft began organizing the monthly <a href='http://www.meetup.com/Shanghai-UI-UX-Designers-Meetup/' target='new'>UI/UX Designers Meetup</a> in Shanghai in October 2015 to create a space for designers of all levels and backgrounds to grow their networks, learn, and share their experience and expertise. The community spoke: 3 hours a month wasn't enough, two speakers wasn't enough, more design, more networking. From this desire and our unique expertise, UI/UX Conf China comes to you this October. "
+organizer: Organizer
+ticket: Tickets
+call_for_speakers_p1: <p>Inspire the design community in China. Speak or present a workshop at the upcoming UI/UX Conference on October 15-16, 2016 in Shanghai. The CFP is open until <strong>July 15th</strong>. </p><p>This two-day community-driven conference will feature more than twenty presentations focused on storytelling, design strategy, best practices, creative inspiration and more. Count on experienced speakers sharing their expertise and experiences from international companies and thriving startups. Talks in English and Mandarin are welcome.</p>
+call_for_speakers_p2: <p>Use the <a href='#apply'>link to the form</a> below to nominate yourself or someone else to speak or host a workshop at UI/UX Conf China. You can also nominate a topic and we'll try to find a speaker to match.</p><p>If you have something kickass to share, tell us all about it. If you know someone who has something great to talk about, nominate them. And if you are interested in hearing about a particular topic, nominate the topic and we'll try to find a match. Fill in and submit this form.</p><p>Not sure what to speak about? Find your inspiration from our past UI/UX meetups from Shanghai and Berlin on <a href='https://www.youtube.com/playlist?list=PLEHsmTsBKpKV_8eC8lylLNaIyYKx_VJhz' target='new'>YouTube</a> or <a href='http://www.tudou.com/home/wiredcraft' target='new'>Tudou</a>.</p><p><strong>We encourage presentations of all UIUX-related topics and are happy to provide support.</strong></p><p>Is this your first time speaking? Want some feedback before submitting your proposal? Get in touch with the event organizer at <a href='mailto:info@uiuxconf.com'>info@uiuxconf.com</a> and we'll be happy to help.</p>
+the_perks: The Perks
+the_perks_p1: "<p>If you get selected as a speaker at the first ever UI/UX Conf 2016, here's what you'll be provided :</p>"
+the_perks_p2: <p>As a reminder, the purpose of UI/UX China presentations is to share knowledge, skills, experience and some of the great things you've built. We welcome talks letting attendees know how you are using tools in your work, but strongly discourage any proposals with the aim of selling a product or service.</p><p>If your company can cover your travel and hotel, we'll be happy to list them as a special sponsor. Check out <a href="/call-for-sponsors/">our sponsor page</a>. The money we save on your travel and accommodation will go to making the event even better!</p>
+the_perks_ticket: Conference ticket + After Party entrance
+the_perks_camera: Professional Photography / Video of your talk
+the_perks_plane: Covered transportation and accommodation
+the_perks_meal: Speaker dinner
+apply: Submit a proposal
+sponsorship_options: Sponsorship Options
+gold_sponsor: Gold Sponsor
+silver_sponsor: Silver Sponsor
+bronze_sponsor: Bronze Sponsor
+call_for_sponsors_p1: "2016 UI/UX Conf has three sponsorship levels: gold, silver, bronze. Your support is very important to the conference and the conference committee ensures that these contributions are well recognized. We listed the benefits and costs below. We are open to any sponsorship needs - chat with an organizer about package details at <a href='mailto:info@uiuxconf.com'>info@uiuxconf.com</a>."
+call_for_sponsors_p2: "<p><strong>What else can you sponsor?</strong></p><ul class='list'><li><strong>A speaker</strong>: Cover the transportation and accommodation of the speaker from your company</li><li><strong>After-party food & beverage</strong>: Brand exposure limited to the after-party/coffee break. Can be a non-design type of brand.</li><li><strong>Coverage</strong>: Mutual brand exposure with the partner company.</li><li><strong>À la carte</strong>: We can also offer you brand exposure in exchange for merchandise (raffle prizes or gifts, books, badge lanyards) or services (wifi, accommodation…).</li></ul>"
+download: Download Sponsor Package
+coc: Code of Conduct
+coc_intro: <h2>Short Version</h2>
+  <p>UI/UX Conf China is dedicated to providing a harassment-free conference experience for everyone, regardless of gender, sexual orientation, disability, physical appearance, body size, race, or religion. We do not tolerate harassment of conference participants in any form. Sexual language and imagery is not appropriate for any conference venue, including talks. Conference participants violating these rules may be sanctioned or expelled from the conference without a refund at the discretion of the conference organizers.</p>
+  <h2>Long Version</h2>
+  <h4>Harassment</h4>
+  <p>Harassment includes offensive verbal comments related to gender, sexual orientation, disability, physical appearance, body size, race, religion, sexual images in public spaces, deliberate intimidation, stalking, following, harassing photography or recording, sustained disruption of talks or other events, inappropriate physical contact, and unwelcome sexual attention. Participants asked to stop any harassing behavior are expected to comply immediately.</p>
+  <h4>Exhibitors & Sponsors</h4>
+  <p>Exhibitors in the expo hall, sponsor or vendor booths, or similar activities are also subject to the anti-harassment policy. In particular, exhibitors should not use sexualized images, activities, or other material. Booth staff (including volunteers) should not use sexualized clothing/uniforms/costumes, or otherwise create a sexualized environment.</p>
+  <h4>Participants</h4>
+  <p>If a participant engages in harassing behavior, the conference organizers may take any action they deem appropriate, including warning the offender or expulsion from the conference with no refund. If you are being harassed, notice that someone else is being harassed, or have any other concerns, please contact a member of conference staff immediately. Conference staff can be identified by t-shirts/special badges. Conference staff will be happy to help participants contact hotel/venue security or local law enforcement, provide escorts, or otherwise assist those experiencing harassment to feel safe for the duration of the conference. We value your attendance.</p>
+  <h4>Staff Contact Information</h4>
+  <p>CoCo Yu<br/><a href='mailto:coco@wiredcraft.com'>coco@wiredcraft.com</a></p>
+  <h4>Venue & Social Events</h4>
+  <p>We expect participants to follow these rules at all conference venues and conference-related social events.</p>
+  <h4>License</h4>
+  <p>This Code of Conduct was forked from the example policy from the Geek Feminism wiki, created by the Ada Initiative and other volunteers, which is under a Creative Commons Zero license.</p>

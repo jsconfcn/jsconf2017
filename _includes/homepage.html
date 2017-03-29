@@ -3,9 +3,9 @@
   <div class='container'>
     <div class='wrapper'>
       <div class='masthead'>
-        <h1>{{ site.data.i18n[page.language].big_title }}</h1>
-        <time>2017.07.15 - 07.16 @ {{ site.data.i18n[page.language].shanghai }}</time>
-        <button class='button primary cta'>{{ site.data.i18n[page.language].get_tickets }}</button>
+        <h1>{% t big_title  %}</h1>
+        <time>2017.07.15 - 07.16 @ {% t shanghai  %}</time>
+        <button class='button primary cta'>{% t get_tickets  %}</button>
         <br/>
         <span class='tip'>Only <strong>100</strong> early bird ticket!</span>
       </div>
@@ -18,16 +18,16 @@
       <li>
         <span class='thumbnail'></span>
         <div>
-          <h3>{{ site.data.i18n[page.language].call_for_speakers }}</h3>
-          <p>{{ site.data.i18n[page.language].call_for_speakers_p }}</p>
-          <a class='viewmore' href='#'>{{ site.data.i18n[page.language].view_more }}</a>
+          <h3>{% t call_for_speakers  %}</h3>
+          <p>{% t call_for_speakers_p  %}</p>
+          <a class='viewmore' href='#'>{% t view_more  %}</a>
         </div>
       </li>
       <li>
         <div>
-          <h3>{{ site.data.i18n[page.language].call_for_sponsors }}</h3>
-          <p>{{ site.data.i18n[page.language].call_for_sponsors_p }}</p>
-          <a class='viewmore' href='#'>{{ site.data.i18n[page.language].view_more }}</a>
+          <h3>{% t call_for_sponsors  %}</h3>
+          <p>{% t call_for_sponsors_p  %}</p>
+          <a class='viewmore' href='#'>{% t view_more  %}</a>
         </div>
         <span class='thumbnail'></span>
       </li>
@@ -60,17 +60,17 @@
 </section>
 <section id='about'>
   <div class='wrapper'>
-    <h2>{{ site.data.i18n[page.language].about_us }}</h2>
-    <p>{{ site.data.i18n[page.language].about_us_p }}</p>
+    <h2>{% t about_us  %}</h2>
+    <p>{% t about_us_p  %}</p>
     <ul class='history'>
       <li><em>2670+</em>
-        <br/><span>{{ site.data.i18n[page.language].attendees }}</span></li>
+        <br/><span>{% t attendees  %}</span></li>
       <li><em>6</em>
-        <br/><span>{{ site.data.i18n[page.language].years }}</span></li>
+        <br/><span>{% t years  %}</span></li>
       <li><em>4008+</em>
-        <br/><span>{{ site.data.i18n[page.language].connections }}</span></li>
+        <br/><span>{% t connections  %}</span></li>
       <li><em>102</em>
-        <br/><span>{{ site.data.i18n[page.language].talks }}</span></li>
+        <br/><span>{% t talks  %}</span></li>
     </ul>
   </div>
 </section>
@@ -81,8 +81,9 @@
       {% for pastspeaker in site.pastspeakers %}
         {% if pastspeaker.featured %}
         <div>
-          <img src='/dist/images/pastspeakers/{{ pastspeaker.user }}.png'><br/>
-          <span>{{ pastspeaker.name }}</span><br/><span>{{ pastspeaker.company }}</span>
+          <img src='/dist/images/pastspeakers/{{ pastspeaker.user }}.png'>
+          <span class="name">{{ pastspeaker.name }}</span>
+          <span>{{ pastspeaker.company }}</span>
         </div>
         {% endif %}
       {% endfor %}
@@ -102,6 +103,7 @@
 </section>
 <section id='companies'>
   <div class='wrapper'>
+    <h2>{% t company_participated_title %}</h2>
     {% for company in site.companies %}
         {% if company.featured %}
         <div>

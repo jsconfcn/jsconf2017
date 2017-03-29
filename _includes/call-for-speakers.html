@@ -1,16 +1,16 @@
-<section class='content'>
+<section class='content call-for-speakers'>
   <div class='wrapper'>
-    <h1>{{ site.data.i18n[page.language].call_for_speakers }}</h1> {{ site.data.i18n[page.language].call_for_speakers_p1 }} {% if page.language == 'cn' %}
-    <h2>{{ site.data.i18n[page.language].inspire }}！</h2>{% else %}
-    <h2>{{ site.data.i18n[page.language].inspire }}!</h2>{% endif %} {{ site.data.i18n[page.language].call_for_speakers_p2 }}
-    <h2 class='perks'>{{ site.data.i18n[page.language].the_perks }}</h2> {{ site.data.i18n[page.language].the_perks_p1 }}
+    <h1>{% t call_for_speakers %}</h1> {% t call_for_speakers_p1 s%} {% if page.language == 'cn' %}
+    <h2>{% t inspire  %}！</h2>{% else %}
+    <h2>{% t inspire %}!</h2>{% endif %} {% t call_for_speakers_p2  %}
+    <h2 class='perks'>{% t the_perks %}</h2> {% t the_perks_p1  %}
     <ul class='perks'>
-      <li><img src='/dist/images/icon-ticket.png'><span>{{ site.data.i18n[page.language].the_perks_ticket }}</span></li>
-      <li><img src='/dist/images/icon-meal.png'><span>{{ site.data.i18n[page.language].the_perks_meal }}</span></li>
-      <li><img src='/dist/images/icon-plane.png'><span>{{ site.data.i18n[page.language].the_perks_plane }}</span></li>
-      <li><img src='/dist/images/icon-camera.png'><span>{{ site.data.i18n[page.language].the_perks_camera }}</span></li>
+      <li><img src='/dist/images/icon-ticket.png'><span>{% t the_perks_ticket  %}</span></li>
+      <li><img src='/dist/images/icon-meal.png'><span>{% t the_perks_meal  %}</span></li>
+      <li><img src='/dist/images/icon-plane.png'><span>{% t the_perks_plane  %}</span></li>
+      <li><img src='/dist/images/icon-camera.png'><span>{% t the_perks_camera  %}</span></li>
     </ul>
-    {{ site.data.i18n[page.language].the_perks_p2 }}
-    <div class='action'><a class='button primary apply' href='https://hunvreus.typeform.com/to/jgOuE8' target='new' id='apply'>{{ site.data.i18n[page.language].apply }}</a></div>
+    {% t the_perks_p2  %}
+    <div class='action'><a class='button primary apply' href='https://hunvreus.typeform.com/to/jgOuE8' target='new' id='apply'>{% t apply  %}</a></div>
   </div>
 </section>

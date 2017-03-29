@@ -181,6 +181,7 @@ button.close:hover:before{opacity:.8}
 #modal .scroller .container .box h2{white-space:normal;word-break:break-word}
 #modal .scroller .container .box form.subscription{margin:0;width:100%}
 #modal .scroller .container .box form.subscription label{font-size:16px;font-size:1.6rem;color:#353434;margin-bottom:4px;text-align:left}
+#footer,#footer .wrapper .wechat,#header #nav{text-align:center}
 #modal .scroller .container .box form.subscription p{display:none}
 #modal .scroller .container .box form.subscription input{width:60%}
 #modal .scroller .container .box form.subscription button{background:#2121FB;border-radius:2px;color:#FFF;display:inline-block;padding:8px 24px;-webkit-transition-property:background,border,color;transition-property:background,border,color;-webkit-transition-duration:.2s;transition-duration:.2s;border:1px solid #1e1ee2;width:40%}
@@ -200,17 +201,17 @@ button.close:hover:before{opacity:.8}
 #header .button.nav{display:none;margin:11px 0 0 8px}
 }
 #header .button.nav:before{font-size:24px;font-size:2.4rem;font-weight:400;speak:none;display:block;content:'m';margin-top:-1px}
-#header #nav{-webkit-transition:all .1s ease-in-out;-moz-transition:all .1s ease-in-out;transition:all .1s ease-in-out;-webkit-backface-visibility:hidden;-webkit-transform-style:preserve-3d;-moz-transform-style:preserve-3d;-ms-transform-style:preserve-3d;-o-transform-style:preserve-3d;transform-style:preserve-3d;background:rgba(255,255,255,.95);visibility:hidden;opacity:0;position:fixed;left:0;line-height:56px;top:0;text-align:center;width:100%;height:100%;z-index:100;display:table}
+#header #nav{-webkit-transition:all .1s ease-in-out;-moz-transition:all .1s ease-in-out;transition:all .1s ease-in-out;-webkit-backface-visibility:hidden;-webkit-transform-style:preserve-3d;-moz-transform-style:preserve-3d;-ms-transform-style:preserve-3d;-o-transform-style:preserve-3d;transform-style:preserve-3d;background:rgba(255,255,255,.95);visibility:hidden;opacity:0;position:fixed;left:0;line-height:56px;top:0;width:100%;height:100%;z-index:100;display:table}
 #header #nav .box{height:272px;display:table-cell;vertical-align:middle;width:100%}
 #header #nav .box a{font-size:32px;font-size:3.2rem;color:#1F1D1D;display:block;padding:0 12px;margin:0 12px;width:auto}
-#header #nav .box a.active{color:#2121FB;font-weight:500}
+#header #nav .box a.active{color:#FFF029;font-weight:500}
 @media (min-width:1024px){#header #nav{visibility:visible;opacity:1;background:0 0;box-sizing:border-box;left:50%;margin-left:-340px;padding:12px 0;position:absolute;text-align:center;width:680px}
 #header #nav .box{height:auto;display:block}
 #header #nav .box a{font-weight:300;font-size:16px;font-size:1.6rem;display:inline-block;color:#fff;padding:0 12px;margin:0 12px}
-#header #nav .box a.active{color:#2121FB;font-weight:500}
+#header #nav .box a.active{color:#FFF029;font-weight:500}
 #header #nav button.close{display:none}
 }
-#footer .wrapper .sns a:hover:before,#footer .wrapper a.hashtag{color:#fff}
+#footer .wrapper .wechat h3,#footer .wrapper .wechat p,#footer .wrapper a.hashtag{color:#fff}
 #header .lang,#header .logo{display:block;position:relative;z-index:1}
 #header .logo{width:84px;margin-top:-6px;vertical-align:middle;display:table-cell}
 #header .logo img{float:left;width:100%}
@@ -224,15 +225,19 @@ button.close:hover:before{opacity:.8}
 @media (min-width:1024px){#header .ticket{margin:11px 0 0 24px}
 .menu-open #header #nav{visibility:hidden;opacity:0}
 }
-#footer{display:inline-block;background:#1F1D1D;text-align:center;width:100%}
+#footer{display:inline-block;background:#1F1D1D;width:100%}
 #footer .wrapper{margin:48px auto}
+#footer .wrapper .wechat img{max-width:100%}
+#footer .wrapper .wechat>div{max-width:8em;margin:0 auto}
 #footer .wrapper .sns{margin-top:24px;text-align:center}
 #footer .wrapper .sns a{display:inline-block;line-height:48px;height:48px;width:48px}
 #footer .wrapper .sns a:hover{text-decoration:none}
+#footer .wrapper .sns a:hover:before{color:#FFF029}
 #footer .wrapper .sns a:before{font-weight:400;speak:none;color:rgba(255,255,255,.5);font-size:25px;font-size:2.5rem;content:''}
 #footer .wrapper .sns a.ins:before{content:'I'}
-#footer .wrapper .sns a.twitter:before{content:'T'}
-#footer .wrapper .sns a.weibo:before{font-size:26px;font-size:2.6rem;content:'W'}
+#footer .wrapper .sns a.twitter:before{content:'\ea96'}
+#footer .wrapper .sns a.weibo:before{font-size:26px;font-size:2.6rem;content:'S'}
+#footer .wrapper .sns a.github:before{font-size:26px;font-size:2.6rem;content:'G'}
 #footer .wrapper .copyright{margin-top:24px}
 #footer .wrapper .copyright span,#footer .wrapper .copyright span a{color:rgba(255,255,255,.5)}
 #footer .wrapper .copyright a{font-size:14px;font-size:1.4rem;color:#fff;margin:0 12px}
@@ -292,6 +297,20 @@ form.subscription .action button.disabled,form.subscription .action button[disab
 #about .history li em{display:inline-block;color:#FFF029;font-weight:500;font-style:normal;line-height:100%;width:100%;font-size:64px;font-size:6.4rem}
 #about .history li span{display:inline-block;font-size:18px;font-size:1.8rem;color:#878787;text-transform:capitalize;width:100%}
 #past-speakers{background:#1F1D1D}
+#past-speakers .slick-slide{height:240px;text-align:center}
+#past-speakers .slick-slide img{position:inherit;margin-bottom:1em}
+#past-speakers .slick-slide span{color:#fff;display:block}
+#past-speakers .slick-slide span.name{font-size:110%}
+#past-speakers .slick-slide span:last-child{color:#FFF029}
+#past-speakers .album{margin-top:2em}
+#past-speakers .album img{max-width:100%}
+#past-speakers .album .left{width:33.5%;float:left}
+#past-speakers .album .right{width:66.5%;float:right}
+#past-speakers .album .right img:nth-child(1),#past-speakers .album .right img:nth-child(2){width:50%}
+#past-speakers .album .right img:nth-child(2){float:right}
+#past-speakers .album .right img:nth-child(3){width:100%}
+#companies .wrapper>div{display:inline-block;vertical-align:middle;text-align:center;max-width:10em;margin-left:1em;margin-right:1em}
+#companies .wrapper>div>img{max-width:100%}
 .content .wrapper:first-child{margin-top:48px}
 .content h2{margin-top:84px}
 .content .action{width:100%;text-align:center}
@@ -312,3 +331,4 @@ form.subscription .action button.disabled,form.subscription .action button[disab
 .content ul.options li span{padding-left:0;display:block}
 @media (max-width:640px){.content ul.options li{width:100%;margin-right:0}
 }
+.content.call-for-speakers .wrapper{margin:96px auto}

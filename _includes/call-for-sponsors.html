@@ -1,13 +1,13 @@
 <section class='content'>
   <div class='wrapper'>
-    <h1>{{ site.data.i18n[page.language].call_for_sponsors }}</h1> {{ site.data.i18n[page.language].call_for_sponsors_p1 }}
-    <h2>{{ site.data.i18n[page.language].sponsorship_options }}</h2>
+    <h1>{% t call_for_sponsors %}</h1> {% t call_for_sponsors_p1 %}
+    <h2>{% t sponsorship_options %}</h2>
     <ul class='options'>
-      <li><img src='/dist/images/sponsorship-1.png'><span>{{ site.data.i18n[page.language].gold_sponsor }}</span></li>
-      <li><img src='/dist/images/sponsorship-2.png'><span>{{ site.data.i18n[page.language].silver_sponsor }}</span></li>
-      <li><img src='/dist/images/sponsorship-3.png'><span>{{ site.data.i18n[page.language].bronze_sponsor }}</span></li>
+      <li><img src='/dist/images/sponsorship-1.png'><span>{% t gold_sponsor %}</span></li>
+      <li><img src='/dist/images/sponsorship-2.png'><span>{% t silver_sponsor %}</span></li>
+      <li><img src='/dist/images/sponsorship-3.png'><span>{% t bronze_sponsor %}</span></li>
     </ul>
-    {{ site.data.i18n[page.language].call_for_sponsors_p2 }}
-    <div class='action'><a class='button primary download' href='/doc/UIUXConfChina2016_Sponsor_Package.pdf'>{{ site.data.i18n[page.language].download }}</a></div>
+    {% t call_for_sponsors_p2 %}
+    <div class='action'><a class='button primary download' href='/doc/UIUXConfChina2016_Sponsor_Package.pdf'>{% t download %}</a></div>
   </div>
 </section>

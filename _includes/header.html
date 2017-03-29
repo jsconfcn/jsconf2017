@@ -1,20 +1,26 @@
-{% if page.language == 'cn' %}
-<a href='/cn' class='logo'><img src='/dist/images/logo.svg'></a>{% else %}
-<a href='/' class='logo'><img src='/dist/images/logo.svg'></a> {% endif %}
+{% if site.lang == 'cn' %}
+<a href='/' class='logo'><img src='/dist/images/logo.svg'></a>
+{% else %}
+<a href='/en' class='logo'><img src='/dist/images/logo.svg'></a>
+{% endif %}
 <button class='button nav'></button>
 <nav id='nav'>
   <div class='box'>
-    {% if page.language == 'cn' %}
-    <a class="{% if page.url contains 'call-for-speakers' %}active{% endif %}" href='/cn/call-for-speakers/'>{{ site.data.i18n[page.language].call_for_speakers }}</a>
-    <a class="{% if page.url contains 'call-for-sponsors' %}active{% endif %}" href='/cn/call-for-sponsors/'>{{ site.data.i18n[page.language].call_for_sponsors }}</a>
-    <a href='#' target='new'>{{ site.data.i18n[page.language].media }}</a> {% else %}
-    <a class="{% if page.url contains 'call-for-speakers' %}active{% endif %}" href='/call-for-speakers/'>{{ site.data.i18n[page.language].call_for_speakers }}</a>
-    <a class="{% if page.url contains 'call-for-sponsors' %}active{% endif %}" href='/call-for-sponsors/'>{{ site.data.i18n[page.language].call_for_sponsors }}</a>
-    <a href='#' target='new'>{{ site.data.i18n[page.language].media }}</a> {% endif %}
+    {% if site.lang == 'cn' %}
+      <a class="{% if page.url contains 'call-for-speakers' %}active{% endif %}" href='/call-for-speakers/'>{% t call_for_speakers %}</a>
+      <a class="{% if page.url contains 'call-for-sponsors' %}active{% endif %}" href='/call-for-sponsors/'>{% t call_for_sponsors %}</a>
+      <a href='#' target='new'>{% t media %}</a>
+    {% else %}
+      <a class="{% if page.url contains 'call-for-speakers' %}active{% endif %}" href='/en/call-for-speakers/'>{% t call_for_speakers %}</a>
+      <a class="{% if page.url contains 'call-for-sponsors' %}active{% endif %}" href='/en/call-for-sponsors/'>{% t call_for_sponsors %}</a>
+      <a href='#' target='new'>{% t media %}</a>
+    {% endif %}
   </div>
   <button class='close'></button>
 </nav>
-<button class='button secondary ticket cta'>{{ site.data.i18n[page.language].ticket }}</button>
-{% if page.language == 'cn' %}
-<a href='/' class='lang'>English</a> {% else %}
-<a href='/cn' class='lang'>中文</a> {% endif %}
+<button class='button secondary ticket cta'>{% t ticket %}</button>
+{% if site.lang == 'cn' %}
+  <a href='/en' class='lang'>English</a>
+{% else %}
+  <a href='/' class='lang'>中文</a>
+{% endif %}

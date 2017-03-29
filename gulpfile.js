@@ -4,11 +4,10 @@ var gulp = require('gulp'),
   uglify = require('gulp-uglify'),
   minify = require('gulp-minify-css'),
   cp = require('child_process'),
- browserSync = require('browser-sync'),
- jekyll   = process.platform === 'win32' ? 'jekyll.bat' : 'jekyll',
-messages = {
+  browserSync = require('browser-sync'),
+  messages = {
     jekyllBuild: '<span style="color: grey">Running:</span> $ jekyll build'
-},
+  },
  // reload = borwserSync.reload,
   assets = {
     'js': [
@@ -40,7 +39,7 @@ gulp.task('css', function() {
 
 gulp.task('jekyll-build', function (done) {
     browserSync.notify(messages.jekyllBuild);
-    return cp.spawn( jekyll , ['build'], {stdio: 'inherit'})
+    return cp.spawn('bundle' , ['exec', 'jekyll', 'build', '--incremental'], {stdio: 'inherit'})
         .on('close', done);
 });
 
