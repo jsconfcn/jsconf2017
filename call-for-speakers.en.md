@@ -1,8 +1,8 @@
 ---
 layout: default
-title: 成为讲师
+title: call-for-speakers
 class: call-for-speakers
-permalink: /call-for-speakers/
+permalink: /en/call-for-speakers/
 ---
 
 {% include call-for-speakers.html %}

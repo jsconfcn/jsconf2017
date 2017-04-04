@@ -1,6 +1,6 @@
 ---
 layout: default
-title: call-for-speakers
+title: 成为赞助商
 class: call-for-speakers
 permalink: /call-for-sponsors/
 ---
