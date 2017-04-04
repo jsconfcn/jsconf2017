@@ -32,8 +32,13 @@
         <span class='thumbnail'></span>
       </li>
     </ul>
-    <div class='right subscription'>
-      {% include subscription.html %}
+    <div class='stay-tuned right subscription'>
+      <form class='subscription bundle' action='https://www.getdrip.com/forms/5471563/submissions' data-drip-embedded-form="5471563" method='post' target='_blank'>
+        <h3>{% t stay_tuned %}</h3>
+        <p>{% t be_first %}</p>
+        <input type='email' name='fields[email]' class='email' required placeholder='{% t email_address %}' />
+        <button type='submit' name='subscribe' class='button subscription cta'>{% t notify_me %}</button>
+      </form>
       <span class='qrcode'>
         <img src='/dist/images/qrcode.jpg' />
       </span>

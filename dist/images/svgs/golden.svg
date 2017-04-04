@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="181px" height="217px" viewBox="0 0 181 217" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>gold</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="52" cy="52" r="52"></circle>
+    </defs>
+    <g id="Page-3" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="call-for-sponsors" transform="translate(-194.000000, -1494.000000)">
+            <g id="sponsorship-level" transform="translate(191.000000, 1390.000000)">
+                <g id="gold" transform="translate(2.000000, 104.000000)">
+                    <path d="M72.3373328,223.6806 L72.4539481,223.6806 C72.4539481,223.6806 70.3474268,210.700386 76.6796145,189.331222 C83.0118023,167.962059 106.999461,135.650928 106.999461,135.650928 L66.4271144,121.759749 C66.4271144,121.759749 33.1982605,163.059755 26.8753374,190.579896 C20.5524143,218.100036 24.3010929,223.6806 24.3010929,223.6806 L24.3336991,223.6806 L24.3173594,223.66426 L47.9644792,203.824661 L72.3988341,223.619098 L72.3373328,223.6806 Z" id="Combined-Shape" fill="#303030" opacity="0.300000012" transform="translate(65.098668, 172.720175) rotate(-320.000000) translate(-65.098668, -172.720175) "></path>
+                    <path d="M124.337333,223.6806 L124.453948,223.6806 C124.453948,223.6806 122.347427,210.700386 128.679615,189.331222 C135.011802,167.962059 158.999461,135.650928 158.999461,135.650928 L118.427114,121.759749 C118.427114,121.759749 85.1982605,163.059755 78.8753374,190.579896 C72.5524143,218.100036 76.3010929,223.6806 76.3010929,223.6806 L76.3336991,223.6806 L76.3173594,223.66426 L99.9644792,203.824661 L124.398834,223.619098 L124.337333,223.6806 Z" id="Combined-Shape" fill="#303030" opacity="0.300000012" transform="translate(117.098668, 172.720175) scale(-1, 1) rotate(-320.000000) translate(-117.098668, -172.720175) "></path>
+                    <ellipse id="Mask" fill="#FFFFFF" cx="92" cy="90" rx="90" ry="90"></ellipse>
+                    <g id="Oval-9" transform="translate(40.000000, 39.000000)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="Mask" fill="#FFF029" xlink:href="#path-1"></use>
+                        <ellipse fill="#FF971E" mask="url(#mask-2)" cx="36.8118812" cy="56.3762376" rx="54.8316832" ry="54.8316832"></ellipse>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="182px" height="212px" viewBox="0 0 182 212" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>sliver</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-3" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="call-for-sponsors" transform="translate(-624.000000, -1494.000000)">
+            <g id="sponsorship-level" transform="translate(191.000000, 1390.000000)">
+                <g id="sliver" transform="translate(433.000000, 104.000000)">
+                    <g id="Group-3" transform="translate(10.000000, 115.000000)" fill="#303030" opacity="0.300000012">
+                        <path d="M67.6012545,87.3305346 L67.7252061,87.3305346 L67.7252061,7.44417098 L16.5430356,7.44417098 L16.5430356,87.3305346 L16.5776931,87.3305346 L16.5603255,87.3131671 L42.1374766,61.736016 L67.6666249,87.2651642 L67.6012545,87.3305346 Z" id="Combined-Shape" transform="translate(42.134121, 47.387353) rotate(-330.000000) translate(-42.134121, -47.387353) "></path>
+                        <path d="M155.058219,88.8863636 L155.182171,88.8863636 L155.182171,9 L104,9 L104,88.8863636 L104.034657,88.8863636 L104.01729,88.8689961 L129.594441,63.291845 L155.123589,88.8209933 L155.058219,88.8863636 Z" id="Combined-Shape" transform="translate(129.591085, 48.943182) rotate(-30.000000) translate(-129.591085, -48.943182) "></path>
+                    </g>
+                    <ellipse id="Mask" fill="#FFFFFF" cx="90" cy="90" rx="90" ry="90"></ellipse>
+                    <ellipse id="Mask" fill="#4921CC" cx="90" cy="89.9048105" rx="52" ry="51.9048105"></ellipse>
+                    <path d="M49,122.81208 C58.5182492,135.506192 73.7028916,143.721825 90.8099172,143.721825 C119.633704,143.721825 143,120.398303 143,91.62728 C143,81.0532306 139.843819,71.2149975 134.420503,63 L49,122.81208 Z" id="Combined-Shape" fill="#E5E5E5"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

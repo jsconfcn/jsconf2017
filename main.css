@@ -123,11 +123,12 @@ blockquote{border-left:6px solid #ecf0f1;color:#797777;margin:0 24px 24px;paddin
 #content section{float:left;width:100%}
 button.close{position:absolute;top:0;right:0;padding:0;font-family:arial;font-size:32px;font-size:3.2rem;-webkit-appearance:none;background:0 0;outline:0;border:0;height:48px;line-height:48px;width:48px}
 #modal,#modal .scroller{overflow-y:scroll;position:fixed;top:0}
+#header #nav,#modal{-webkit-backface-visibility:hidden;height:100%}
 button.close:before{font-family:icons;font-variant:normal;font-weight:400;speak:none;-webkit-font-smoothing:antialiased;content:'x'}
 button.close:hover:before{opacity:.8}
 .button{background:#ecf0f1;border-radius:2px;color:inherit;display:inline-block;outline:0;-webkit-transition-property:background,border,color;-moz-transition-property:background,border,color;transition-property:background,border,color;transition-duration:.2s;border:1px solid #d4d8d9;font-size:16px;font-size:1.6rem;padding:8px 24px;letter-spacing:.9px;font-weight:500;text-transform:Capitalize}
 .button.primary,.button.secondary{-webkit-transition-property:background,border,color;-moz-transition-property:background,border,color;-webkit-transition-duration:.2s;-moz-transition-duration:.2s;box-sizing:border-box;display:inline-block;outline:0;padding:8px 24px}
-#footer .wrapper .sns a:before,#header .button.nav:before{font-family:icons;font-variant:normal;text-transform:none;-webkit-font-smoothing:antialiased}
+#footer .wrapper .sns a:before,#header .button.nav:before{font-family:icons;font-variant:normal;speak:none;text-transform:none;-webkit-font-smoothing:antialiased}
 .button:focus,.button:hover{background:#f2f5f5;color:inherit;text-decoration:none}
 .button.active,.button:active{background:#e0e4e5;color:inherit;text-decoration:none}
 .button.disabled,.button[disabled=disabled],.button[disabled=true],.button[disabled]{background:#ecf0f1;border-color:#d4d8d9;color:#878787}
@@ -137,13 +138,13 @@ button.close:hover:before{opacity:.8}
 .button.primary.disabled,.button.primary[disabled=disabled],.button.primary[disabled=true],.button.primary[disabled]{background:#ecf0f1;border-color:#d4d8d9;color:#878787}
 .button.primary:active,.button.primary:focus,.button.primary:hover{color:#1F1D1D;background:#f5e400}
 .button.secondary{background:0 0;transition-property:background,border,color;transition-duration:.2s;border:1px solid #FFF029;border-radius:50px;color:#fff}
-.button.subscription,.select select{-webkit-transition-property:background,border,color;-webkit-transition-duration:.2s}
+.button.subscription,.select select{-webkit-transition-property:background,border,color}
 .button.secondary:focus,.button.secondary:hover{text-decoration:none}
 .button.secondary.active,.button.secondary:active{background:rgba(0,0,0,.1);color:#FFF;text-decoration:none}
 .button.secondary.disabled,.button.secondary[disabled=disabled],.button.secondary[disabled=true],.button.secondary[disabled]{background:#ecf0f1;border-color:#d4d8d9;color:#878787}
 .button.secondary:active,.button.secondary:focus,.button.secondary:hover{background:0 0;color:#fff}
 .button.secondary:hover{background-color:rgba(255,255,255,.1)}
-.button.subscription{background:#4921CC;box-sizing:border-box;display:inline-block;outline:0;padding:8px 24px;-moz-transition-property:background,border,color;transition-property:background,border,color;-moz-transition-duration:.2s;transition-duration:.2s;border:1px solid;border-radius:50px;color:#fff;min-width:120px}
+.button.subscription{background:#4921CC;box-sizing:border-box;display:inline-block;outline:0;padding:8px 24px;-moz-transition-property:background,border,color;transition-property:background,border,color;-webkit-transition-duration:.2s;-moz-transition-duration:.2s;transition-duration:.2s;border:1px solid;border-radius:50px;color:#fff;min-width:120px}
 #modal .scroller .container .box form.subscription button,.select select{-moz-transition-property:background,border,color;-moz-transition-duration:.2s;outline:0;box-sizing:border-box}
 .button.subscription:focus,.button.subscription:hover{text-decoration:none}
 .button.subscription.active,.button.subscription:active{background:#421eb8;color:#FFF;text-decoration:none}
@@ -158,7 +159,7 @@ button.close:hover:before{opacity:.8}
 .bundle .button.secondary:last-child{border-radius:0 2px 2px 0;border-right-width:1px}
 .field .description{color:#878787;display:block;font-size:12px;font-size:1.2rem;margin-top:6px}
 .label,label{font-size:14px;font-size:1.4rem;display:block;margin:0 0 6px;text-align:left}
-.select select{background:#ecf0f1;border-radius:2px;color:inherit;display:inline-block;transition-property:background,border,color;transition-duration:.2s;padding:4px 36px 4px 12px}
+.select select{background:#ecf0f1;border-radius:2px;color:inherit;display:inline-block;transition-property:background,border,color;-webkit-transition-duration:.2s;transition-duration:.2s;padding:4px 36px 4px 12px}
 .select select:focus,.select select:hover{background:#f2f5f5;color:inherit;text-decoration:none}
 .select select.active,.select select:active{background:#e0e4e5;color:inherit;text-decoration:none}
 .select select.disabled,.select select[disabled=disabled],.select select[disabled=true],.select select[disabled]{background:#ecf0f1;border-color:#d4d8d9;color:#878787}
@@ -174,7 +175,7 @@ button.close:hover:before{opacity:.8}
 @font-face{font-family:'Proxima Nova';src:url(/dist/fonts/proximanova-bold-webfont.eot);src:url(/dist/fonts/proximanova-bold-webfont.eot?#iefix) format("embedded-opentype"),url(/dist/fonts/proximanova-bold-webfont.woff) format("woff"),url(/dist/fonts/proximanova-bold-webfont.ttf) format("truetype"),url(/dist/fonts/proximanova-bold-webfont.svg#Nobel) format("svg");font-weight:800}
 @font-face{font-family:GalanoGrotesque;src:url(/dist/fonts/GalanoGrotesque-Medium.eot);src:url(/dist/fonts/GalanoGrotesque-Medium.eot?#iefix) format("embedded-opentype"),url(/dist/fonts/GalanoGrotesque-Medium.woff) format("woff"),url(/dist/fonts/GalanoGrotesque-Medium.ttf) format("truetype"),url(/dist/fonts/GalanoGrotesque-Medium.svg#Nobel) format("svg");font-weight:500}
 @font-face{font-family:GalanoGrotesque;src:url(/dist/fonts/GalanoGrotesque-Regular.eot);src:url(/dist/fonts/GalanoGrotesque-Regular.eot?#iefix) format("embedded-opentype"),url(/dist/fonts/GalanoGrotesque-Regular.woff) format("woff"),url(/dist/fonts/GalanoGrotesque-Regular.ttf) format("truetype"),url(/dist/fonts/GalanoGrotesque-Regular.svg#Nobel) format("svg");font-weight:400}
-#modal{background:rgba(0,0,0,.75);height:100%;left:0;opacity:0;width:100%;-webkit-transition:all .1s ease-in-out;-moz-transition:all .1s ease-in-out;transition:all .1s ease-in-out;-webkit-backface-visibility:hidden;-webkit-transform-style:preserve-3d;-moz-transform-style:preserve-3d;-ms-transform-style:preserve-3d;-o-transform-style:preserve-3d;transform-style:preserve-3d;z-index:100}
+#modal{background:rgba(0,0,0,.75);left:0;opacity:0;width:100%;-webkit-transition:all .1s ease-in-out;-moz-transition:all .1s ease-in-out;transition:all .1s ease-in-out;-webkit-transform-style:preserve-3d;-moz-transform-style:preserve-3d;-ms-transform-style:preserve-3d;-o-transform-style:preserve-3d;transform-style:preserve-3d;z-index:100}
 #modal .scroller{display:-webkit-box;display:-moz-box;display:box;display:-webkit-flex;display:-moz-flex;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-moz-box-orient:vertical;box-orient:vertical;-webkit-box-direction:normal;-moz-box-direction:normal;box-direction:normal;-webkit-flex-direction:column;-moz-flex-direction:column;flex-direction:column;-ms-flex-direction:column;-webkit-box-pack:distribute;-moz-box-pack:distribute;box-pack:distribute;-webkit-justify-content:space-around;-moz-justify-content:space-around;-ms-justify-content:space-around;-o-justify-content:space-around;justify-content:space-around;-ms-flex-pack:distribute;bottom:0;left:0;right:0}
 #modal .scroller .container{min-height:0}
 #modal .scroller .container .box{box-sizing:border-box;background:#FFF;border-radius:2px;box-shadow:rgba(0,0,0,.05) 0 1px 0 0;padding:60px;position:relative;margin:15px auto;max-width:600px;width:90%;text-align:left;z-index:3000}
@@ -200,8 +201,8 @@ button.close:hover:before{opacity:.8}
 @media (min-width:1024px){#header{font-size:100%}
 #header .button.nav{display:none;margin:11px 0 0 8px}
 }
-#header .button.nav:before{font-size:24px;font-size:2.4rem;font-weight:400;speak:none;display:block;content:'m';margin-top:-1px}
-#header #nav{-webkit-transition:all .1s ease-in-out;-moz-transition:all .1s ease-in-out;transition:all .1s ease-in-out;-webkit-backface-visibility:hidden;-webkit-transform-style:preserve-3d;-moz-transform-style:preserve-3d;-ms-transform-style:preserve-3d;-o-transform-style:preserve-3d;transform-style:preserve-3d;background:rgba(255,255,255,.95);visibility:hidden;opacity:0;position:fixed;left:0;line-height:56px;top:0;width:100%;height:100%;z-index:100;display:table}
+#header .button.nav:before{font-size:24px;font-size:2.4rem;font-weight:400;display:block;content:'m';margin-top:-1px}
+#header #nav{-webkit-transition:all .1s ease-in-out;-moz-transition:all .1s ease-in-out;transition:all .1s ease-in-out;-webkit-transform-style:preserve-3d;-moz-transform-style:preserve-3d;-ms-transform-style:preserve-3d;-o-transform-style:preserve-3d;transform-style:preserve-3d;background:rgba(255,255,255,.95);visibility:hidden;opacity:0;position:fixed;left:0;line-height:56px;top:0;width:100%;z-index:100;display:table}
 #header #nav .box{height:272px;display:table-cell;vertical-align:middle;width:100%}
 #header #nav .box a{font-size:32px;font-size:3.2rem;color:#1F1D1D;display:block;padding:0 12px;margin:0 12px;width:auto}
 #header #nav .box a.active{color:#FFF029;font-weight:500}
@@ -233,7 +234,7 @@ button.close:hover:before{opacity:.8}
 #footer .wrapper .sns a{display:inline-block;line-height:48px;height:48px;width:48px}
 #footer .wrapper .sns a:hover{text-decoration:none}
 #footer .wrapper .sns a:hover:before{color:#FFF029}
-#footer .wrapper .sns a:before{font-weight:400;speak:none;color:rgba(255,255,255,.5);font-size:25px;font-size:2.5rem;content:''}
+#footer .wrapper .sns a:before{font-weight:400;color:rgba(255,255,255,.5);font-size:25px;font-size:2.5rem;content:''}
 #footer .wrapper .sns a.ins:before{content:'I'}
 #footer .wrapper .sns a.twitter:before{content:'\ea96'}
 #footer .wrapper .sns a.weibo:before{font-size:26px;font-size:2.6rem;content:'S'}
@@ -271,22 +272,29 @@ form.subscription .action button.disabled,form.subscription .action button[disab
 #callfor .left li a.viewmore{position:absolute;bottom:24px}
 #callfor .left li .thumbnail{position:absolute;top:0;height:100%;width:50%}
 #callfor .left li div{box-sizing:border-box;padding:24px 24px 48px;width:100%}
+#callfor .left li:first-child .thumbnail:after,#callfor .left li:last-child .thumbnail:before{bottom:50%;content:" ";height:0;width:0;pointer-events:none;position:absolute}
 #callfor .left li:first-child .thumbnail{background:url(/dist/images/call-for-01.jpg);background-size:cover;left:0}
+#callfor .left li:first-child .thumbnail:after{right:-40px;border:solid transparent;border-color:transparent transparent transparent #FFF029;border-width:20px}
 #callfor .left li:first-child div{float:right;padding-left:calc(50% + 24px)}
 #callfor .left li:first-child a.viewmore{right:24px}
 #callfor .left li:last-child .thumbnail{background:url(/dist/images/call-for-02.jpg);background-size:cover;right:0}
+#callfor .left li:last-child .thumbnail:before{left:-40px;border:solid transparent;border-color:transparent rgba(80,80,76,.9) transparent transparent;border-width:20px}
 #callfor .left li:last-child div{float:left;padding-right:calc(50% + 24px)}
 #callfor .left li:last-child a.viewmore{left:24px}
 #callfor .right{position:absolute;right:0;background:#fff;box-sizing:border-box;padding:24px;top:0;margin-left:24px;height:100%;width:calc(30% - 24px)}
-#callfor .right .qrcode,#callfor .right .qrcode img{height:140px;width:140px}
-#callfor .right .qrcode{cursor:pointer;bottom:0;right:0;overflow:hidden;position:absolute}
-#callfor .right .qrcode:before{content:'';border-style:solid;border-width:140px 140px 0 0;border-color:#fff transparent transparent;height:0;left:0;position:absolute;top:0;-webkit-transition:all .3s ease-in-out;-moz-transition:all .3s ease-in-out;transition:all .3s ease-in-out;width:0}
-#callfor .right .qrcode:hover:before{border-width:230px 230px 0 0;left:-105px;top:-105px}
+.stay-tuned .qrcode,.stay-tuned .qrcode img{height:140px;width:140px}
+.stay-tuned .email,.stay-tuned .subscription{text-align:center}
+.stay-tuned .email{border:none;border-bottom:1px solid #2121FB;margin-top:2em}
+.stay-tuned .subscription{margin-top:2em;border-radius:5em}
+.stay-tuned .qrcode{cursor:pointer;bottom:0;right:0;overflow:hidden;position:absolute}
+.stay-tuned .qrcode:before{content:'';border-style:solid;border-width:140px 140px 0 0;border-color:#fff transparent transparent;height:0;left:0;position:absolute;top:0;-webkit-transition:all .3s ease-in-out;-moz-transition:all .3s ease-in-out;transition:all .3s ease-in-out;width:0}
+.stay-tuned .qrcode:hover:before{border-width:230px 230px 0 0;left:-105px;top:-105px}
 #quotes{background:#191919}
 #quotes ul{list-style:none;display:inline-block;margin:0 0 0 -24px;width:calc(100% + 48px)}
 #quotes ul li{box-sizing:border-box;float:left;width:33%;padding:0 24px}
 #quotes ul li:first-child{width:34%}
 #quotes ul li div{color:#FFF029;font-size:24px;font-size:2.4rem;line-height:140%}
+#quotes ul li div:first-child{min-height:7em}
 #quotes ul li div:last-child{margin-top:24px}
 #quotes ul li div img,#quotes ul li div span{float:left}
 #quotes ul li div span{font-weight:400;line-height:24px;font-size:18px;font-size:1.8rem;color:#fff}
@@ -315,20 +323,48 @@ form.subscription .action button.disabled,form.subscription .action button[disab
 .content h2{margin-top:84px}
 .content .action{width:100%;text-align:center}
 .content .action .button{display:inline-block;margin:84px auto}
-.content ul.options,.content ul.perks{display:inline-block;list-style:none;width:100%;margin:24px 0}
-.content ul.options li,.content ul.perks li{float:left;height:160px;display:table;margin-right:4%;margin-bottom:24px;padding-left:0;width:48%}
-@media (max-width:640px){.content ul.options li,.content ul.perks li{width:100%;margin-right:0}
+.content ul.options{display:inline-block;list-style:none;width:100%;margin:24px 0}
+.content ul.options li{float:left;display:table;margin-bottom:24px;padding-left:0}
+.content ul.options li:nth-child(2n){margin-right:0}
+.content ul.options li img{height:140px}
+@media (min-width:1024px){.content ul.options li img{height:160px;margin:0}
 }
-.content ul.options li:nth-child(2n),.content ul.perks li:nth-child(2n){margin-right:0}
-.content ul.options li img,.content ul.perks li img{float:left;height:140px;margin:10px 0}
-@media (min-width:1024px){.content ul.options li img,.content ul.perks li img{height:160px;margin:0}
-}
-.content ul.options li span,.content ul.perks li span{padding-left:24px;font-family:"Proxima Nova","Helvetica Neue",Helvetica,sans-serif;display:table-cell;vertical-align:middle;width:100%}
-@media (max-width:640px){.content ul.options li span,.content ul.perks li span{padding-left:12px}
+.content ul.options li span{font-family:"Proxima Nova","Helvetica Neue",Helvetica,sans-serif;vertical-align:middle;width:100%}
+@media (max-width:640px){.content ul.options li span{padding-left:12px}
 }
 .content ul.options li{height:auto;width:33%;text-align:center;margin-right:0}
 .content ul.options li img{margin:0 auto 12px;display:block;float:none}
 .content ul.options li span{padding-left:0;display:block}
 @media (max-width:640px){.content ul.options li{width:100%;margin-right:0}
 }
-.content.call-for-speakers .wrapper{margin:96px auto}
+.page-call-for-speakers .hero,.page-press .hero{background-repeat:no-repeat;padding-top:10em}
+.page-call-for-speakers .hero:after,.page-press .hero:after{content:'';position:absolute;top:0;left:0;width:100%;height:31em;background-color:rgba(0,0,0,.5)}
+.page-call-for-speakers .hero h1,.page-call-for-speakers .hero p,.page-press .hero h1,.page-press .hero p{color:#fff}
+.page-call-for-speakers .hero .wrapper,.page-press .hero .wrapper{z-index:1}
+.page-press .hero:after{height:26.5em}
+.instuct .wrapper{padding-right:15em}
+.instuct .stay-tuned{float:right;margin-top:100px;width:12em;margin-right:10em;position:relative;min-height:30em;z-index:1}
+.bg-gray{background-color:rgba(204,204,204,.5)!important}
+.option-list,.perks-list{list-style:none;width:100%;margin:24px 0;text-align:center}
+.option-list li,.perks-list li{display:inline-block;width:20%;vertical-align:top}
+.option-list li>div,.perks-list li>div{padding-bottom:1em;min-height:8em;vertical-align:middle}
+.option-list{margin-top:2em}
+.option-list li{width:30%}
+.option-list li>div img{height:10em}
+.sponsor-extra ul{list-style:none;width:100%;margin:48px 0}
+.sponsor-extra ul li{margin:24px 0}
+.sponsor-extra ul li .icon-wrapper{margin-right:1em;text-align:center;min-width:4em}
+.sponsor-extra ul li .icon-wrapper img{vertical-align:middle;max-width:100%}
+.sponsor-extra ul li div{display:inline-block;vertical-align:middle}
+.sponsor-extra ul li h5{margin-bottom:.2em}
+.sponsor-extra ul li p{margin-bottom:0}
+.press-material .meterial-list{margin-top:2em}
+.press-material .meterial-list .meterial-logo,.press-material .meterial-list .meterial-press{max-width:40%;display:inline-block;position:relative;margin:0 4%;text-align:center}
+.press-material .meterial-list .meterial-logo img,.press-material .meterial-list .meterial-press img{max-width:100%}
+.press-material .meterial-list .meterial-logo .content,.press-material .meterial-list .meterial-press .content{position:absolute;top:0;left:0;background-color:#FFF029;width:100%;height:100%;opacity:.8}
+.press-material .meterial-list .meterial-logo .content img,.press-material .meterial-list .meterial-press .content img{max-height:4em}
+.press-material .meterial-list .meterial-logo .content div,.press-material .meterial-list .meterial-press .content div{padding-top:2em}
+.press-material .meterial-list .meterial-logo .content div:nth-child(1),.press-material .meterial-list .meterial-press .content div:nth-child(1){height:4em}
+.press-material .meterial-list .meterial-press .content{background-color:#1F1D1D}
+.press-material .meterial-list .meterial-logo .content div:nth-child(1) img{padding-top:1em}
+.press-material .meterial-list .background{line-height:0}

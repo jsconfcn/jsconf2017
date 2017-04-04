@@ -1,7 +1,163 @@
-.content {
-  &.call-for-speakers {
+.page-call-for-speakers,
+.page-call-for-speakers,
+.page-press {
+  .hero {
+    background-repeat: no-repeat;
+    padding-top: 10em;
+    &:after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 31em;
+      background-color: rgba(0, 0, 0, .5);
+    }
+    h1, p {
+      color: $white;
+    }
     .wrapper {
-      margin: 96px auto;
+      z-index: 1;
+    }
+  }
+}
+.page-press {
+  .hero {
+    &:after {
+      height: 26.5em;
+    }
+  }
+}
+.instuct {
+  .wrapper {
+    padding-right: 15em;
+  }
+  .stay-tuned {
+    float: right;
+    margin-top: 100px;
+    width: 12em;
+    margin-right: 10em;
+    position: relative;
+    min-height: 30em;
+    z-index: 1;
+  }
+}
+
+.bg-gray {
+  background-color: rgba(204, 204, 204, .5) !important;
+}
+
+.perks-list {
+  list-style: none;
+  width: 100%;
+  margin: $space 0;
+  text-align: center;
+  li {
+    display: inline-block;
+    width: 20%;
+    vertical-align: top;
+    > div {
+      padding-bottom: 1em;
+      min-height: 8em;
+      vertical-align: middle;
+    }
+  }
+}
+
+.option-list {
+  @extend .perks-list;
+  margin-top: 2em;
+  li {
+    width: 30%;
+    > div {
+      img {
+        height: 10em;
+      }
+    }
+  }
+}
+
+.sponsor-extra {
+  ul {
+    list-style: none;
+    margin-left: 0;
+    width: 100%;
+    margin: $space*2 0;
+    li {
+      margin: $space 0;
+      .icon-wrapper {
+        margin-right: 1em;
+        text-align: center;
+        min-width: 4em;
+        img {
+          vertical-align: middle;
+          max-width: 100%;
+        }
+      }
+      div {
+        display: inline-block;
+        vertical-align: middle;
+      }
+      h5 {
+        margin-bottom: .2em;
+      }
+      p {
+        margin-bottom: 0;
+      }
+    }
+  }
+}
+
+.press-material {
+  .meterial-list {
+    margin-top: 2em;
+    .meterial-logo,
+    .meterial-press {
+      max-width: 40%;
+      display: inline-block;
+      position: relative;
+      margin: 0 4%;
+      text-align: center;
+      img {
+        max-width: 100%;
+      }
+      .content {
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: $yellow;
+        width: 100%;
+        height: 100%;
+        opacity: .8;
+        img {
+          max-height: 4em;
+        }
+        div {
+          padding-top: 2em;
+          &:nth-child(1) {
+            height: 4em;
+          }
+        }
+      }
+    }
+    .meterial-press {
+      .content {
+        background-color: $black;
+      }
+    }
+    .meterial-logo {
+      .content {
+        div {
+          &:nth-child(1) {
+            img {
+              padding-top: 1em;
+            }
+          }
+        }
+      }
+    }
+    .background {
+      line-height: 0;
     }
   }
 }

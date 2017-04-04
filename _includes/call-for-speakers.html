@@ -1,16 +1,68 @@
-<section class='content call-for-speakers'>
-  <div class='wrapper'>
-    <h1>{% t call_for_speakers %}</h1> {% t call_for_speakers_p1 s%} {% if page.language == 'cn' %}
-    <h2>{% t inspire  %}！</h2>{% else %}
-    <h2>{% t inspire %}!</h2>{% endif %} {% t call_for_speakers_p2  %}
-    <h2 class='perks'>{% t the_perks %}</h2> {% t the_perks_p1  %}
-    <ul class='perks'>
-      <li><img src='/dist/images/icon-ticket.png'><span>{% t the_perks_ticket  %}</span></li>
-      <li><img src='/dist/images/icon-meal.png'><span>{% t the_perks_meal  %}</span></li>
-      <li><img src='/dist/images/icon-plane.png'><span>{% t the_perks_plane  %}</span></li>
-      <li><img src='/dist/images/icon-camera.png'><span>{% t the_perks_camera  %}</span></li>
+<section class="content hero" style="background-image:url(https://cloud.githubusercontent.com/assets/914595/24613197/ec700784-18ca-11e7-9251-3e2ae5920295.png)">
+  <div class="wrapper">
+    <h1>{% t call_for_speakers %}</h1>
+    <p>Share your ideas, met brilliant people</p>
+    <a href="#" class="button primary cta">{% t apply_now %}</a>
+  </div>
+</section>
+
+<section class="content instuct">
+  <div class="stay-tuned">
+    <form class='subscription bundle' action='https://www.getdrip.com/forms/5471563/submissions' data-drip-embedded-form="5471563" method='post' target='_blank'>
+      <h3>{% t stay_tuned %}</h3>
+      <p>{% t be_first %}</p>
+      <input type='email' name='fields[email]' class='email' required placeholder='{% t email_address %}' />
+      <button type='submit' name='subscribe' class='button subscription'>{% t notify_me %}</button>
+    </form>
+    <span class='qrcode'>
+      <img src='/dist/images/qrcode.jpg' />
+    </span>
+  </div>
+  <div class="wrapper">
+    <div>
+      <h3>{% t call_for_speakers %}</h3>
+      <p>JavaScript community to submit talks for the upcoming NingJS Conf 2016 on September 3rd-4th, 2016 in Nanjing, China. The Call for Proposals closes at 12pm EST, June 1st , 2016 (Strictly, no joke!).</p>
+      <p>JSConf China is a developer-driven conference where members of the Chinese and international JS community can share and discuss the newest techniques and tools in the JavaScript language. Talks in English and Mandarin are welcome. </p>
+    </div>
+    <div>
+      <h3>{% t inspire  %}</h3>
+      <p>If you have something kick-ass to share, tell us all about it. If you know someone who has something great to talk about, nominate them. And if you are interested in hearing about a particular topic, nominate the topic, we'll try to find a match. Fill in and submit this <strong>form</strong>.</p>
+      <p>Catch a glimpse of what we are interested in hearing about, here is the program for the past years (<strong>2012, 2013, 2014, 2015</strong>). We have videos from 2015 ShenJS available on <strong>YouTube</strong> and <strong>Tudou</strong>. </p>
+    </div>
+    <div>
+      <h3>我们欢迎各种 JavaScript 相关话题，并且愿意提供帮助。</h3>
+      <p>Is this your first time speaking? Want some feedback before submitting your proposal? Get in touch with the event organizer at coco@wiredcraft.com and we'll be happy to help. Submissions through email won't be accepted, so please use the form. </p>
+    </div>
+  </div>
+</section>
+
+<section class="content bg-gray">
+  <div class="wrapper">
+    <h2>The perks</h2>
+    <ul class="perks-list">
+      <li>
+        <div><img src="/dist/images/svgs/travel.svg"></div>
+        <p>Flight and Accomodation</p>
+      </li>
+      <li>
+        <div><img src="/dist/images/svgs/dinner.svg"></div>
+        <p>Speaker Dinner</p>
+      </li>
+      <li>
+        <div><img src="/dist/images/svgs/ticket.svg"></div>
+        <p>Conference Ticket</p>
+      </li>
+      <li>
+        <div><img src="/dist/images/svgs/camera.svg"></div>
+        <p>Professioal Photography & Video</p>
+      </li>
     </ul>
-    {% t the_perks_p2  %}
-    <div class='action'><a class='button primary apply' href='https://hunvreus.typeform.com/to/jgOuE8' target='new' id='apply'>{% t apply  %}</a></div>
+    <div>
+      <p>As a reminder,  the purpose of JSChina presentations are to share knowledge, skills, and experience.We welcome talks letting ` know how you are using tools in your work, but discourage any proposals with the aim of selling a product or service.</p>
+
+      <p><strong>If your company can cover your travel and hotel, we are happy to list them as a special sponsor.</strong> Check out our sponsor page. The money we save on your travel and accommodation will go to making the event even better! </p>
+
+      <p>Looking forward to your entry!</p>
+    </div>
   </div>
 </section>

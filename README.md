@@ -12,6 +12,6 @@
 
   You'll need to build the JS and CSS:
 
-      gulp
+      npm start
 
   localhost:3000

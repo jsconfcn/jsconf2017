@@ -6,13 +6,16 @@ media: Media
 share: Share
 shanghai: Shanghai
 get_tickets: Buy ticket
+email_address: Email Address
 follow_wechat: Follow Us On Wechat
+stay_tuned: Stay Tuned
 be_first: Be the first to hear about ticket sales, confirmed speakers and more.
 view_more: View more..
 # dont_miss_out: "Don't miss out on the Early Bird ticket sale!"
 # dont_miss_out_p: "Subscribe to the UI/UX Conf newsletter to be the first to know about our Early Bird ticket sale. We will have a limited number of discounted tickets during this sale, so don't miss out."
 # be_first: Be the first to hear about ticket sales, confirmed speakers and more.
 notify_me: Notify me
+apply_now: 立即申请
 call_for_speakers_p: Have a cool idea or project that you'd like to share with the JavaScript community? We're now taking submissions for the upcoming JSConf CN ( 15-16 July 2017, Shanghai). This Call for Presentation <strong>closes on April 20th</strong> (UTC +8:00).
 call_for_sponsors_p: <strong>Connect</strong>. Experience the local design community in China. Support the first ever UI/UX Conference in Shanghai - limited sponsorship opportunities available. Open until <strong>Aug. 1st</strong>.
 about_us: About us
