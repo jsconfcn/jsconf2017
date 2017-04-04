@@ -1,16 +1,18 @@
 {
-  "name": "uiuxconf",
+  "name": "jsconfcn2017",
   "version": "0.0.1",
-  "description": "123",
+  "description": "The official website for JSConf China 2017.",
   "scripts": {
+    "predeploy": "gulp css && gulp js && gulp jekyll-build",
+    "deploy": "gh-pages -d _site",
     "start": "gulp"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/uiuxconf/uiuxconf-2016.git"
+    "url": "git@github.com:jsconfcn/jsconf2017.git"
   },
-  "author": "z4rd",
-  "license": "WTFPL",
+  "author": "JSConf China",
+  "license": "MIT",
   "dependencies": {
     "bower": "*",
     "gulp": "*",
@@ -22,6 +24,7 @@
   },
   "devDependencies": {
     "browser-sync": "^2.18.8",
+    "gh-pages": "^0.12.0",
     "gulp": "^3.9.1",
     "gulp-livereload": "^3.8.1"
   }
