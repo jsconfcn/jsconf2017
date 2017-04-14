@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="121px" height="100px" viewBox="0 0 121 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>camera</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="-3.41060513e-13" y="11.0039192" width="120.158831" height="88.9960808"></rect>
+    </defs>
+    <g id="Page-3" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="call-for-speakers" transform="translate(-1116.000000, -1626.000000)">
+            <g id="perks" transform="translate(191.000000, 1500.000000)">
+                <g id="icons" transform="translate(1.000000, 123.000000)">
+                    <g id="flight" transform="translate(0.000000, 2.000000)">
+                        <g id="camera" transform="translate(924.000000, 1.000000)">
+                            <path d="M73.7548661,3.49967488 C74.8305108,1.56685782 77.4910755,0 79.6963053,0 L100.650227,0 C102.855949,0 105.518865,1.57196694 106.591666,3.49967488 L110.93568,11.3053964 L69.4108527,11.3053964 L73.7548661,3.49967488 Z" id="Rectangle-33" fill="#FFFFFF"></path>
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <use id="Mask" fill="#FFFFFF" transform="translate(60.079416, 55.501960) scale(-1, 1) translate(-60.079416, -55.501960) " xlink:href="#path-1"></use>
+                            <rect id="Rectangle-17" fill="#4921CC" style="mix-blend-mode: darken;" mask="url(#mask-2)" x="-6.54054054" y="28.3690081" width="136.73" height="54.403285"></rect>
+                            <ellipse id="Oval-3" fill="#FF971E" mask="url(#mask-2)" cx="59.676982" cy="56.4361574" rx="35.695" ry="35.6643757"></ellipse>
+                            <ellipse id="Oval-8" fill="#FFFFFF" mask="url(#mask-2)" cx="59.4099099" cy="56.1424569" rx="27.7972973" ry="27.7734488"></ellipse>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

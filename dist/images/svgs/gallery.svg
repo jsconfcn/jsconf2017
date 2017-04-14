@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="156px" height="111px" viewBox="0 0 156 111" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>image</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M131.9,95.4716312 L150.999037,95.4716312 C153.217496,95.4716312 155,93.6826275 155,91.4757797 L155,3.99585155 C155,1.79045676 153.208708,0 150.999037,0 L31.180963,0 C28.9625035,0 27.18,1.78900368 27.18,3.99585155 L27.18,23.964539 L127.892988,23.964539 C130.106,23.964539 131.9,25.7602453 131.9,27.9660992 L131.9,95.4716312 Z" id="path-1"></path>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="127.82" height="95.4716312" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <rect id="path-3" x="0" y="18.2340426" width="138.6" height="92.7659574" rx="4"></rect>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="138.6" height="92.7659574" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+    </defs>
+    <g id="Page-3" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Media" transform="translate(-955.000000, -876.000000)" stroke="#FFFFFF">
+            <g id="second-screen" transform="translate(109.000000, 812.000000)">
+                <g id="image" transform="translate(650.000000, 0.000000)">
+                    <g transform="translate(197.000000, 64.000000)">
+                        <use id="Combined-Shape" mask="url(#mask-2)" stroke-width="12" xlink:href="#path-1"></use>
+                        <use id="Rectangle-34" mask="url(#mask-4)" stroke-width="12" xlink:href="#path-3"></use>
+                        <polyline id="Path-21" stroke-width="6" points="2 106.186032 44.8778513 65 78.1979293 89.7315492 96.1898828 71.8460494 134.439883 97.0726119"></polyline>
+                        <ellipse id="Oval-18" stroke-width="6" cx="95.5225" cy="46.8705674" rx="10.9725" ry="11.0159574"></ellipse>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
