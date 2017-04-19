@@ -1,5 +1,5 @@
 #header {
-  background: rgba(0,0,0,0.7);
+  background: rgba(0, 0, 0, 0.7);
   box-sizing: border-box;
   display: table;
   position: absolute;
@@ -27,7 +27,7 @@
       @include font-size($large);
       @include icon;
       display: block;
-      content: 'm';
+      content: '\6d';
       margin-top: -1px;
     }
   }
@@ -56,12 +56,35 @@
         @include font-size($huge);
         color: $black;
         display: block;
+        letter-spacing: 1.2px;
+        text-decoration: none;
         padding: 0 $space/2;
         margin: 0 $space/2;
+        position: relative;
         width: auto;
+        &:before {
+          content: '';
+          width: 0px;
+          height: 2px;
+          background: $yellow;
+          position: absolute;
+          border-radius: 4px;
+          @include transition(all 0.15s ease-in-out);
+          left: 50%;
+          @include transform(translateX(-50%));
+        }
+        &:hover {
+          color: $yellow;
+          &:before {
+            width: 20px;
+          }
+        }
         &.active {
           color: $yellow;
           font-weight: 500;
+          &:before {
+            width: 20px;
+          }
         }
       }
     }
@@ -120,6 +143,7 @@
   .lang {
     color: $white;
     line-height: 28px;
+    text-decoration: none;
     @include breakpoint(desktop) {
       line-height: 56px;
     }

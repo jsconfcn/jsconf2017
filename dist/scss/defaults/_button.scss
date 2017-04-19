@@ -28,10 +28,11 @@
       background-color: rgba(255,255,255,0.1);
     }
   }
-  &.subscription {
+  &.purple {
     @include button($purple);
     border-color: none;
     border-radius: 50px;
+    border-color: transparent;
     color: $white;
     min-width: $space*5;
     &:hover,&:active,&:focus {

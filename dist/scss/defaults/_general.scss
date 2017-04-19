@@ -3,9 +3,12 @@ html {
     font-size: 50%;
   }
   @include breakpoint(tablet) {
-    font-size: 50%;
+    font-size: 56%;
   }
   @include breakpoint(desktop) {
+    font-size: 62.5%;
+  }
+  @include breakpoint(highres) {
     font-size: 62.5%;
   }
 }
@@ -48,17 +51,39 @@ h3 {
 }
 
 h1 {
-  @include font-size($humongous);
+  letter-spacing: 4px;
   @include breakpoint(mobile) {
-    @include font-size($huge + 2);
+    @include font-size($large + 4);
+    letter-spacing: 1px;
+  }
+  @include breakpoint(tablet) {
+    @include font-size($huge);
+    letter-spacing: 1px;
+  }
+  @include breakpoint(desktop) {
+    @include font-size($gigantic);
+    letter-spacing: 2px;
+  }
+  @include breakpoint(highres) {
+    @include font-size($humongous - 4);
   }
 }
+
 h2 {
-  @include font-size($huge);
   font-weight: normal;
   font-family: 'GalanoGrotesque';
+  letter-spacing: 1px;
   @include breakpoint(mobile) {
+    @include font-size($large);
+  }
+  @include breakpoint(tablet) {
+    @include font-size($huge);
+  }
+  @include breakpoint(desktop) {
     @include font-size($huge - 2);
+  }
+  @include breakpoint(highres) {
+    @include font-size($huge);
   }
 }
 

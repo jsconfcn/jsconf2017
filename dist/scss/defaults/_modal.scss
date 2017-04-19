@@ -42,6 +42,15 @@
           white-space: normal;
           word-break: break-word;
         }
+        .wechat {
+          div {
+            text-align: center;
+            img {
+              width: 100%;
+              max-width: 300px;
+            }
+          }
+        }
         form.subscription {
           margin: 0;
           width: 100%;

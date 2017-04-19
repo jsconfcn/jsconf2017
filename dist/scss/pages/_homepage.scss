@@ -7,6 +7,7 @@
   }
   .container {
     //display: table;
+    background-color: rgba(0, 0, 0, 0.1);
     height: 100%;
     left: 0;
     position: absolute;
@@ -25,7 +26,7 @@
         h1 {
           color: $white;
           margin-bottom: $space/2;
-          @include font-size($huge);
+          //@include font-size($huge);
         }
         time {
           color: $white;
@@ -51,7 +52,7 @@
         padding-top: 0px;
         .masthead {
           h1 {
-            @include font-size($humongous);
+            // @include font-size($humongous);
             margin-bottom: $space;
           }
           time {
@@ -66,6 +67,7 @@
 
 #callfor {
   background: #F1F2F4;
+  margin-top: -160px;
   .left {
     display: inline-block;
     margin: 0;
@@ -90,8 +92,9 @@
         width: 50%;
       }
       div {
+        min-height: 340px;
         box-sizing: border-box;
-        padding: $space;
+        padding: $space*1.5;
         padding-bottom: 2*$space;
         width: 100%;
       }
@@ -101,21 +104,22 @@
           background-size: cover;
           left: 0;
           &:after {
-            bottom: 50%;
-            right: -40px;
+            top: 50%;
+            margin-top: -18px;
+            right: -36px;
             border: solid transparent;
             content: " ";
             height: 0;
             width: 0;
             position: absolute;
             pointer-events: none;
-            border-color: transparent transparent transparent #FFF029;
-            border-width: 20px;
-         }
+            border-color: transparent transparent transparent #F7DE0F;
+            border-width: 18px;
+          }
         }
         div {
           float: right;
-          padding-left: calc(50% + 24px);
+          padding-left: calc(50% + 36px);
         }
         a.viewmore {
           right: $space;
@@ -127,16 +131,17 @@
           background-size: cover;
           right: 0;
           &:before {
-            bottom: 50%;
-            left: -40px;
+            top: 50%;
+            margin-top: -18px;
+            left: -36px;
             border: solid transparent;
             content: " ";
             height: 0;
             width: 0;
             position: absolute;
             pointer-events: none;
-            border-color: transparent rgba(80, 80, 76, 0.9) transparent transparent;
-            border-width: 20px;
+            border-color: transparent #505050 transparent transparent;
+            border-width: 18px;
           }
         }
         div {
@@ -154,7 +159,7 @@
     right: 0px;
     background: $white;
     box-sizing: border-box;
-    padding: $space;
+    padding: $space*1.5;
     top: 0;
     margin-left: $space;
     height: 100%;
@@ -162,62 +167,17 @@
   }
 }
 
-.stay-tuned {
-  .email,
-  .subscription {
-    text-align: center;
-  }
-  .email {
-    border: none;
-    border-bottom: 1px solid $navy;
-    margin-top: 2em;
-  }
-  .subscription {
-    margin-top: 2em;
-    border-radius: 5em;
-  }
-  .qrcode {
-    cursor: pointer;
-    bottom: 0;
-    right: 0;
-    height: 140px;
-    overflow: hidden;
-    position: absolute;
-    width: 140px;
-    img {
-      height: 140px;
-      width: 140px;
-    }
-    &:before {
-      content: '';
-      border-style: solid;
-      border-width: 140px 140px 0 0;
-      border-color: $white transparent transparent transparent;
-      height: 0;
-      left: 0;
-      position: absolute;
-      top: 0;
-      @include transition(all 0.3s ease-in-out);
-      width: 0;
-    }
-    &:hover {
-      &:before {
-        border-width: 230px 230px 0 0;
-        left: -105px;
-        top: -105px;
-      }
-    }
-  }
-}
+
+
 #quotes {
-	background: #191919;
+  background: #191919;
   ul {
     list-style: none;
     display: inline-block;
     margin: 0;
     width: calc(100% + 48px);
     margin-left: -$space;
-    li{
+    li {
       box-sizing: border-box;
       float: left;
       width: 33%;
@@ -225,38 +185,39 @@
       &:first-child {
         width: 34%;
       }
-    div {
-      color: $yellow;
-      @include font-size($large);
-      line-height: 140%;
-      &:first-child {
-        min-height: 7em;
-      }
-      &:last-child {
-        margin-top: $space;
-      }
-      span, img {
-        float: left;
-      }
-      span {
-        font-weight: 400;
-        line-height: $space;
-        @include font-size($larger);
-        color: #fff;
-        em {
-          @include font-size($normal - 2);
-          font-style: normal;
+      div {
+        color: $yellow;
+        @include font-size($large);
+        line-height: 140%;
+        &:first-child {
+          min-height: 7em;
+        }
+        &:last-child {
+          margin-top: $space;
+        }
+        span,
+        img {
+          float: left;
+        }
+        span {
+          font-weight: 400;
+          line-height: $space;
+          @include font-size($larger);
+          color: #fff;
+          em {
+            @include font-size($normal - 2);
+            font-style: normal;
+          }
+        }
+        img {
+          border: 1px solid $white;
+          border-radius: 50%;
+          background: #fff;
+          margin-right: $space/2;
+          height: $space*2;
+          width: $space*2;
         }
       }
-      img {
-        border: 1px solid $white;
-        border-radius: 50%;
-        background: #fff;
-        margin-right: $space/2;
-        height: $space*2;
-        width: $space*2;
-      }
-    }
     }
   }
 }
@@ -314,6 +275,7 @@
     }
   }
   .album {
+    display: inline-block;
     margin-top: 2em;
     img {
       max-width: 100%;
@@ -329,6 +291,7 @@
         &:nth-child(1),
         &:nth-child(2) {
           width: 50%;
+          float: left;
         }
         &:nth-child(2) {
           float: right;

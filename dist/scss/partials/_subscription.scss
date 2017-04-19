@@ -1,43 +1,121 @@
-form.subscription {
-  text-align: left;
-  width: 100%;
-  p {
-    color: $black;
-    @include font-size($normal);
-    line-height: 100%;
+.stay-tuned {
+  .email,
+  .subscription {
     text-align: left;
-    margin-bottom: $space/2;
   }
-  input {
-    float: left;
-    width: 100%;
+  .email {
+    border: none;
+    border-bottom: 2px solid $line;
   }
-  .action {
-    display: inline-block;
-    text-align: center;
-    margin-top: $space/2;
-    width: 100%;
+  // .email {
+  //   border: none;
+  //   border-bottom: 2px solid $line;
+  //   margin-top: 2em;
+  //   color: #222;
+  //   text-align: left;
+  //   ::-webkit-input-placeholder {
+  //     /* Chrome */
+  //     color: #222;
+  //   }
+  //   :-ms-input-placeholder {
+  //     /* IE 10+ */
+  //     color: #222;
+  //   }
+  //   ::-moz-placeholder {
+  //     /* Firefox 19+ */
+  //     color: #222;
+  //     opacity: 1;
+  //   }
+  //   :-moz-placeholder {
+  //     /* Firefox 4 - 18 */
+  //     color: #222;
+  //     opacity: 1;
+  //   }
+  // }
+  .subscription {
+    input {
+      width: 100%;
+    }
+    border-radius: 5em;
     button {
-      @include button($purple);
-      border-radius: 50px;
+      margin: $space auto 0 auto;
+      display: inherit;
     }
   }
-  @include breakpoint(mobile) {
-    width: 100%;
-    input {
-      width: 100%;
+  .qrcode {
+    cursor: pointer;
+    bottom: 0;
+    right: 0;
+    height: 140px;
+    overflow: hidden;
+    position: absolute;
+    width: 140px;
+    img {
+      height: 140px;
+      width: 140px;
     }
-    // button {
-    //   width: 130px;
-    // }
-  }
-  @include breakpoint(desktop) {
-    width: 100%;
-    input {
-      width: 100%;
+    &:before {
+      content: '';
+      border-style: solid;
+      border-width: 140px 140px 0 0;
+      border-color: $white transparent transparent transparent;
+      height: 0;
+      left: 0;
+      position: absolute;
+      top: 0;
+      @include transition(all 0.3s ease-in-out);
+      width: 0;
     }
-    // button {
-    //   width: $space*6;
-    // }
+    &:hover {
+      &:before {
+        border-width: 230px 230px 0 0;
+        left: -105px;
+        top: -105px;
+      }
+    }
   }
 }
+
+// form.subscription {
+//   text-align: left;
+//   width: 100%;
+//   p {
+//     color: $black;
+//     @include font-size($normal);
+//     line-height: 100%;
+//     text-align: left;
+//     margin-bottom: $space/2;
+//   }
+//   input {
+//     float: left;
+//     width: 100%;
+//   }
+//   .action {
+//     display: inline-block;
+//     text-align: center;
+//     margin-top: $space/2;
+//     width: 100%;
+//     button {
+//       @include button($purple);
+//       border-radius: 50px;
+//     }
+//   }
+//   @include breakpoint(mobile) {
+//     width: 100%;
+//     input {
+//       width: 100%;
+//     }
+//     // button {
+//     //   width: 130px;
+//     // }
+//   }
+//   @include breakpoint(desktop) {
+//     width: 100%;
+//     input {
+//       width: 100%;
+//     }
+//     // button {
+//     //   width: $space*6;
+//     // }
+//   }
+// }

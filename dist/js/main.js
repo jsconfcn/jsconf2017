@@ -23,7 +23,7 @@ function tab() {
 }
 
 function toggleModal() {
-  $('.cta').bind("click tap", function() {
+  $('.cta-h').bind("click tap", function() {
     body.toggleClass('modal-open');
   })
   $(this).bind("click tap", function(e) {

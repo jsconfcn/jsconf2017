@@ -11,9 +11,6 @@ follow_wechat: Follow Us On Wechat
 stay_tuned: Stay Tuned
 be_first: Be the first to hear about ticket sales, confirmed speakers and more.
 view_more: View more..
-# dont_miss_out: "Don't miss out on the Early Bird ticket sale!"
-# dont_miss_out_p: "Subscribe to the UI/UX Conf newsletter to be the first to know about our Early Bird ticket sale. We will have a limited number of discounted tickets during this sale, so don't miss out."
-# be_first: Be the first to hear about ticket sales, confirmed speakers and more.
 notify_me: Notify me
 apply_now: 立即申请
 call_for_speakers_p: Have a cool idea or project that you'd like to share with the JavaScript community? We're now taking submissions for the upcoming JSConf CN ( 15-16 July 2017, Shanghai). This Call for Presentation <strong>closes on April 20th</strong> (UTC +8:00).
@@ -32,6 +29,7 @@ why_organize: Why are we organizing this?
 why_organize_p: "Wiredcraft began organizing the monthly <a href='http://www.meetup.com/Shanghai-UI-UX-Designers-Meetup/' target='new'>UI/UX Designers Meetup</a> in Shanghai in October 2015 to create a space for designers of all levels and backgrounds to grow their networks, learn, and share their experience and expertise. The community spoke: 3 hours a month wasn't enough, two speakers wasn't enough, more design, more networking. From this desire and our unique expertise, UI/UX Conf China comes to you this October. "
 organizer: Organizer
 ticket: Tickets
+call_for_proposals: Call for Proposals
 call_for_speakers_p1: <p>Inspire the design community in China. Speak or present a workshop at the upcoming UI/UX Conference on October 15-16, 2016 in Shanghai. The CFP is open until <strong>July 15th</strong>. </p><p>This two-day community-driven conference will feature more than twenty presentations focused on storytelling, design strategy, best practices, creative inspiration and more. Count on experienced speakers sharing their expertise and experiences from international companies and thriving startups. Talks in English and Mandarin are welcome.</p>
 call_for_speakers_p2: <p>Use the <a href='#apply'>link to the form</a> below to nominate yourself or someone else to speak or host a workshop at UI/UX Conf China. You can also nominate a topic and we'll try to find a speaker to match.</p><p>If you have something kickass to share, tell us all about it. If you know someone who has something great to talk about, nominate them. And if you are interested in hearing about a particular topic, nominate the topic and we'll try to find a match. Fill in and submit this form.</p><p>Not sure what to speak about? Find your inspiration from our past UI/UX meetups from Shanghai and Berlin on <a href='https://www.youtube.com/playlist?list=PLEHsmTsBKpKV_8eC8lylLNaIyYKx_VJhz' target='new'>YouTube</a> or <a href='http://www.tudou.com/home/wiredcraft' target='new'>Tudou</a>.</p><p><strong>We encourage presentations of all UIUX-related topics and are happy to provide support.</strong></p><p>Is this your first time speaking? Want some feedback before submitting your proposal? Get in touch with the event organizer at <a href='mailto:info@uiuxconf.com'>info@uiuxconf.com</a> and we'll be happy to help.</p>
 the_perks: The Perks

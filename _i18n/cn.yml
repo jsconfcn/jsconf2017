@@ -12,8 +12,6 @@ email_address: 邮箱地址
 be_first: 第一时间知道早鸟票折扣及活动信息
 view_more: 了解更多..
 apply_now: 立即申请
-# dont_miss_out: 不要错过早鸟票的发售！
-# dont_miss_out_p: 加入UI/UX Conf的邮件订阅，第一时间获取早鸟票的发售信息，数量有限，不要错过。
 notify_me: 获取最新讯息
 call_for_speakers_p: 你有一个很酷的点子或者项目想和JavaScript社区分享么？2017年的JS中国开发者大会将于7月15至16日在上海举行, 现已开放演讲者及赞助商的申请通道，截止时间为北京时间<strong>2016年4月20日24点</strong>。欢迎所有JavaScirpt开发者及爱好者的踊跃参与！
 call_for_sponsors_p:
@@ -34,6 +32,7 @@ why_organize: 为什么我们要组织这次 JavaScript 大会
 why_organize_p: "Wiredcraft自2015年10月份开始在上海组织每月一度的<a href='http://www.meetup.com/Shanghai-UI-UX-Designers-Meetup/' target='new'>UI/UX Designers meetup</a>希望为来自不同背景及领域的设计师提供合作与交流的空间、开拓人际网络及互相学习、分享他们的经验与专长。历时近一年，每场活动都很成功，但是——一个月3个小时及2个演讲嘉宾并不能满足我们的期盼，大家想要得到更多设计咨询和社交机会！因此，今年十月我们将为大家带来首届中国交互与界面设计大会。"
 organizer: 组织者
 ticket: 购票
+call_for_proposals: 话题征寻
 call_for_speakers_p1: <p>分享观点，为中国UIUX社群提供新的思路和见解。欢迎做一个20分钟的主题演讲或者举办一场工作坊。讲者申请截止至<strong>7月15日</strong>。欢迎中、英文演讲。 </p><p>在这两天的大会中你将听到20多场来自资深UIUX设计大牛们的主题演讲(交互设计、视觉设计、用户研究设计、管理服务设计、设计思维等)、参与到多个交互设计体验工作坊、结识其他800多位和你一样有想法的创意人士。 本次活动参与者包括多家国际知名设计公司及国内外新兴企业，“<strong>探索、启迪、连接</strong>” 是本次大会的主题。</p>
 call_for_speakers_p2: <p>请通过以下<a href='#apply'>按钮</a>点击申请成为讲师或者推荐优秀讲师给我们</p><p>如果你有新颖的观点要分享，请告诉我们。如果你知道其他的优秀讲师，请推荐给我们。如果你有特别想了解的话题，告诉我们，我们会尽力帮你找到匹配的讲师。总之，填写表格吧！</p><p>如果你想了解往届UIUX meetup活动，这里是过去一年的<a href='http://www.meetup.com/Shanghai-UI-UX-Designers-Meetup/' target='new'>活动页面</a>，<a href='http://www.meetup.com/UIUX-Meetup-SH/photos/'>照片</a>和<a href='http://www.tudou.com/home/wiredcraft' target='new'>视频</a>。</p><p><strong>我们欢迎各种UIUX相关话题，并且愿意提供帮助。</strong></p><p>如果这是你的第一次演讲，并且想在提交申请前得到一些反馈，请联系活动组织者<a href='mailto:info@uiuxconf.com'>info@uiuxconf.com</a>，我们会及时回复。</p>
 the_perks: 讲师特权

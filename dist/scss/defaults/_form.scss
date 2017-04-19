@@ -26,25 +26,26 @@ label,
 input:not([type=submit]),
 textarea,
 .select select {
+  text-align: left;
   box-shadow: 0;
-  border: 1px solid $navy;
+  // border: 1px solid $navy;
   @include font-size($normal);
   &:hover {
-    border-color: $grey;
+    //border-color: $grey;
   }
   &:focus {
-    border-color: $black;
+    border-color: $grey;
   }
   &::-webkit-input-placeholder {
-    color: lighten($navy, 32%);
+    color: $line;
   }
   &:-moz-placeholder {
-    color: lighten($navy, 32%);
+    color: $line;
   }
   &::-moz-placeholder {
-    color: lighten($navy, 32%);
+    color: $line;
   }
   &:-ms-input-placeholder {
-    color: lighten($navy, 32%);
+    color: $line;
   }
 }

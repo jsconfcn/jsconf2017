@@ -2,7 +2,7 @@
 layout: default
 title: Media & Press
 class: press
-permalink: /en/press/
+permalink: /press/
 ---
 
 {% include press.html %}

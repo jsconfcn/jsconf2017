@@ -1,8 +1,7 @@
 ---
 layout: default
-title: 主页
+title: Home
 class: home
-
 ---
 
 {% include homepage.html %}

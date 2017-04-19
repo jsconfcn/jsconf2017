@@ -49,19 +49,19 @@
         }
         &.twitter {
           &:before {
-            content: '\ea96';
+            content: 'T';
           }
         }
         &.weibo {
           &:before {
              @include font-size($large + 2);
-            content: 'S';
+            content: 'W';
           }
         }
         &.github {
           &:before {
              @include font-size($large + 2);
-            content: 'G';
+            content: '\67';
           }
         }
       }
