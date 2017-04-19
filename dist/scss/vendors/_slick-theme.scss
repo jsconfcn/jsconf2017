@@ -9,7 +9,7 @@ $slick-dot-color-active: darken($line, 40%) !default;
 $slick-prev-character: "←" !default;
 $slick-next-character: "→" !default;
 $slick-dot-character: "•" !default;
-$slick-dot-size: 7px !default;
+$slick-dot-size: 30px !default;
 $slick-opacity-default: 1 !default;
 $slick-opacity-on-hover: 1 !default;
 $slick-opacity-not-active: 1 !default;
@@ -53,7 +53,7 @@ $slick-opacity-not-active: 1 !default;
 .slick-prev,
 .slick-next {
   position: absolute;
-  display: block;
+  display: none;
   height: 20px;
   width: 20px;
   line-height: 0px;

@@ -4,8 +4,8 @@
     <div class='wrapper'>
       <div class='masthead'>
         <h1>{% t big_title  %}</h1>
-        <time>2017.07.15 - 07.16 @ {% t shanghai  %}</time>
-        <button class='button primary cta cta-h'>{% t get_tickets  %}</button>
+        <time>2017.07.15 - 07.16 @ {% t shanghai %}</time>
+        <button class='button primary cta cta-h'>{% t get_tickets %}</button>
         <br/>
         <span class='tip'>Only <strong>100</strong> early bird ticket!</span>
       </div>
@@ -13,23 +13,23 @@
   </div>
 </section>
 <section id='callfor'>
-  <div class='wrapper'>
+  <div class='wrapper row'>
     <ul class='left'>
       <li>
         <span class='thumbnail'></span>
         <div>
           <h3>{% t call_for_speakers  %}</h3>
-          <p>{% t call_for_speakers_p  %}</p>
+          <p>{% t call_for_speakers_p %}</p>
           <a class='viewmore' href='#'>{% t view_more  %}</a>
         </div>
       </li>
       <li>
+        <span class='thumbnail'></span>
         <div>
           <h3>{% t call_for_sponsors  %}</h3>
-          <p>{% t call_for_sponsors_p  %}</p>
+          <p>{% t call_for_sponsors_p %}</p>
           <a class='viewmore' href='#'>{% t view_more  %}</a>
         </div>
-        <span class='thumbnail'></span>
       </li>
     </ul>
     <div class='stay-tuned right subscription'>
@@ -66,7 +66,7 @@
 <section id='about'>
   <div class='wrapper'>
     <h2>{% t about_us  %}</h2>
-    <p>{% t about_us_p  %}</p>
+    <p>{% t about_us_p %}</p>
     <ul class='history'>
       <li><em>2670+</em>
         <br/><span>{% t attendees  %}</span></li>
@@ -83,15 +83,13 @@
   <div class='wrapper'>
     <!--slide-->
     <div class='past-speakers'>
-      {% for pastspeaker in site.pastspeakers %}
-        {% if pastspeaker.featured %}
-        <div>
-          <img src='/dist/images/pastspeakers/{{ pastspeaker.user }}.png'>
-          <span class="name">{{ pastspeaker.name }}</span>
-          <span>{{ pastspeaker.company }}</span>
-        </div>
-        {% endif %}
-      {% endfor %}
+      {% for pastspeaker in site.pastspeakers %} {% if pastspeaker.featured %}
+      <div>
+        <img src='/dist/images/pastspeakers/{{ pastspeaker.user }}.png'>
+        <span class="name">{{ pastspeaker.name }}</span>
+        <span>{{ pastspeaker.company }}</span>
+      </div>
+      {% endif %} {% endfor %}
     </div>
     <!--album-->
     <div class='album'>
@@ -108,14 +106,13 @@
 </section>
 <section id='companies'>
   <div class='wrapper'>
-    <h2>{% t company_participated_title %}</h2>
-    {% for company in site.companies %}
-        {% if company.featured %}
-        <div>
-          <img src='/dist/images/companies/{{ company.user }}.png'><br/>
-          <span>{{ company.name }}</span><br/><span>{{ company.company }}</span>
-        </div>
-        {% endif %}
-      {% endfor %}
+    <h2>{% t company_participated_title %}</h2> {% for company in site.companies %} {% if company.featured %}
+    <div>
+      <img src='/dist/images/companies/{{ company.user }}.png'>
+      <br/>
+      <span>{{ company.name }}</span>
+      <br/><span>{{ company.company }}</span>
+    </div>
+    {% endif %} {% endfor %}
   </div>
 </section>

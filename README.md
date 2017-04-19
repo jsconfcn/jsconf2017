@@ -8,6 +8,10 @@
 
       sudo gem install github-pages
 
+  ## Build Jekyll
+
+     jekyll serve
+
   ## run & Build
 
   You'll need to build the JS and CSS:

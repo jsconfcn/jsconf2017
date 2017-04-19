@@ -18,7 +18,11 @@
   .button.nav {
     display: inline-block;
     padding: $space/6;
-    margin: -1px 0 0 $space/3;
+    margin: 0px 0 0 $space/3;
+    color: #fff;
+    background: $black;
+    border: 0px;
+    margin-top: 1px;
     @include breakpoint(desktop) {
       display: none;
       margin: $space/3 + 3 0 0 $space/3;
@@ -63,6 +67,7 @@
         position: relative;
         width: auto;
         &:before {
+          display: none;
           content: '';
           width: 0px;
           height: 2px;
@@ -73,6 +78,9 @@
           left: 50%;
           @include transform(translateX(-50%));
         }
+        @include breakpoint(desktop) {
+            display: block;
+          }
         &:hover {
           color: $yellow;
           &:before {

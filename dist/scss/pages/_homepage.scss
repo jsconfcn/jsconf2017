@@ -4,6 +4,10 @@
   img.bg {
     width: 100%;
     display: inherit;
+    @include breakpoint(mobile) {
+      width: 150%;
+      margin-left: -25%;
+    }
   }
   .container {
     //display: table;
@@ -67,12 +71,15 @@
 
 #callfor {
   background: #F1F2F4;
-  margin-top: -160px;
+  margin-top: 0px;
+  @include breakpoint(desktop) {
+    //margin-top: -160px;
+  }
   .left {
-    display: inline-block;
-    margin: 0;
-    width: 70%;
-    padding-right: 30%;
+    padding-right: 0px;
+    @include breakpoint(desktop) {
+      padding-right: 30%;
+    }
     li {
       background: $white;
       float: left;
@@ -97,6 +104,9 @@
         padding: $space*1.5;
         padding-bottom: 2*$space;
         width: 100%;
+        @include breakpoint(mobile) {
+          min-height: auto;
+        }
       }
       &:first-child {
         .thumbnail {
@@ -126,6 +136,10 @@
         }
       }
       &:last-child {
+        margin-top: 0px;
+        @include breakpoint(mobile) {
+          margin-top: $space;
+        }
         .thumbnail {
           background: url('/dist/images/call-for-02.jpg');
           background-size: cover;
@@ -143,31 +157,64 @@
             border-color: transparent #505050 transparent transparent;
             border-width: 18px;
           }
+          @include breakpoint(mobile) {
+            float: left;
+          }
         }
         div {
           float: left;
           padding-right: calc(50% + 24px);
+          @include breakpoint(mobile) {
+            float: right;
+          }
         }
         a.viewmore {
           left: $space;
         }
       }
     }
+    @include breakpoint(mobile) {
+      li {
+        span.thumbnail,
+        div {
+          width: 100%;
+          position: relative;
+          float: left;
+        }
+        div {
+          padding-left: $space*1.5 !important;
+          padding-right: $space*1.5 !important;
+        }
+        span.thumbnail {
+          height: 200px;
+          &:after,
+          &:before {
+            display: none;
+          }
+        }
+      }
+    }
   }
   .right {
-    position: absolute;
-    right: 0px;
+    margin-top: $space;
+    display: inline-block;
+    position: relative;
     background: $white;
     box-sizing: border-box;
-    padding: $space*1.5;
-    top: 0;
-    margin-left: $space;
-    height: 100%;
-    width: calc(30% - 24px);
+    margin-left: 0;
+    right: auto;
+    top: auto;
+    min-height: 380px;
+    @include breakpoint(desktop) {
+      margin-top: 0;
+      margin-left: $space;
+      position: absolute;
+      right: 0px;
+      top: 0;
+      height: 100%;
+    }
   }
 }
-
-
 
 #quotes {
   background: #191919;
@@ -182,6 +229,7 @@
       float: left;
       width: 33%;
       padding: 0 $space;
+      margin-bottom: 0;
       &:first-child {
         width: 34%;
       }
@@ -189,9 +237,9 @@
         color: $yellow;
         @include font-size($large);
         line-height: 140%;
-        &:first-child {
-          min-height: 7em;
-        }
+        // &:first-child {
+        //   min-height: 7em;
+        // }
         &:last-child {
           margin-top: $space;
         }
@@ -210,7 +258,7 @@
           }
         }
         img {
-          border: 1px solid $white;
+          //border: 1px solid $white;
           border-radius: 50%;
           background: #fff;
           margin-right: $space/2;
@@ -219,12 +267,28 @@
         }
       }
     }
+    @include breakpoint(mobile) {
+      li {
+        width: 100%;
+        margin-bottom: $space*2;
+        div {
+          &:last-child {
+            margin-top: $space/2;
+          }
+        }
+        &:first-child {
+          width: 100%;
+        }
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+    }
   }
 }
 
 #about {
   .history {
-    display: inline-block;
     margin: $space*2 0 0;
     width: 100%;
     display: -webkit-flex;
@@ -251,6 +315,12 @@
         width: 100%;
       }
     }
+    @include breakpoint(mobile) {
+      display: inline-block;
+      li {
+        width: 100%;
+      }
+    }
   }
 }
 
@@ -259,13 +329,20 @@
   .slick-slide {
     height: 240px;
     text-align: center;
+    @include breakpoint(mobile) {
+      height: 160px;
+    }
     img {
       position: inherit;
       margin-bottom: 1em;
+      @include breakpoint(mobile) {
+        width: 70px;
+      }
     }
     span {
       color: $white;
       display: block;
+      text-align: center;
       &.name {
         font-size: 110%;
       }
@@ -273,6 +350,11 @@
         color: $yellow;
       }
     }
+  }
+  .slick-prev,
+  .slick-next {
+    display: none;
+    opacity: 0;
   }
   .album {
     display: inline-block;
@@ -298,6 +380,19 @@
         }
         &:nth-child(3) {
           width: 100%;
+        }
+      }
+    }
+    @include breakpoint(mobile) {
+      .left,
+      .right {
+        width: 100%;
+        img {
+          &:nth-child(1),
+          &:nth-child(2) {
+            float: left;
+            width: 100%;
+          }
         }
       }
     }

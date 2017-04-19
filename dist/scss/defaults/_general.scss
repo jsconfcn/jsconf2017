@@ -43,6 +43,14 @@ h6 {
   font-weight: 700;
   letter-spacing: 1.5px;
   margin: 0 0 $space;
+  @include breakpoint(mobile) {
+    margin: 0 0 $space/2;
+  }
+}
+p {
+  @include breakpoint(mobile) {
+    margin-bottom: $space/2 !important;
+  }
 }
 
 h3 {
@@ -53,7 +61,7 @@ h3 {
 h1 {
   letter-spacing: 4px;
   @include breakpoint(mobile) {
-    @include font-size($large + 4);
+    @include font-size($large + 2);
     letter-spacing: 1px;
   }
   @include breakpoint(tablet) {
@@ -138,7 +146,7 @@ blockquote {
   position: relative;
   width: 80%;
   @include breakpoint(mobile) {
-    margin: $space*3 auto;
+    margin: $space*2 auto;
   }
 }
 
@@ -173,6 +181,27 @@ button.close {
   &:hover {
     &:before {
       opacity: 0.8;
+    }
+  }
+}
+
+.wrapper.row {
+  .left {
+    margin: 0;
+    width: 100%;
+    @include breakpoint(desktop) {
+    display: inline-block;
+    margin: 0;
+    width: 70%;
+    }
+  }
+  .right {
+    position: relative;
+    width: 100%;
+    padding: $space*1.5;
+    @include breakpoint(desktop) {
+      width: calc(30% - 24px);
+      padding: $space*1.5;
     }
   }
 }
