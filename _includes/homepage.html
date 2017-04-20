@@ -1,5 +1,11 @@
 <section id='hero'>
   <img src='/dist/images/hero.jpg' class='img bg'>
+  <div class='videos'>
+    <video width="100%" loop autoplay="">
+      <source src="/dist/videos/jsconf.mp4?" type="video/mp4">
+      <source src="/dist/videos/jsconf.webm" type="video/webm">
+    </video>
+  </div>
   <div class='container'>
     <div class='wrapper'>
       <div class='masthead'>
@@ -29,10 +35,8 @@
         <div>
           <h3>{% t call_for_sponsors  %}</h3>
           <p>{% t call_for_sponsors_p %}</p>
-          {% if site.lang == 'cn' %}<a class='viewmore' href='/call-for-sponsors/'>{% t view_more  %}</a>
-          {% else %}
-          <a class='viewmore' href='/en/call-for-sponsors/'>{% t view_more  %}</a>
-          {% endif %}
+          {% if site.lang == 'cn' %}<a class='viewmore' href='/call-for-sponsors/'>{% t view_more  %}</a> {% else %}
+          <a class='viewmore' href='/en/call-for-sponsors/'>{% t view_more  %}</a> {% endif %}
         </div>
       </li>
     </ul>
@@ -85,7 +89,7 @@
 </section>
 <section id='past-speakers'>
   <div class='wrapper'>
-  <h2 style='color:#fff'>{% t previous_speakers  %}</h2>
+    <h2 style='color:#fff'>{% t previous_speakers  %}</h2>
     <!--slide-->
     <div class='past-speakers'>
       {% for pastspeaker in site.pastspeakers %} {% if pastspeaker.featured %}

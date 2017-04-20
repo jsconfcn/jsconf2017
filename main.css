@@ -269,6 +269,7 @@ button.close:hover:before{opacity:.8}
 #footer .wrapper .sns a.twitter:before{content:'T'}
 #footer .wrapper .sns a.weibo:before{font-size:26px;font-size:2.6rem;content:'W'}
 #footer .wrapper .sns a.github:before{font-size:26px;font-size:2.6rem;content:'\67'}
+#callfor .left li a.viewmore:after,#hero .videos:before,.stay-tuned .qrcode:before{content:''}
 #footer .wrapper .copyright{margin-top:24px}
 #footer .wrapper .copyright span,#footer .wrapper .copyright span a{color:rgba(255,255,255,.5)}
 #footer .wrapper .copyright a{font-size:14px;font-size:1.4rem;color:#fff;margin:0 12px}
@@ -277,13 +278,17 @@ button.close:hover:before{opacity:.8}
 .stay-tuned .qrcode,.stay-tuned .qrcode img{height:140px;width:140px}
 .stay-tuned .button{margin:24px auto 0;display:inherit}
 .stay-tuned .qrcode{cursor:pointer;bottom:0;right:0;overflow:hidden;position:absolute}
-.stay-tuned .qrcode:before{content:'';border-style:solid;border-width:140px 140px 0 0;border-color:#fff transparent transparent;height:0;left:0;position:absolute;top:0;-webkit-transition:all .3s ease-in-out;-moz-transition:all .3s ease-in-out;transition:all .3s ease-in-out;width:0}
+.stay-tuned .qrcode:before{border-style:solid;border-width:140px 140px 0 0;border-color:#fff transparent transparent;height:0;left:0;position:absolute;top:0;-webkit-transition:all .3s ease-in-out;-moz-transition:all .3s ease-in-out;transition:all .3s ease-in-out;width:0}
 .stay-tuned .qrcode:hover:before{border-width:230px 230px 0 0;left:-105px;top:-105px}
 #hero{margin-top:53px;position:relative;overflow:hidden}
+#hero .container,#hero .videos,#hero .videos:before{position:absolute;height:100%;top:0}
 #hero img.bg{width:100%;display:inherit}
 @media (max-width:640px){#hero img.bg{width:150%;margin-left:-25%}
+#hero .videos{display:none}
 }
-#hero .container{background-color:rgba(0,0,0,.1);height:100%;left:0;position:absolute;top:0;width:100%}
+#hero .videos{width:100%}
+#hero .videos:before{width:100%;left:0;background:rgba(0,0,0,.4)}
+#hero .container{background-color:rgba(0,0,0,.1);left:0;width:100%}
 #hero .container .wrapper{display:table;height:100%;margin-top:0;margin-bottom:0;vertical-align:middle}
 #hero .container .wrapper .masthead{padding-top:53px;display:table-cell;vertical-align:middle;text-align:left}
 #hero .container .wrapper .masthead h1{color:#fff;margin-bottom:12px}
@@ -301,7 +306,7 @@ button.close:hover:before{opacity:.8}
 }
 #callfor .left li{background:#fff;float:left;position:relative;list-style:none;min-height:260px;padding:0;width:100%}
 #callfor .left li a.viewmore{position:absolute;bottom:24px;text-decoration:none}
-#callfor .left li a.viewmore:after{-webkit-transition:all .15s ease-in-out;-moz-transition:all .15s ease-in-out;transition:all .15s ease-in-out;content:'';width:0;height:2px;background:#4921CC}
+#callfor .left li a.viewmore:after{-webkit-transition:all .15s ease-in-out;-moz-transition:all .15s ease-in-out;transition:all .15s ease-in-out;width:0;height:2px;background:#4921CC}
 #callfor .left li a.viewmore:hover:after{width:20px}
 #callfor .left li .thumbnail{position:absolute;top:0;height:100%;width:50%}
 #callfor .left li div{min-height:340px;box-sizing:border-box;padding:36px 36px 48px;width:100%}
