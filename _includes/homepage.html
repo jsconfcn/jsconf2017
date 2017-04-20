@@ -37,11 +37,11 @@
       </li>
     </ul>
     <div class='stay-tuned right subscription'>
-      <form class='subscription' action='https://www.getdrip.com/forms/5471563/submissions' data-drip-embedded-form="5471563" method='post' target='_blank'>
+      <form action="https://www.getdrip.com/forms/2833329/submissions" method="post" data-drip-embedded-form="2833329">
         <h3>{% t stay_tuned %}</h3>
         <p>{% t be_first %}</p>
         <input type='email' name='fields[email]' class='email' required placeholder='{% t email_address %}' />
-        <button type='submit' name='subscribe' class='button purple cta'>{% t notify_me %}</button>
+        <input type="submit" name="submit" value='{% t notify_me %}' data-drip-attribute="sign-up-button" class='button purple cta' />
       </form>
       <span class='qrcode'>
         <img src='/dist/images/qrcode.jpg' />

@@ -44,7 +44,7 @@
           width: 100%;
         }
         p.venue {
-          color: rgba(255,255,255,0.9);
+          color: rgba(255, 255, 255, 0.9);
         }
         .tip {
           color: $yellow;
@@ -99,6 +99,19 @@
       a.viewmore {
         position: absolute;
         bottom: $space;
+        text-decoration: none;
+        &:after {
+          @include transition(all 0.15s ease-in-out);
+          content: '';
+          width: 0px;
+          height: 2px;
+          background: $purple;
+        }
+        &:hover {
+          &:after {
+            width: 20px;
+          }
+        }
       }
       .thumbnail {
         position: absolute;
