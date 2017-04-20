@@ -1,5 +1,6 @@
 @charset "UTF-8";
 .select:after,.slick-slide.dragging img{pointer-events:none}
+button,button.close:before,select{text-transform:none}
 #content section h2,.button,.slick-dots{text-align:center}
 #modal,.slick-loading .slick-slide,.slick-loading .slick-track{visibility:hidden}
 html{font-size:62.5%}
@@ -39,9 +40,7 @@ hr{-moz-box-sizing:content-box;box-sizing:content-box;height:0}
 pre,textarea{overflow:auto}
 code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}
 button,input,optgroup,select,textarea{color:inherit;font:inherit;margin:0}
-.slick-dots li button:before,.slick-next:before,.slick-prev:before{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
 button{overflow:visible}
-button,select{text-transform:none}
 button,html input[type=button],input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer}
 button[disabled],html input[disabled]{cursor:default}
 button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}
@@ -60,7 +59,7 @@ td,th{padding:0}
 .slick-next:focus,.slick-next:hover,.slick-prev:focus,.slick-prev:hover{outline:0;background:0 0;color:transparent}
 .slick-next:hover:before,.slick-prev:hover:before{opacity:.75}
 .slick-next.slick-disabled:before,.slick-prev.slick-disabled:before{opacity:1}
-.slick-next:before,.slick-prev:before{font-size:20px;line-height:1;color:#fff;opacity:.25}
+.slick-next:before,.slick-prev:before{font-size:20px;line-height:1;color:#fff;opacity:.25;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
 .slick-prev{left:20px}
 [dir=rtl] .slick-prev{left:auto;right:-25px}
 .slick-prev:before{content:"←"}
@@ -73,7 +72,7 @@ td,th{padding:0}
 .slick-dots li button{border:0;background:0 0;display:block;height:20px;width:20px;outline:0;line-height:0;font-size:0;color:transparent;padding:5px;cursor:pointer}
 .slick-dots li button:focus,.slick-dots li button:hover{outline:0}
 .slick-dots li button:focus:before,.slick-dots li button:hover:before{opacity:1}
-.slick-dots li button:before{position:absolute;top:0;left:0;content:"•";width:20px;height:20px;font-size:30px;line-height:20px;text-align:center;color:#d2d8d9;opacity:1}
+.slick-dots li button:before{position:absolute;top:0;left:0;content:"•";width:20px;height:20px;font-size:30px;line-height:20px;text-align:center;color:#d2d8d9;opacity:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
 .slick-list,.slick-slide,.slick-slider,.slick-track{position:relative}
 .slick-dots li.slick-active button:before{color:#728387;opacity:1}
 .slick-slider{display:block;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;-ms-touch-action:pan-y;touch-action:pan-y;-webkit-tap-highlight-color:transparent}
@@ -140,9 +139,8 @@ blockquote{border-left:6px solid #ecf0f1;color:#797777;margin:0 24px 24px;paddin
 }
 #content section{float:left;width:100%}
 button.close{position:absolute;top:0;right:0;padding:0;font-family:arial;font-size:32px;font-size:3.2rem;-webkit-appearance:none;background:0 0;outline:0;border:0;height:48px;line-height:48px;width:48px}
-#footer .wrapper .sns a:before,#header .button.nav:before,button.close:before{font-family:icons;font-variant:normal;speak:none;text-transform:none;-webkit-font-smoothing:antialiased}
 #header #nav,#modal{-moz-transition:all .1s ease-in-out;-webkit-backface-visibility:hidden;height:100%}
-button.close:before{font-weight:400;content:'x'}
+button.close:before{font-family:icons;font-variant:normal;font-weight:400;speak:none;-webkit-font-smoothing:antialiased;content:'x'}
 button.close:hover:before{opacity:.8}
 .wrapper.row .left{margin:0;width:100%}
 @media (min-width:1024px){.wrapper.row .left{display:inline-block;margin:0;width:70%}
@@ -154,6 +152,7 @@ button.close:hover:before{opacity:.8}
 .button,.button.primary{display:inline-block;padding:8px 24px;-moz-transition-property:background,border,color;-webkit-transition-duration:.2s;-moz-transition-duration:.2s}
 .button{background:#ecf0f1;border-radius:2px;color:inherit;outline:0;-webkit-transition-property:background,border,color;transition-property:background,border,color;transition-duration:.2s;border:1px solid #d4d8d9;font-size:16px;font-size:1.6rem;letter-spacing:.9px;font-weight:500;text-transform:Capitalize}
 .button.primary,.button.secondary{box-sizing:border-box;outline:0;-webkit-transition-property:background,border,color}
+#footer .wrapper .sns a:before,#header .button.nav:before{font-family:icons;font-variant:normal;text-transform:none}
 .button:focus,.button:hover{background:#f2f5f5;color:inherit;text-decoration:none}
 .button.active,.button:active{background:#e0e4e5;color:inherit;text-decoration:none}
 .button.disabled,.button[disabled=disabled],.button[disabled=true],.button[disabled]{background:#ecf0f1;border-color:#d4d8d9;color:#878787}
@@ -228,15 +227,16 @@ button.close:hover:before{opacity:.8}
 @media (min-width:1024px){#header{font-size:100%}
 #header .button.nav{display:none;margin:11px 0 0 8px}
 }
-#header .button.nav:before{font-size:24px;font-size:2.4rem;font-weight:400;display:block;content:'\6d';margin-top:-1px}
+#header .button.nav:before{font-size:24px;font-size:2.4rem;font-weight:400;speak:none;-webkit-font-smoothing:antialiased;display:block;content:'\6d';margin-top:-1px}
 #header #nav{-webkit-transition:all .1s ease-in-out;transition:all .1s ease-in-out;-webkit-transform-style:preserve-3d;-moz-transform-style:preserve-3d;-ms-transform-style:preserve-3d;-o-transform-style:preserve-3d;transform-style:preserve-3d;background:rgba(255,255,255,.95);visibility:hidden;opacity:0;position:fixed;left:0;line-height:56px;top:0;width:100%;z-index:100;display:table}
 #header #nav .box{height:272px;display:table-cell;vertical-align:middle;width:100%}
 #header #nav .box a{font-size:32px;font-size:3.2rem;color:#1F1D1D;display:block;letter-spacing:1.2px;text-decoration:none;padding:0 12px;margin:0 12px;position:relative;width:auto}
-#header #nav .box a:before{display:none;content:'';width:0;height:2px;background:#FFF029;position:absolute;border-radius:4px;-webkit-transition:all .15s ease-in-out;-moz-transition:all .15s ease-in-out;transition:all .15s ease-in-out;left:50%;-webkit-transform:translateX(-50%);-moz-transform:translateX(-50%);-ms-transform:translateX(-50%);-o-transform:translateX(-50%);transform:translateX(-50%)}
+#header #nav .box a:before{content:'';width:0;height:2px;background:#FFF029;position:absolute;border-radius:4px;-webkit-transition:all .15s ease-in-out;-moz-transition:all .15s ease-in-out;transition:all .15s ease-in-out;left:50%;-webkit-transform:translateX(-50%);-moz-transform:translateX(-50%);-ms-transform:translateX(-50%);-o-transform:translateX(-50%);transform:translateX(-50%)}
 #header #nav .box a.active:before,#header #nav .box a:hover:before{width:20px}
 #header #nav .box a:hover{color:#FFF029}
 #header #nav .box a.active{color:#FFF029;font-weight:500}
-@media (min-width:1024px){#header #nav{visibility:visible;opacity:1;background:0 0;box-sizing:border-box;left:50%;margin-left:-340px;padding:12px 0;position:absolute;text-align:center;width:680px}
+@media (min-width:1024px){#header #nav .box a:before{display:block}
+#header #nav{visibility:visible;opacity:1;background:0 0;box-sizing:border-box;left:50%;margin-left:-340px;padding:12px 0;position:absolute;text-align:center;width:680px}
 #header #nav .box{height:auto;display:block}
 #header #nav .box a{font-weight:300;font-size:16px;font-size:1.6rem;display:inline-block;color:#fff;padding:0 12px;margin:0 12px}
 #header #nav .box a.active{color:#FFF029;font-weight:500}
@@ -264,7 +264,7 @@ button.close:hover:before{opacity:.8}
 #footer .wrapper .sns a{display:inline-block;line-height:48px;height:48px;width:48px}
 #footer .wrapper .sns a:hover{text-decoration:none}
 #footer .wrapper .sns a:hover:before{color:#FFF029}
-#footer .wrapper .sns a:before{font-weight:400;color:rgba(255,255,255,.5);font-size:25px;font-size:2.5rem;content:''}
+#footer .wrapper .sns a:before{font-weight:400;speak:none;-webkit-font-smoothing:antialiased;color:rgba(255,255,255,.5);font-size:25px;font-size:2.5rem;content:''}
 #footer .wrapper .sns a.ins:before{content:'I'}
 #footer .wrapper .sns a.twitter:before{content:'T'}
 #footer .wrapper .sns a.weibo:before{font-size:26px;font-size:2.6rem;content:'W'}
@@ -273,11 +273,9 @@ button.close:hover:before{opacity:.8}
 #footer .wrapper .copyright span,#footer .wrapper .copyright span a{color:rgba(255,255,255,.5)}
 #footer .wrapper .copyright a{font-size:14px;font-size:1.4rem;color:#fff;margin:0 12px}
 .stay-tuned .email,.stay-tuned .subscription{text-align:left}
-.stay-tuned .email{border:none;border-bottom:2px solid #e0e4e5}
-.stay-tuned .subscription{border-radius:5em}
-.stay-tuned .subscription input{width:100%}
+.stay-tuned .email{border:none;border-bottom:2px solid #e0e4e5;width:100%}
 .stay-tuned .qrcode,.stay-tuned .qrcode img{height:140px;width:140px}
-.stay-tuned .subscription button{margin:24px auto 0;display:inherit}
+.stay-tuned .button{margin:24px auto 0;display:inherit}
 .stay-tuned .qrcode{cursor:pointer;bottom:0;right:0;overflow:hidden;position:absolute}
 .stay-tuned .qrcode:before{content:'';border-style:solid;border-width:140px 140px 0 0;border-color:#fff transparent transparent;height:0;left:0;position:absolute;top:0;-webkit-transition:all .3s ease-in-out;-moz-transition:all .3s ease-in-out;transition:all .3s ease-in-out;width:0}
 .stay-tuned .qrcode:hover:before{border-width:230px 230px 0 0;left:-105px;top:-105px}
@@ -302,7 +300,9 @@ button.close:hover:before{opacity:.8}
 #callfor .left{padding-right:30%}
 }
 #callfor .left li{background:#fff;float:left;position:relative;list-style:none;min-height:260px;padding:0;width:100%}
-#callfor .left li a.viewmore{position:absolute;bottom:24px}
+#callfor .left li a.viewmore{position:absolute;bottom:24px;text-decoration:none}
+#callfor .left li a.viewmore:after{-webkit-transition:all .15s ease-in-out;-moz-transition:all .15s ease-in-out;transition:all .15s ease-in-out;content:'';width:0;height:2px;background:#4921CC}
+#callfor .left li a.viewmore:hover:after{width:20px}
 #callfor .left li .thumbnail{position:absolute;top:0;height:100%;width:50%}
 #callfor .left li div{min-height:340px;box-sizing:border-box;padding:36px 36px 48px;width:100%}
 #callfor .left li:first-child .thumbnail:after,#callfor .left li:last-child .thumbnail:before{top:50%;content:" ";height:0;width:0;position:absolute;pointer-events:none}
