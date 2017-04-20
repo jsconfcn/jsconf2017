@@ -4,6 +4,7 @@ call_for_sponsors: Call For Sponsors
 about: About
 media: Media
 share: Share
+july: July 15-16
 shanghai: Shanghai
 get_tickets: Buy ticket
 email_address: Email Address
@@ -12,15 +13,17 @@ stay_tuned: Stay Tuned
 be_first: Be the first to hear about ticket sales, confirmed speakers and more.
 view_more: View more..
 notify_me: Notify me
+call_for_speakers_sub: Share your ideas, met brilliant people
 apply_now: 立即申请
-call_for_speakers_p: Have a cool idea or project that you'd like to share with the JavaScript community? We're now taking submissions for the upcoming JSConf CN ( 15-16 July 2017, Shanghai). This Call for Presentation <strong>closes on April 20th</strong> (UTC +8:00).
-call_for_sponsors_p: <strong>Connect</strong>. Experience the local design community in China. Support the first ever UI/UX Conference in Shanghai - limited sponsorship opportunities available. Open until <strong>Aug. 1st</strong>.
+call_for_speakers_p: Have a cool idea or project that you'd like to share with the JavaScript community? We're now taking submissions for the upcoming JSConf CN ( 15-16 July 2017, Shanghai). This Call for Presentation <strong>closes on May 20th</strong> (UTC +8:00).
+call_for_sponsors_p: "JSConf has three sponsorship levels: gold, silver, and bronze. Without your support, the conference would not be the same, and the conference committee ensures that these contributions are well recognized. Benefits of each tier are listed below. We are open to any sponsorship needs - chat with an organizer about package details at <a href='mailto:support@jsconf.cn'>support@jsconf.cn</a>."
 about_us: About us
-about_us_p: <p>JSConf China is a developer-driven, non-profit conference where both the Chinese and International JS community share and discuss the latest tools and techniques for the JavaScript language. Over the two-day event, you can hear from notable figures within the community, and share your passion and knowledge with like-minded people. Now in its 6th year, it has become a must-attend event in the local developer community. For information on past programs, check out our <a href='http://jsconf.cn/' target='new'>JSConf China website</a> or our <a href='https://www.youtube.com/playlist?list=PLEHsmTsBKpKWWKs6gDQ_kssSV32UkaQNs' target='new'>YouTube channel</a>. This year's JSConf is in Shanghai on 15-16 July.</p>
+about_us_p: <p>JSConf China is a two-day developer-driven, non-profit conference where both local and International JS community share the latest tools and techniques for the JavaScript language while hearing from notable figures within the community. With a 5-year history, JSConf China is well-respected, with many developers looking forward to returning each year. For information on past programs, check out our <a href='http://jsconf.cn/' target='new'>JSConf China website</a> or our <a href='https://www.youtube.com/playlist?list=PLEHsmTsBKpKWWKs6gDQ_kssSV32UkaQNs' target='new'>YouTube channel</a>. This year's JSConf is in Shanghai on 15-16 July.</p>
 years: Years
 attendees: Attendees
 talks: Talks
 connections: Connections
+previous_speakers: Previous Speakers
 past_sponsors: Past Sponsors
 company_participated_title: Company Participated
 who_is_the_organizer: Who's the organizer?
@@ -30,11 +33,18 @@ why_organize_p: "Wiredcraft began organizing the monthly <a href='http://www.mee
 organizer: Organizer
 ticket: Tickets
 call_for_proposals: Call for Proposals
-call_for_speakers_p1: <p>Inspire the design community in China. Speak or present a workshop at the upcoming UI/UX Conference on October 15-16, 2016 in Shanghai. The CFP is open until <strong>July 15th</strong>. </p><p>This two-day community-driven conference will feature more than twenty presentations focused on storytelling, design strategy, best practices, creative inspiration and more. Count on experienced speakers sharing their expertise and experiences from international companies and thriving startups. Talks in English and Mandarin are welcome.</p>
-call_for_speakers_p2: <p>Use the <a href='#apply'>link to the form</a> below to nominate yourself or someone else to speak or host a workshop at UI/UX Conf China. You can also nominate a topic and we'll try to find a speaker to match.</p><p>If you have something kickass to share, tell us all about it. If you know someone who has something great to talk about, nominate them. And if you are interested in hearing about a particular topic, nominate the topic and we'll try to find a match. Fill in and submit this form.</p><p>Not sure what to speak about? Find your inspiration from our past UI/UX meetups from Shanghai and Berlin on <a href='https://www.youtube.com/playlist?list=PLEHsmTsBKpKV_8eC8lylLNaIyYKx_VJhz' target='new'>YouTube</a> or <a href='http://www.tudou.com/home/wiredcraft' target='new'>Tudou</a>.</p><p><strong>We encourage presentations of all UIUX-related topics and are happy to provide support.</strong></p><p>Is this your first time speaking? Want some feedback before submitting your proposal? Get in touch with the event organizer at <a href='mailto:info@uiuxconf.com'>info@uiuxconf.com</a> and we'll be happy to help.</p>
-the_perks: The Perks
-the_perks_p1: "<p>If you get selected as a speaker at the first ever UI/UX Conf 2016, here's what you'll be provided :</p>"
-the_perks_p2: <p>As a reminder, the purpose of UI/UX China presentations is to share knowledge, skills, experience and some of the great things you've built. We welcome talks letting attendees know how you are using tools in your work, but strongly discourage any proposals with the aim of selling a product or service.</p><p>If your company can cover your travel and hotel, we'll be happy to list them as a special sponsor. Check out <a href="/call-for-sponsors/">our sponsor page</a>. The money we save on your travel and accommodation will go to making the event even better!</p>
+
+call_for_speakers_p1: Have a cool idea or project that you'd like to share with the JavaScript community? We're now taking submissions for the upcoming JSConf CN (15-16 July 2017, Shanghai). This Call for Presentations closes on <strong>May 20th (UTC +8:00)</strong>.
+call_for_speakers_p2: JSConf China is a developer-driven conference where both the Chinese and International JS community share and discuss the latest tools and techniques for the JavaScript language. Talks in either English or Mandarin are welcome.
+call_for_speakers_p3: This year will mark JSConf China's 6th birthday. To learn more about what we're all about, and get a taste of what kinds of speakers we've had in the past, check out the <a href='http://jsconf.cn/' target='new'>JSConf China website</a> or our <a href='https://www.youtube.com/playlist?list=PLEHsmTsBKpKWWKs6gDQ_kssSV32UkaQNs' target='new'>YouTube channel</a>
+call_for_speakers_p4: Like what you've seen so far? Have an insane idea that you're sure will make you the rockstar of the conf? We want to hear all about it. Or if there's someone, or a specific topic you'd love to see at JSConf, nominate them below and we'll try our best to make it happen.
+call_for_speakers_p5: JSConf China is all about the community - we welcome speakers of all levels. We're here to help support you - whether it's your first time presenting, you're not sure how to structure your slides, or you need some feedback on your proposal, we'll provide what you need. Email us at <a href='mailto:support@jsconf.cn'>support@jsoncf.cn</a>. <strong>Please note that we only accept proposals through <a href='https://wiredcraft.typeform.com/to/NHrDsG' target='new'>the form</a> - this email is only for support</strong>. 
+the_perks: 讲师特权
+the_perks_p1: <p>If you are selected as a speaker at JSConf CN 2017, here's are some of the perks:</p>
+the_perks_p2: <p>If your company is able to cover your travel and hotel, we are happy to list them as a special sponsor. Check out our <a href='/call-for-sponsors/' target='new'>sponsor page</a>. The money we save on your travel and accommodation will go towards making this conference even better! </p>
+the_perks_p3: <p>As a gentle reminder, JSConf China is all about sharing knowledge - whether it's a how-to, a cool product you've built, or your personal experience, we welcome it all. However, as we are a non-profit event, any proposals with the overt aim of selling a product or service are discouraged.</p>
+the_perks_p4: <p>Well, what are you waiting for? No time like the present. Ending date for submissions is May 20th 12PM (UTC +8:00). </p>
+
 the_perks_ticket: Conference ticket + After Party entrance
 the_perks_camera: Professional Photography / Video of your talk
 the_perks_plane: Covered transportation and accommodation
@@ -46,7 +56,7 @@ silver_sponsor: Silver Sponsor
 bronze_sponsor: Bronze Sponsor
 call_for_sponsors_p1: "2016 UI/UX Conf has three sponsorship levels: gold, silver, bronze. Your support is very important to the conference and the conference committee ensures that these contributions are well recognized. We listed the benefits and costs below. We are open to any sponsorship needs - chat with an organizer about package details at <a href='mailto:info@uiuxconf.com'>info@uiuxconf.com</a>."
 call_for_sponsors_p2: "<p><strong>What else can you sponsor?</strong></p><ul class='list'><li><strong>A speaker</strong>: Cover the transportation and accommodation of the speaker from your company</li><li><strong>After-party food & beverage</strong>: Brand exposure limited to the after-party/coffee break. Can be a non-design type of brand.</li><li><strong>Coverage</strong>: Mutual brand exposure with the partner company.</li><li><strong>À la carte</strong>: We can also offer you brand exposure in exchange for merchandise (raffle prizes or gifts, books, badge lanyards) or services (wifi, accommodation…).</li></ul>"
-download: Download Sponsor Package
+download_package: Download Sponsor Package
 coc: Code of Conduct
 coc_intro: <h2>Short Version</h2>
   <p>UI/UX Conf China is dedicated to providing a harassment-free conference experience for everyone, regardless of gender, sexual orientation, disability, physical appearance, body size, race, or religion. We do not tolerate harassment of conference participants in any form. Sexual language and imagery is not appropriate for any conference venue, including talks. Conference participants violating these rules may be sanctioned or expelled from the conference without a refund at the discretion of the conference organizers.</p>

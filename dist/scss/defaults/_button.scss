@@ -10,9 +10,12 @@
     @include button($primary);
     border-radius: 50px;
     color: $black;
-    &:hover,&:active,&:focus {
+    border-color: #F6FF1E;
+    &:hover,
+    &:active,
+    &:focus {
       color: $black;
-      background: darken($primary,10%);
+      background: darken($primary, 10%);
     }
   }
   &.secondary {
@@ -20,12 +23,14 @@
     border-color: $yellow;
     border-radius: 50px;
     color: $white;
-    &:hover,&:active,&:focus {
+    &:hover,
+    &:active,
+    &:focus {
       background: transparent;
       color: $white;
     }
     &:hover {
-      background-color: rgba(255,255,255,0.1);
+      background-color: rgba(255, 255, 255, 0.1);
     }
   }
   &.purple {
@@ -35,7 +40,9 @@
     border-color: transparent;
     color: $white;
     min-width: $space*5;
-    &:hover,&:active,&:focus {
+    &:hover,
+    &:active,
+    &:focus {
       background: $purple;
       color: $white;
     }

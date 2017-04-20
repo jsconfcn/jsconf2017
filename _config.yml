@@ -1,5 +1,5 @@
 # Site settings
-title: "JavaScript Conf China"
+title: "JSConf China 2017"
 baseurl: ""
 url: "http://2017.jsconf.cn"
 exclude: ['README.md', 'package.json', 'bower.json', 'Gemfile', 'gulpfile.js', 'node_modules', 'dist/scss', 'dist/js', '*.log']

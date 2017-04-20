@@ -1,8 +1,8 @@
 ---
 user: ben-lesh
 name: Ben Lesh
-company: 
-link: 
+company: Netflix
+link: https://github.com/blesh
 featured: true
 type: pastspeaker
 ---

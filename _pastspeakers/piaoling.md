@@ -1,8 +1,8 @@
 ---
 user: piaoling
 name: Piao Ling
-company: Alipay
-link:  
+company: Aliyun
+link: https://github.com/aliyun-node
 featured: true
 type: pastspeaker
 ---

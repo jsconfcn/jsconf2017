@@ -157,7 +157,7 @@ button.close:hover:before{opacity:.8}
 .button:focus,.button:hover{background:#f2f5f5;color:inherit;text-decoration:none}
 .button.active,.button:active{background:#e0e4e5;color:inherit;text-decoration:none}
 .button.disabled,.button[disabled=disabled],.button[disabled=true],.button[disabled]{background:#ecf0f1;border-color:#d4d8d9;color:#878787}
-.button.primary{background:#FFF029;transition-property:background,border,color;transition-duration:.2s;border:1px solid #e6d825;border-radius:50px;color:#1F1D1D}
+.button.primary{background:#FFF029;transition-property:background,border,color;transition-duration:.2s;border:1px solid #F6FF1E;border-radius:50px;color:#1F1D1D}
 .button.purple,.button.secondary{display:inline-block;padding:8px 24px;-moz-transition-property:background,border,color;-webkit-transition-duration:.2s;-moz-transition-duration:.2s}
 .button.primary:focus,.button.primary:hover{text-decoration:none}
 .button.primary.active,.button.primary:active{background:#e6d825;color:#FFF;text-decoration:none}

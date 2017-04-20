@@ -1,7 +1,7 @@
 ---
 user: kenneth
 name: Kenneth Auchenberg
-company: 
+company: Microsoft
 link: https://kenneth.io/
 featured: true
 type: pastspeaker

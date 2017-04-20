@@ -1,8 +1,8 @@
 ---
 user: guodafeng
 name: Guo Dafeng
-company: 
-link: 
+company: Strikingly
+link: https://github.com/dfguo
 featured: true
 type: pastspeaker
 ---

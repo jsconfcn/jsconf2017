@@ -2,7 +2,7 @@
 user: makara
 name: Makara Wang
 company: Wiredcraft
-link: 
+link: https://github.com/makara
 featured: true
 type: pastspeaker
 ---

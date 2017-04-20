@@ -1,8 +1,8 @@
 ---
 user: luoshiya
 name: Luo Shiya
-company: 
-link: 
+company: Autodesk
+link: https://github.com/shiya
 featured: true
 type: pastspeaker
 ---
