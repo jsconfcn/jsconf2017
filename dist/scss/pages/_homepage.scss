@@ -25,6 +25,7 @@
       margin-bottom: 0;
       vertical-align: middle;
       .masthead {
+        padding-top: 53px;
         display: table-cell;
         vertical-align: middle;
         text-align: left;
@@ -461,6 +462,7 @@
 
 #companies {
   .wrapper {
+    text-align: center;
     > div {
       display: inline-block;
       vertical-align: middle;
