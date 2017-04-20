@@ -5,7 +5,7 @@
       <div class='wrapper'>
         <div class='masthead'>
           <h1>{% t call_for_sponsors %}</h1>
-          <p>Say Hello to JS World and Awesome Developers.</p>
+          <p>{% t call_for_sponsors_sub %}</p>
           <a href="/press/JSConf2017.Sponsorship.Package.pdf" class="button primary cta" target='new'>{% t download_package %}</a>
         </div>
       </div>
@@ -13,29 +13,14 @@
   </div>
 </section>
 <section class="content instuct">
-  <div class="wrapper row">
+  <div class="wrapper">
     <div class='left'>
       <div>
-        <h3>{% t call_for_sponsors %}</h3>
-        <p>You are invited to support the 2016 JSConf China (NingJS) in Nangjing, China on September 3rd-4th, 2016. JSConf China is a two-day developer-driven non-profit event focused on JavaScript and Node.js technologies. We bring together notable figures from both the Chinese and international JavaScript communities to share their knowledge and passion for JavaScript. Here is the program for the past JSConf China (2012, 2013, 2014, 2015). </p>
-        <p>This is an ideal way to demonstrate your organization's commitment to the JavaScript community. Sponsor support is typically used to cover the fees of the venue, catering, speakers, event promotion and operation. The support from sponsors allows us to offer tickets at lower prices, increasing attendance and support for the JS community in China. </p>
+        <h3>{% t call_for_sponsors %}</h3> {% t about_us_p %} {% t call_for_sponsors_p1 %}
       </div>
       <div>
-        <h3>Sponsorship Options</h3>
-        <p>NingJS Conf has three sponsorship levels: gold, silver, bronze. Your support is very important to the conference, and the conference committee ensures that these contributions are well recognized. We list the benefits and costs below. We are open to any sponsorship needs - chat with an organizer about package details at support@jsconf.cn .</p>
-        <p>Catch a glimpse of what we are interested in hearing about, here is the program for the past years (<strong>2012, 2013, 2014, 2015</strong>). We have videos from 2015 ShenJS available on <strong>YouTube</strong> and <strong>Tudou</strong>. </p>
+        <h3>{% t sponsorship_options %}</h3> {% t call_for_sponsors_p %}
       </div>
-    </div>
-    <div class="stay-tuned right">
-      <form class='subscription' action='https://www.getdrip.com/forms/5471563/submissions' data-drip-embedded-form="5471563" method='post' target='_blank'>
-        <h3>{% t stay_tuned %}</h3>
-        <p>{% t be_first %}</p>
-        <input type='email' name='fields[email]' class='email' required placeholder='{% t email_address %}' />
-        <button type='submit' name='subscribe' class='button purple'>{% t notify_me %}</button>
-      </form>
-      <span class='qrcode'>
-      <img src='/dist/images/qrcode.jpg' />
-    </span>
     </div>
   </div>
 </section>
@@ -45,50 +30,48 @@
     <ul class="option-list">
       <li>
         <div><img src="/dist/images/svgs/golden.svg"></div>
-        <p>Gold
-          <br><small>Sponsor</small></p>
+        <p>{% t gold_sponsor %}<br/><small>Sponsor</small></p>
       </li>
       <li>
         <div><img src="/dist/images/svgs/silver.svg"></div>
-        <p>Gold
-          <br><small>Sponsor</small></p>
+        <p>{% t silver_sponsor %}<br/><small>Sponsor</small></p>
       </li>
       <li>
         <div><img src="/dist/images/svgs/bronze.svg"></div>
-        <p>Gold
-          <br><small>Sponsor</small></p>
+        <p>{% t bronze_sponsor %}<br/><small>Sponsor</small></p>
       </li>
     </ul>
     <div>
-      <p>As a reminder,  the purpose of JSChina presentations are to share knowledge, skills, and experience.We welcome talks letting ` know how you are using tools in your work, but discourage any proposals with the aim of selling a product or service.</p>
-      <p><strong>If your company can cover your travel and hotel, we are happy to list them as a special sponsor.</strong> Check out our sponsor page. The money we save on your travel and accommodation will go to making the event even better! </p>
-      <p>Looking forward to your entry!</p>
     </div>
   </div>
 </section>
 <section class="content sponsor-extra">
   <div class="wrapper">
-    <h3>What else can you sponsor?</h3>
+    <h3>{% t sponsorship_else %}</h3>
+    {% t call_for_sponsors_p2 %}
     <ul>
       <li>
         <div class="icon-wrapper"><img src="/dist/images/svgs/sponsor-ex01.svg"></div>
         <div>
-          <h5>Speaker sponsor</h5>
-          <p>Cover the transportation and accommodation of the speaker from your company.</p>
+        {% t call_for_sponsors_else_1 %}
+          <!-- <h5>Speaker sponsor</h5>
+          <p>Cover the transportation and accommodation of the speaker from your company.</p> -->
         </div>
       </li>
       <li>
         <div class="icon-wrapper"><img src="/dist/images/svgs/sponsor-ex02.svg"></div>
         <div>
-          <h5>Coffee break sponsor</h5>
-          <p>Brand exposure limited to the afterparty/coffee break. Can be a non-tech type of brand.</p>
+        {% t call_for_sponsors_else_2 %}
+          <!-- <h5>Coffee break sponsor</h5>
+          <p>Brand exposure limited to the afterparty/coffee break. Can be a non-tech type of brand.</p> -->
         </div>
       </li>
       <li>
         <div class="icon-wrapper"><img src="/dist/images/svgs/sponsor-ex03.svg"></div>
         <div>
-          <h5>Afterparty sponsor</h5>
-          <p>Non-cash partnership. Mutual relationship with the partner company while getting as much promotional value as possible.</p>
+        {% t call_for_sponsors_else_3 %}
+<!--           <h5>Afterparty sponsor</h5>
+          <p>Non-cash partnership. Mutual relationship with the partner company while getting as much promotional value as possible.</p> -->
         </div>
       </li>
     </ul>

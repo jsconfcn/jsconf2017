@@ -3,7 +3,7 @@ call_for_speakers: 成为讲师
 call_for_sponsors: 成为赞助商
 media: 媒体信息
 about: 关于我们
-july: 7月 15 - 16日
+july: 7月15 - 16日
 past_events: 过往活动
 shanghai: 上海
 get_tickets: 购票参会
@@ -14,6 +14,8 @@ be_first: 第一时间知道早鸟票折扣及活动信息
 view_more: 了解更多..
 apply_now: 立即申请
 notify_me: 获取最新讯息
+venue_address: 上海商城，静安区南京西路1376号(近西康路)
+tip: 仅有100张早鸟票！
 call_for_speakers_sub: 分享你的观点经验，在这里遇到有趣的人
 call_for_speakers_p: 你有一个很酷的点子或者项目想和JavaScript社区分享么？2017年的JS中国开发者大会将于7月15至16日在上海举行, 现已开放演讲者及赞助商的申请通道，截止时间为北京时间<strong>2016年5月20日24点</strong>。欢迎所有JavaScirpt开发者及爱好者的踊跃参与！
 call_for_sponsors_p: 本次JS中国开发者大会将有三种赞助级别－金牌赞助商、银牌赞助商及铜牌赞助商。你的支持对本次活动的成功至关重要，活动组织方承诺这些资金将被合理利用。我们将不同的赞助级别的需求及回馈列在下面。我们也欢迎金钱以外其他方式的赞助，和组织方聊聊吧<a href='mailto:support@jsconf.cn'>support@jsconf.cn</a>.
@@ -30,8 +32,6 @@ connections: 人脉
 past_sponsors: 过往赞助商
 who_is_the_organizer: 大会组织者
 who_is_the_organizer_p: <a href='http://wiredcraft.com' target='new'>Wiredcraft</a>是一家本部位于上海的电子科技公司，在美国华盛顿及德国柏林均有分部。我们的专长是设计、数据科学，API和 DevOps，我们曾帮助世界银行实现开源数据门户的数据可视化，为25年来缅甸第一次民主选举设计选票系统。我们通过每月组织线下活动(UIUX meetup, JS meetup, Hacker News meetup, Docker meetup)来支持本土科技与设计社区，每年我们都组织<a href='http://2016.jsconf.cn' target='new'>JS Conf</a>及UIUX Conf。
-why_organize: 为什么我们要组织这次 JavaScript 大会
-why_organize_p: "Wiredcraft自2015年10月份开始在上海组织每月一度的<a href='http://www.meetup.com/Shanghai-UI-UX-Designers-Meetup/' target='new'>UI/UX Designers meetup</a>希望为来自不同背景及领域的设计师提供合作与交流的空间、开拓人际网络及互相学习、分享他们的经验与专长。历时近一年，每场活动都很成功，但是——一个月3个小时及2个演讲嘉宾并不能满足我们的期盼，大家想要得到更多设计咨询和社交机会！因此，今年十月我们将为大家带来首届中国交互与界面设计大会。"
 organizer: 组织者
 ticket: 购票
 call_for_proposals: 话题征寻
@@ -50,12 +50,27 @@ the_perks_camera: 专业摄像及摄影服务
 the_perks_plane: 免费交通与住宿
 the_perks_meal: 讲师晚餐
 apply: 点击申请
+
+call_for_sponsors_sub: 展现你对中国JS开发者社区的支持！
+call_for_sponsors_p1: <p>这将是一次展示贵公司对JavaScript社区热忱及影响力的绝佳机会。你们的赞助费将被用于支付活动场地租赁，活动期间饮食、演讲者费用、活动推广及执行。来自赞助商的支持使我们能够维持较低的票价，并增加活动参加人数以此来支持中国的JavaScript社区。</p>
 sponsorship_options: 赞助方案
-call_for_sponsors_p1: "2016 UI/UX Conf 提供三个等级的赞助方案: 金，银，铜。您的支持对于大会来说非常重要，能够保证大会主办人员更好地组织与筹办这次活动。我们将详细列出不同方案的特权以及费用，如果您对于赞助文档有任何的需求与疑问，请告诉我们！<a href='mailto:info@uiuxconf.com'>info@uiuxconf.com</a>"
-call_for_sponsors_p2: "<p><strong>除此之外，您还可以提供以下帮助：</strong></p><ul class='list'><li><strong>讲师赞助</strong>：提供贵公司讲师的交通及住宿。</li><li><strong>派对及茶歇期间赞助</strong>：可获得派对及茶歇期间品牌曝光，可以是非设计相关品牌。</li><li><strong>媒体伙伴</strong>：互为合作伙伴，尽可能为大会提供媒体推广宣传及追踪报导。</li><li><strong>定制赞助</strong>：通过定制化的赞助（礼品、书籍、参会名牌、T恤、无线网络、住宿等），获取相应品牌曝光机会。</li></ul>"
-gold_sponsor: 金牌赞助商
-silver_sponsor: 银牌赞助商
-bronze_sponsor: 铜牌赞助商
+sponsorship_else: 你还能赞助什么？
+call_for_sponsors_p2: "<p>除了金钱赞助，我们也接受其他赞助方式：</p>"
+call_for_sponsors_else_1: "<h5>讲师赞助</h5><p>提供大会期间贵公司讲师的交通及住宿。</p>"
+call_for_sponsors_else_2: "<h5>茶歇赞助</h5><p>大会茶歇期间提供贵品牌食物或饮品。</p>"
+call_for_sponsors_else_3: "<h5>派对赞助</h5><p>提供大会after-party期间的场地/饮品/表演。</p>"
+gold_sponsor: 金牌
+silver_sponsor: 银牌
+bronze_sponsor: 铜牌
 download_package: 获取更多赞助详情
+
+press_head: 获取媒体宣传信息
+press_head_sub: 帮助我们传播JSConf 2017的新闻资讯
+press_resources: 资源
+press_p: Like what you've heard about JSConf and want to feature us? We've got everything you need right here. If you've got questions or want to request more material, contact us at <a href='mailto:support@jsconf.cn'>support@jsconf.cn</a>.
+press_logo: JS中国开发者大会 Logo
+press_kit: 宣传资料包
+
+
 coc: 行为规范
-coc_intro: <h2>简洁版</h2><p>中国交互与界面设计大会旨在为所有人提供一场平等的设计交流大会，没有性别、肤色、外表之分，亦没有种族信仰之别。大会不允许参会者有任何形式的和大会宗旨相悖的行为。会场包括演讲过程中不允许有任何骚扰到他人的言语攻击或者照片。参会者一旦被发现此类行为，将被逐出大会现场，概不退还参会费用。</p><h2>完整版</h2><h4>骚扰</h4><p>骚扰包括在公共场合有带性别、肤色、外表、信仰倾向的无礼的言语评论、色情图片、故意恐吓、盯梢、跟踪、骚扰摄影或者录音、持续性地打断演讲者、不恰当的身体接触以及不受欢迎的性倾向。参会者必须遵守大会守则，不出现上述行为。</p><h4>参展者 & 赞助商</h4><p>所有会场内的参展者、赞助商以及会场工作人员等类似角色的人也都要遵守不能有骚扰他人行为的政策。特别要注意，参展者不应当使用任何带有性色彩的图片和行为。工作人员（包括志愿者）也不应当穿戴任何有性色彩的服饰/制服等。</p><h4>参会者</h4><p>如发现有骚扰行为的参会者，大会组织者有权采取以下正当行为予以阻止：对其进行警告、将其逐出会场，并不退还参会费用。如果你被人骚扰或者发现有人被骚扰了，请及时联系我们的工作人员大会工作人员都穿戴有统一的T恤衫和证件。大会工作人员也会很乐意帮助参会者联系酒店/会场安保人员、当地警察，阻止这类行为。为参会者提供一个安全的环境。希望你对此能够引起足够的注意。</p><h4>工作人员信息</h4><p>Coco Yu<br/><a href='mailto:coco@wiredcraft.com'>coco@wiredcraft.com</a></p><h4>会场 & 社交场所</h4><p>我们希望参会者能够在所有的大会会场以及相关的社交场所遵守行为守则。</p><h4>许可证</h4><p>这份行为准则借鉴自Ada Initiative和其他志愿者创建的Geek Feminism wiki示例政策，遵守Creative Commons Zero许可证。</p>
+coc_intro: <h2>简洁版</h2><p>JavaScript中国开发者大会旨在为所有人提供一场平等的设计交流大会，没有性别、肤色、外表之分，亦没有种族信仰之别。大会不允许参会者有任何形式的和大会宗旨相悖的行为。会场包括演讲过程中不允许有任何骚扰到他人的言语攻击或者照片。参会者一旦被发现此类行为，将被逐出大会现场，概不退还参会费用。</p><h2>完整版</h2><h4>骚扰</h4><p>骚扰包括在公共场合有带性别、肤色、外表、信仰倾向的无礼的言语评论、色情图片、故意恐吓、盯梢、跟踪、骚扰摄影或者录音、持续性地打断演讲者、不恰当的身体接触以及不受欢迎的性倾向。参会者必须遵守大会守则，不出现上述行为。</p><h4>参展者 & 赞助商</h4><p>所有会场内的参展者、赞助商以及会场工作人员等类似角色的人也都要遵守不能有骚扰他人行为的政策。特别要注意，参展者不应当使用任何带有性色彩的图片和行为。工作人员（包括志愿者）也不应当穿戴任何有性色彩的服饰/制服等。</p><h4>参会者</h4><p>如发现有骚扰行为的参会者，大会组织者有权采取以下正当行为予以阻止：对其进行警告、将其逐出会场，并不退还参会费用。如果你被人骚扰或者发现有人被骚扰了，请及时联系我们的工作人员大会工作人员都穿戴有统一的T恤衫和证件。大会工作人员也会很乐意帮助参会者联系酒店/会场安保人员、当地警察，阻止这类行为。为参会者提供一个安全的环境。希望你对此能够引起足够的注意。</p><h4>工作人员信息</h4><p>Coco Yu<br/><a href='mailto:coco@wiredcraft.com'>coco@wiredcraft.com</a></p><h4>会场 & 社交场所</h4><p>我们希望参会者能够在所有的大会会场以及相关的社交场所遵守行为守则。</p><h4>许可证</h4><p>这份行为准则借鉴自Ada Initiative和其他志愿者创建的Geek Feminism wiki示例政策，遵守Creative Commons Zero许可证。</p>

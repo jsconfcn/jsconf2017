@@ -23,10 +23,8 @@ function tab() {
 }
 
 function toggleModal() {
-  $('.cta-h').bind("click tap", function() {
+  $('.cta-h').bind("click tap", function(e) {
     body.toggleClass('modal-open');
-  })
-  $(this).bind("click tap", function(e) {
     var eTarget = $(e.target);
     if ($(eTarget).hasClass('scroller') || eTarget.hasClass('modal') || eTarget.hasClass('container')) {
       body.toggleClass('modal-open');
