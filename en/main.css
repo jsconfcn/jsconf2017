@@ -409,6 +409,7 @@ button.close:hover:before{opacity:.8}
 .page-call-for-speakers .hero,.page-code-of-conduct .hero,.page-press .hero{width:100%;overflow:hidden;position:relative;margin-top:53px}
 @media (min-width:1024px){.page-call-for-speakers .hero,.page-code-of-conduct .hero,.page-press .hero{margin-top:0}
 }
+.page-call-for-speakers .hero a.button,.page-code-of-conduct .hero a.button,.page-press .hero a.button{color:#1F1D1D}
 .page-call-for-speakers .hero img,.page-code-of-conduct .hero img,.page-press .hero img{display:block;width:100%}
 @media (max-width:640px){.content ul.options li{width:100%;margin-right:0}
 .page-call-for-speakers .hero img,.page-code-of-conduct .hero img,.page-press .hero img{width:180%;margin-left:-40%}
@@ -458,6 +459,7 @@ button.close:hover:before{opacity:.8}
 .press-material .meterial-list .meterial-logo .content div img,.press-material .meterial-list .meterial-press .content div img{max-width:150px;margin-bottom:10px}
 .press-material .meterial-list .meterial-logo.meterial-logo,.press-material .meterial-list .meterial-press.meterial-logo{margin-bottom:24px}
 }
+.press-material .meterial-list .meterial-press .content div{margin-top:-100px}
 .press-material .meterial-list .meterial-logo .content div:nth-child(1) img{padding-top:1em}
 .press-material .meterial-list .background{line-height:0}
 .press-material p.request{color:#fff;margin-top:24px}
