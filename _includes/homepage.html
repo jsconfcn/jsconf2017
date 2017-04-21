@@ -34,7 +34,7 @@
         <span class='thumbnail'></span>
         <div>
           <h3>{% t call_for_sponsors  %}</h3>
-          <p>{% t call_for_sponsors_p %}</p>
+          <p>{% t call_for_sponsors_p0 %}</p>
           {% if site.lang == 'cn' %}<a class='viewmore' href='/call-for-sponsors/'>{% t view_more  %}</a> {% else %}
           <a class='viewmore' href='/en/call-for-sponsors/'>{% t view_more  %}</a> {% endif %}
         </div>
@@ -57,15 +57,15 @@
   <div class='wrapper'>
     <ul>
       <li>
-        <div>The talks and people were fantastic! I made some amazing friends while at JSConf China. I'll never forget it, and I hope to return some day.</div>
+        <div>“The talks and people were fantastic! I made some amazing friends while at JSConf China. I'll never forget it, and I hope to return some day.”</div>
         <div><img src='/dist/images/pastspeakers/ben-lesh.png' /><span>Ben Lesh<br/><em>Netflix</em></span></div>
       </li>
       <li>
-        <div>It was a fun experience to explain something complex in a short time, even more fun to see someone understood.</div>
+        <div>“It was a fun experience to explain something complex in a short time, even more fun to see someone understood.”</div>
         <div><img src='/dist/images/pastspeakers/makara.png' /><span>Makara Wang<br/><em>Wiredcraft</em></span></div>
       </li>
       <li>
-        <div>JSConf China has a really enthusiastic crowd and great atmosphere. The organizers also did a fantastic job!.</div>
+        <div>“JSConf China has a really enthusiastic crowd and great atmosphere. The organizers also did a fantastic job!.”</div>
         <div><img src='/dist/images/pastspeakers/evan-you.png' /><span>Evan You<br/><em>Author Of Vue.JS</em></span></div>
       </li>
     </ul>
@@ -115,7 +115,7 @@
 </section>
 <section id='companies'>
   <div class='wrapper'>
-    <h2>{% t company_participated_title %}</h2> {% for company in site.companies %} {% if company.featured %}
+    <h2>{% t pre_sponsors %}</h2> {% for company in site.companies %} {% if company.featured %}
     <div>
       <img src='/dist/images/companies/{{ company.user }}.png'>
       <br/>

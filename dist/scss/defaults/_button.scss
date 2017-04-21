@@ -18,6 +18,12 @@
       background: darken($primary, 10%);
     }
   }
+  &.disabled {
+    cursor: not-allowed;
+    &:hover {
+      background: lighten($grey,30%);
+    }
+  }
   &.secondary {
     @include button($secondary);
     border-color: $yellow;
