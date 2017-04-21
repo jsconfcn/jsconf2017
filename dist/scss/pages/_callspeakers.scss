@@ -10,7 +10,10 @@
       margin-top: 0px;
     }
     a {
-      color: $yellow
+      color: $yellow;
+      &.button {
+        color: $black;
+      }
     }
     img {
       display: block;
