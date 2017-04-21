@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 宣传资料
+title: titles.media_page
 class: press
 permalink: /press/
 ---

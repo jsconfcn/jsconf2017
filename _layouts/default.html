@@ -3,9 +3,10 @@
 
 <head>
   <link rel='canonical' href='{{ site.url }}{{ site.baseurl }}{{ page.url }}' />
-  <title>{{ site.title }} | {{ page.title }}</title>
+  <title>{% t page.title %}</title>
+  <meta name="description" content="{% t call_for_speakers_p2 %}">
   <meta charset='utf-8' />
-  <meta http-equiv='Content-Language' content='en' />
+  <meta http-equiv='Content-Language' content='{{site.lang}}' />
   <meta name='viewport' content='width=device-width, initial-scale=1' />
   <link rel='stylesheet' href="/dist/main.css" type="text/css" />
   <!-- favicons -->
@@ -30,6 +31,8 @@
   <meta name="theme-color" content="#ffffff">
 </head>
 <body{% if page.class %} class='page-{{ page.class }}' {% endif %}>
+  <!-- Hack for Share on Wechat Moment -->
+  <div style="display: none;"><img src="/dist/images/favicons/android-chrome-192x192.png" alt="{% t big_title %}"></div>
   <header id='header'>
     {% include header.html %}
   </header>

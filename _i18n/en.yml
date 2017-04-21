@@ -1,3 +1,10 @@
+titles:
+  home: JavaScript Conference China 2017
+  call_for_speakers: JavaScript Conference China 2017 | Call For Speakers
+  call_for_sponsors: JavaScript Conference China 2017 | Call For Sponsors
+  coc: JavaScript Conference China 2017 | Code Of Conduct
+  media_page: JavaScript Conference China 2017 | Media Information
+  about_us: JavaScript Conference China 2017 | About us
 big_title: JavaScript Conference China 2017
 call_for_speakers: Call For Speakers
 call_for_sponsors: Call For Sponsors
@@ -42,7 +49,7 @@ call_for_speakers_p1: Have a cool idea or project that you'd like to share with 
 call_for_speakers_p2: JSConf China is a developer-driven conference where both the Chinese and International JS community share and discuss the latest tools and techniques for the JavaScript language. Talks in either English or Mandarin are welcome.
 call_for_speakers_p3: This year will mark JSConf China's 6th birthday. To learn more about what we're all about, and get a taste of what kinds of speakers we've had in the past, check out the <a href='http://jsconf.cn/' target='new'>JSConf China website</a> or our <a href='https://www.youtube.com/playlist?list=PLEHsmTsBKpKWWKs6gDQ_kssSV32UkaQNs' target='new'>YouTube channel</a>
 call_for_speakers_p4: Like what you've seen so far? Have an insane idea that you're sure will make you the rockstar of the conf? We want to hear all about it. Or if there's someone, or a specific topic you'd love to see at JSConf, nominate them below and we'll try our best to make it happen.
-call_for_speakers_p5: JSConf China is all about the community - we welcome speakers of all levels. We're here to help support you - whether it's your first time presenting, you're not sure how to structure your slides, or you need some feedback on your proposal, we'll provide what you need. Email us at <a href='mailto:support@jsconf.cn'>support@jsoncf.cn</a>. <strong>Please note that we only accept proposals through <a href='https://wiredcraft.typeform.com/to/NHrDsG' target='new'>the form</a> - this email is only for support</strong>. 
+call_for_speakers_p5: JSConf China is all about the community - we welcome speakers of all levels. We're here to help support you - whether it's your first time presenting, you're not sure how to structure your slides, or you need some feedback on your proposal, we'll provide what you need. Email us at <a href='mailto:support@jsconf.cn'>support@jsoncf.cn</a>. <strong>Please note that we only accept proposals through <a href='https://wiredcraft.typeform.com/to/NHrDsG' target='new'>the form</a> - this email is only for support</strong>.
 the_perks: 讲师特权
 the_perks_p1: <p>If you are selected as a speaker at JSConf CN 2017, here's are some of the perks:</p>
 the_perks_p2: <p>If your company is able to cover your travel and hotel, we are happy to list them as a special sponsor. Check out our <a href='/call-for-sponsors/' target='new'>sponsor page</a>. The money we save on your travel and accommodation will go towards making this conference even better! </p>

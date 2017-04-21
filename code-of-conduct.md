@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 行为守则
+title: titles.coc
 class: code-of-conduct
 permalink: /code-of-conduct/
 ---

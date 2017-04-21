@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 主页
+title: titles.home
 class: home
 ---
 
