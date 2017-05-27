@@ -490,6 +490,40 @@
       }
     }
   }
+  // By Marry 2017 5.25
+  
+  .past-speakers{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    justify-content: center;
+  }
+  .imgBox{
+    width: 222px;
+  }
+  .speakerImg{
+    display: block;
+    max-width: 140px;
+    max-height: 140px;
+    margin: 0 auto;
+    border-radius: 70px;
+  }
+  .speakerName{
+    display: block;
+    width: 222px;
+    color: #fff;
+    margin: 10px 0 0 0;
+    font-weight: bolder;
+    text-align: center;
+  }
+  .speakerCompany{
+    display: block;
+    width: 222px;
+    color: #FFF029;
+    margin-bottom: 30px;
+    font-weight: bolder;
+    text-align: center;
+  }
 }
 
 #companies {
