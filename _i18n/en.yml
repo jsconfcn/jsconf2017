@@ -24,7 +24,7 @@ notify_me: Notify me
 tip: Only 100 early bird tickets available!
 call_for_speakers_sub: Share your ideas, met brilliant people
 apply_now: Apply now
-call_for_speakers_p: Have a cool idea or project that you'd like to share with the JavaScript community? We're now taking submissions for the upcoming JSConf CN ( 15-16 July 2017, Shanghai). This Call for Presentation <strong>closes on May 20th</strong> (UTC +8:00).
+call_for_speakers_p: Have a cool idea or project that you'd like to share with the JavaScript community? We're now taking submissions for the upcoming JSConf CN ( 15-16 July 2017, Shanghai). This Call for Presentation <strong>closes on June 5th</strong> (UTC +8:00).
 call_for_sponsors_p0: "JSConf China is a non-profit community-orientedevent, without your support, the conference would not be the same, and the conference committee ensures that these contributions are well recognized. This year we set three sponsorship levels: gold, silver, and bronze. Check out more details here. We are open to non-cash sponsorship as well, chat with an organizer directly at <a href='mailto:support@jsconf.cn'>support@jsconf.cn</a>."
 call_for_sponsors_p: "JSConf has three sponsorship levels: gold, silver, and bronze. Without your support, the conference would not be the same, and the conference committee ensures that these contributions are well recognized. Benefits of each tier are listed below. We are open to any sponsorship needs - chat with an organizer about package details at <a href='mailto:support@jsconf.cn'>support@jsconf.cn</a>."
 about_us: About us
@@ -35,6 +35,7 @@ talks: Talks
 sponsors: Sponsor
 connections: Connections
 previous_speakers: Previous Speakers
+present_speakers: Present Speakers
 pre_sponsors: Previous Sponsors
 company_participated_title: Company Participated
 who_is_the_organizer: Who's the organizer?
@@ -45,7 +46,7 @@ organizer: Organizer
 ticket: Tickets
 call_for_proposals: Call for Proposals
 
-call_for_speakers_p1: Have a cool idea or project that you'd like to share with the JavaScript community? We're now taking submissions for the upcoming JSConf CN (15-16 July 2017, Shanghai). This Call for Presentations closes on <strong>May 20th (UTC +8:00)</strong>.
+call_for_speakers_p1: Have a cool idea or project that you'd like to share with the JavaScript community? We're now taking submissions for the upcoming JSConf CN (15-16 July 2017, Shanghai). This Call for Presentations closes on <strong>June 5th (UTC +8:00)</strong>.
 call_for_speakers_p2: JSConf China is a developer-driven conference where both the Chinese and International JS community share and discuss the latest tools and techniques for the JavaScript language. Talks in either English or Mandarin are welcome.
 call_for_speakers_p3: This year will mark JSConf China's 6th birthday. To learn more about what we're all about, and get a taste of what kinds of speakers we've had in the past, check out the <a href='http://jsconf.cn/' target='new'>JSConf China website</a> or our <a href='https://www.youtube.com/playlist?list=PLEHsmTsBKpKWWKs6gDQ_kssSV32UkaQNs' target='new'>YouTube channel</a>
 call_for_speakers_p4: Like what you've seen so far? Have an insane idea that you're sure will make you the rockstar of the conf? We want to hear all about it. Or if there's someone, or a specific topic you'd love to see at JSConf, nominate them below and we'll try our best to make it happen.
@@ -54,7 +55,7 @@ the_perks: 讲师特权
 the_perks_p1: <p>If you are selected as a speaker at JSConf CN 2017, here's are some of the perks:</p>
 the_perks_p2: <p>If your company is able to cover your travel and hotel, we are happy to list them as a special sponsor. Check out our <a href='/call-for-sponsors/' target='new'>sponsor page</a>. The money we save on your travel and accommodation will go towards making this conference even better! </p>
 the_perks_p3: <p>As a gentle reminder, JSConf China is all about sharing knowledge - whether it's a how-to, a cool product you've built, or your personal experience, we welcome it all. However, as we are a non-profit event, any proposals with the overt aim of selling a product or service are discouraged.</p>
-the_perks_p4: <p>Well, what are you waiting for? No time like the present. Ending date for submissions is May 20th 12PM (UTC +8:00). </p>
+the_perks_p4: <p>Well, what are you waiting for? No time like the present. Ending date for submissions is June 5th 12PM (UTC +8:00). </p>
 
 the_perks_ticket: Conference ticket + After Party entrance
 the_perks_camera: Professional Photography / Video of your talk
@@ -64,8 +65,8 @@ apply: Submit a proposal
 sponsorship_options: Sponsorship Options
 sponsorship_else: What else can I sponsor?
 call_for_sponsors_else_1: "<h5>Speaker sponsor</h5><p>Cover the transportation and accommodation costs of a speaker from your company.</p>"
-call_for_sponsors_else_2: "<h5>Coffee break sponsor</h5><p>provide refreshments and receive brand exposure during the coffee breaks, This sponsorship is open to all brands - not just tech.</p>"
-call_for_sponsors_else_3: "<h5>After-party sponsor</h5><p>rand exposure at the after-party. This sponsorship is open to all brands - not just tech.</p>"
+call_for_sponsors_else_2: "<h5>Coffee break sponsor</h5><p>Provide refreshments and receive brand exposure during the coffee breaks, This sponsorship is open to all brands - not just tech.</p>"
+call_for_sponsors_else_3: "<h5>After-party sponsor</h5><p>Brand exposure at the after-party. This sponsorship is open to all brands - not just tech.</p>"
 gold_sponsor: Gold
 silver_sponsor: Silver
 bronze_sponsor: Bronze

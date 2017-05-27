@@ -41,15 +41,18 @@
       </li>
     </ul>
     <div class='stay-tuned right subscription'>
+      <iframe width="100%" height="auto" src="https://www.youtube.com/embed/dGdLV7q_PW4?list=LLvFAekDfG_dL2Kcbq-vrPXQ" frameborder="0" allowfullscreen></iframe>
+      <br>
+      <br>
       <form action="https://www.getdrip.com/forms/84243211/submissions" method="post" data-drip-embedded-form="84243211">
         <h3>{% t stay_tuned %}</h3>
         <p>{% t be_first %}</p>
         <input type='email' name='fields[email]' class='email' required placeholder='{% t email_address %}' />
         <input type="submit" name="submit" value='{% t notify_me %}' data-drip-attribute="sign-up-button" class='button purple cta' />
       </form>
-      <span class='qrcode'>
+      <!-- <span class='qrcode'>
         <img src='/dist/images/qrcode.jpg' />
-      </span>
+      </span> -->
     </div>
   </div>
 </section>
@@ -89,9 +92,22 @@
 </section>
 <section id='past-speakers'>
   <div class='wrapper'>
-    <h2 style='color:#fff'>{% t previous_speakers  %}</h2>
+    <h2 style='color:#fff'>{% t present_speakers  %}</h2>
     <!--slide-->
     <div class='past-speakers'>
+      {% for presentspeaker in site.presentspeakers %} {% if presentspeaker.featured %}
+      <div class='imgBox'>
+        <a href="{{presentspeaker.link}}">
+          <img class='speakerImg' src='/dist/images/presentspeakers/{{ presentspeaker.user }}.jpg'>
+        </a>
+        <a href="{{presentspeaker.link}}"><span class="speakerName">
+          {{ presentspeaker.name }}
+        </span></a>
+        <span class="speakerCompany">{{ presentspeaker.company }}</span>
+      </div>
+      {% endif %} {% endfor %}
+    </div> 
+   <!--  <div class='past-speakers'>
       {% for pastspeaker in site.pastspeakers %} {% if pastspeaker.featured %}
       <div>
         <img src='/dist/images/pastspeakers/{{ pastspeaker.user }}.png'>
@@ -99,7 +115,7 @@
         <span>{{ pastspeaker.company }}</span>
       </div>
       {% endif %} {% endfor %}
-    </div>
+    </div> -->
     <!--album-->
     <div class='album'>
       <div class='left'>
