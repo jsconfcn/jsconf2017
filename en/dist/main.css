@@ -509,3 +509,9 @@ form.subscription button{width:144px}
 .content .email{border-radius:2px;border:1px solid #2121FB;color:#2121FB;word-wrap:break-word}
 .content .email .hr{padding:24px;border-bottom:1px solid #2121FB}
 .content .email .article{padding:24px}
+/* By Marry 2017.5.25 */
+.imgBox .speakerImg{
+	display: block;
+	width: 80px;
+	height: auto;
+}
