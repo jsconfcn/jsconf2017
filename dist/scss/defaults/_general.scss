@@ -144,7 +144,10 @@ blockquote {
   margin: $space*4 auto;
   max-width: $wrapper;
   position: relative;
-  width: 80%;
+  width: 90%;
+  @include breakpoint(highres) {
+    width: 80%;
+  }
   @include breakpoint(mobile) {
     margin: $space*2 auto;
   }
