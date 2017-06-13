@@ -30,8 +30,12 @@ call_for_sponsors_p: 本次JS中国开发者大会将有三种赞助级别－金
 join: 加入
 sponsor: 赞助
 sponsors: 赞助商
+sponsors_silver: 银牌赞助商
+sponsors_speaker: 讲师赞助商
+sponsors_afterparty: after-party赞助商
+media_parterner: 媒体合作方
 previous_speakers: 往年讲师
-present_speakers: 今年讲师
+present_speakers: 讲师
 company_participated_title: 历年赞助商
 about_us: 关于我们
 about_us_p: <p>JSConf China（JavaScript中国开发者大会）是一个为期两天的以技术开发者为中心的非营利国际性技术大会，主要关注JavaScript和Node.JS 方面的技术。期间我们将邀请众多国内外JavaScript社区著名的开发者来分享他们的知识及对JavaScript的独到见解。这里是过去几届活动的链接：<a href='http://jsconf.cn/' target='new'>JSConf China</a> 。过往的JS中国开发者大会视频可以在我们的 <a href='https://www.youtube.com/playlist?list=PLEHsmTsBKpKWWKs6gDQ_kssSV32UkaQNs' target='new'>YouTube</a> 和 <a href='http://www.tudou.com/listplay/hZyE_Jq3hkw.html' target='new'>Tudou</a>上看到。今年的JS中国开发者大会将于7月15-16日在上海举办。</p>

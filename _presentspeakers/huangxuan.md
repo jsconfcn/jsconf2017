@@ -1,7 +1,11 @@
 ---
 user: huangxuan
 name: 黄玄
-company: ele
+topicEN: Upgrading to Progressive Web Apps
+topicCN: Upgrading to Progressive Web Apps
+company:
+titleEN: Independent Developer
+titleCN: 自由开发者
 link: https://github.com/huxpro
 featured: true
 type: presentspeaker
