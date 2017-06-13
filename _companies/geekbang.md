@@ -1,5 +1,5 @@
 ---
 user: geekbang
-link: 
+link: http://www.geekbang.org/
 media: true
 ---

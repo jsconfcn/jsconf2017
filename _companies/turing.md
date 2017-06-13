@@ -1,5 +1,5 @@
 ---
 user: turing
-link: 
+link: http://www.ituring.com.cn/
 media: true
 ---

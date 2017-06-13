@@ -115,12 +115,9 @@
         <h4>{% t sponsors_silver %}</h4>
         {% for company in site.companies %}
         {% if company.sponsor == 'silver' %}
-        <div class='c-logo'>
+        <a href='{{ company.link }}'  class='c-logo' target='_blank'>
           <img src='/dist/images/companies/{{ company.user }}.png'>
-          <br/>
-          <span>{{ company.name }}</span>
-          <br/><span>{{ company.company }}</span>
-        </div>
+        </a>
         {% endif %} 
         {% endfor %}
       </div>
@@ -128,12 +125,9 @@
         <h4>{% t sponsors_speaker %}</h4>
         {% for company in site.companies %}
         {% if company.sponsor == 'speaker' %}
-        <div class='c-logo'>
+        <a href='{{ company.link }}' class='c-logo' target='_blank'>
           <img src='/dist/images/companies/{{ company.user }}.png'>
-          <br/>
-          <span>{{ company.name }}</span>
-          <br/><span>{{ company.company }}</span>
-        </div>
+        </a>
         {% endif %}
         {% endfor %}
       </div>
@@ -141,24 +135,21 @@
         <h4>{% t sponsors_afterparty %}</h4>
         {% for company in site.companies %}
         {% if company.sponsor == 'afterparty' %}
-        <div class='c-logo'>
+        <a href='{{ company.link }}' class='c-logo' target='_blank'>
           <img src='/dist/images/companies/{{ company.user }}.png'>
-          <br/>
-          <span>{{ company.name }}</span>
-          <br/><span>{{ company.company }}</span>
-        </div>
+        </a>
         {% endif %}
         {% endfor %}
       </div>
     </div>
     <div class='divider'></div>
     <div class='parterners'>
-      <h2>{% t media_parterner %}</h2>
+      <h2>{% t media_partner %}</h2>
       {% for company in site.companies %}
       {% if company.media %}
-      <div class='c-logo'>
+      <a href='{{ company.link }}' class='c-logo' target='_blank'>
         <img src='/dist/images/companies/{{ company.user }}.png'>
-      </div>
+      </a>
       {% endif %}
       {% endfor %}
     </div>

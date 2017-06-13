@@ -1,5 +1,5 @@
 ---
 user: infoq
-link: 
+link: https://www.infoq.com/
 media: true
 ---
