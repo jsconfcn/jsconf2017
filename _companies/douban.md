@@ -1,6 +1,6 @@
 ---
 user: douban
-link: 
+link: https://read.douban.com
 featured: true
 sponsor: silver
 ---

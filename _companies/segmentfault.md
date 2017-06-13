@@ -1,5 +1,5 @@
 ---
 user: segmentfault
-link: 
+link: https://segmentfault.com/
 media: true
 ---

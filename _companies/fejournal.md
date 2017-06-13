@@ -1,5 +1,5 @@
 ---
 user: fejournal
-link: 
+link: https://zhuanlan.zhihu.com/FrontendMagazine
 media: true
 ---
