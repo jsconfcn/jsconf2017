@@ -4,24 +4,32 @@
     width: 100%;
     border-left: 1px solid #ddd;
     border-right: 1px solid #ddd;
-
+    .time-table-row {
+      border-left: 0px !important;
+      border-right: 0px !important;
+    }
     &.heading {
       background: #eee;
       color: $grey;
       border: 1px solid #ddd;
-
+      position: relative;
       .time-table-col {
         padding-top: 5px;
         padding-bottom: 5px;
         text-align: center;
       }
-
       &:first-child {
         .time-table-col {
-          display: block;
+          display: inline-block;
+          width: 100%;
         }
         .heading-left {
-          float: left;
+          padding: 5px 10px;
+          position: absolute;
+          left: 0px;
+          top: 0px;
+          width: auto;
+          color: $purple;
         }
       }
     }
@@ -50,12 +58,10 @@
       }
     }
   }
-
   &-col {
     display: table-cell;
     min-height: 1px;
     padding: 8px 0;
-
     &.main-left {
       width: 22%;
       text-align: center;

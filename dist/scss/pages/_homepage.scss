@@ -23,7 +23,7 @@
       position: absolute;
       left: 0px;
       top: 0px;
-      background: rgba(0,0,0,0.4);
+      background: rgba(0, 0, 0, 0.4);
     }
     @include breakpoint(mobile) {
       display: none;
@@ -433,7 +433,6 @@
         padding-bottom: 0px;
         margin: 0px;
         position: relative;
-
         img {
           float: left;
           width: 100%;
@@ -474,33 +473,34 @@
     }
   }
 }
-  // By Marry 2017 5.25
-#speakers{  
-  .present-speakers{
+
+// By Marry 2017 5.25
+#speakers {
+  .present-speakers {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
     justify-content: center;
   }
-  .imgBox{
+  .imgBox {
     width: 222px;
   }
-  .speakerImg{
+  .speakerImg {
     display: block;
     max-width: 140px;
     max-height: 140px;
     margin: 0 auto;
     border-radius: 70px;
   }
-  .speakerName{
+  .speakerName {
     display: block;
     width: 222px;
     margin: 10px 0;
     font-weight: 700;
     text-align: center;
-    color: #000000;    
+    color: #000000;
   }
-  .speakerCompany{
+  .speakerCompany {
     display: block;
     width: 222px;
     color: #4A29AC;
@@ -508,7 +508,7 @@
     font-weight: bolder;
     text-align: center;
   }
-  .speakerTopic{
+  .speakerTopic {
     color: #878787;
     text-align: center;
     line-height: 120%;
@@ -562,7 +562,6 @@
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
-
     &-details {
       position: absolute;
       top: 50%;
@@ -596,16 +595,17 @@
     background: #ddd;
     width: 100%;
   }
-
   .switcher {
     text-align: center;
     margin: -2em auto 2em;
     .button {
-      width: 12em;
+      width: 8em;
       border-color: $purple;
       color: $purple;
       background-color: #fff;
-
+      @include breakpoint(desktop) {
+        width: 12em;
+      }
       &:first-child {
         border-top-right-radius: 0;
         border-bottom-right-radius: 0;
@@ -622,25 +622,23 @@
       }
     }
   }
-
   .time-table {
     &.day2 {
       display: none;
     }
   }
-
   .schedule-details {
     &-heading {
       display: table;
       width: 100%;
-
       .main {
         width: 66%;
       }
       .side {
         width: 33.33%;
       }
-      .main, .side {
+      .main,
+      .side {
         display: table-cell;
         padding: 1em;
         text-align: center;
@@ -650,9 +648,11 @@
         display: inline-block;
         color: $purple;
         border-bottom: 2px solid $purple;
-        line-height: 1.5;
-      }        
-
+        line-height: 1.2;
+        @include breakpoint(desktop) {
+          line-height: 1.5;
+        }
+      }
     }
   }
 }
