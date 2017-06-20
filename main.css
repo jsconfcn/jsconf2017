@@ -18,10 +18,11 @@ input,select,textarea{font-family:inherit;line-height:inherit}
 .select>select{-webkit-appearance:none;-moz-appearance:none;-ms-appearance:none;-o-appearance:none;appearance:none;background:#FFF;cursor:pointer}
 .select:after{bottom:0;content:'▾';cursor:pointer;font-size:14px;font-size:1.4rem;line-height:140%;position:absolute;right:12px;top:50%;-webkit-transform:translateY(-50%);-moz-transform:translateY(-50%);-ms-transform:translateY(-50%);-o-transform:translateY(-50%);transform:translateY(-50%)}
 .time-table-row{display:table;width:100%;border-left:1px solid #ddd;border-right:1px solid #ddd}
-.time-table-row.heading{background:#eee;color:#878787;border:1px solid #ddd}
+.time-table-row .time-table-row{border-left:0!important;border-right:0!important}
+.time-table-row.heading{background:#eee;color:#878787;border:1px solid #ddd;position:relative}
 .time-table-row.heading .time-table-col{padding-top:5px;padding-bottom:5px;text-align:center}
-.time-table-row.heading:first-child .time-table-col{display:block}
-.time-table-row.heading:first-child .heading-left{float:left}
+.time-table-row.heading:first-child .time-table-col{display:inline-block;width:100%}
+.time-table-row.heading:first-child .heading-left{padding:5px 10px;position:absolute;left:0;top:0;width:auto;color:#4921CC}
 .time-table-row.border-bottom{border-bottom:1px solid #ddd}
 .time-table-row.nested>.time-table-col{padding:0}
 .time-table-row.nested>.time-table-col.side{border-top:1px solid #ddd;border-bottom:1px solid #ddd;vertical-align:middle}
@@ -427,7 +428,9 @@ button.close:hover:before{opacity:.8}
 #after-party .action .button{width:10em}
 #schedule .divider{height:1px;background:#ddd;width:100%}
 #schedule .switcher{text-align:center;margin:-2em auto 2em}
-#schedule .switcher .button{width:12em;border-color:#4921CC;color:#4921CC;background-color:#fff}
+#schedule .switcher .button{width:8em;border-color:#4921CC;color:#4921CC;background-color:#fff}
+@media (min-width:1024px){#schedule .switcher .button{width:12em}
+}
 #schedule .switcher .button:first-child{border-top-right-radius:0;border-bottom-right-radius:0;margin-right:-2px}
 #schedule .switcher .button:last-child{border-top-left-radius:0;border-bottom-left-radius:0;margin-left:-2px}
 #schedule .switcher .button.active{background-color:#4921CC;color:#fff}
@@ -436,7 +439,7 @@ button.close:hover:before{opacity:.8}
 #schedule .schedule-details-heading .main{width:66%}
 #schedule .schedule-details-heading .side{width:33.33%}
 #schedule .schedule-details-heading .main,#schedule .schedule-details-heading .side{display:table-cell;padding:1em;text-align:center}
-#schedule .schedule-details-heading .title{font-size:1.5em;display:inline-block;color:#4921CC;border-bottom:2px solid #4921CC;line-height:1.5}
+#schedule .schedule-details-heading .title{font-size:1.5em;display:inline-block;color:#4921CC;border-bottom:2px solid #4921CC;line-height:1.2}
 .content h2{margin-bottom:48px}
 .content .action{width:100%;text-align:center}
 .content .action .button{display:inline-block;margin:84px auto}
@@ -444,7 +447,8 @@ button.close:hover:before{opacity:.8}
 .content ul.options li{float:left;display:table;margin-bottom:24px;padding-left:0}
 .content ul.options li:nth-child(2n){margin-right:0}
 .content ul.options li img{height:140px}
-@media (min-width:1024px){.content ul.options li img{height:160px;margin:0}
+@media (min-width:1024px){#schedule .schedule-details-heading .title{line-height:1.5}
+.content ul.options li img{height:160px;margin:0}
 }
 .content ul.options li span{font-family:"Proxima Nova","Helvetica Neue",Helvetica,sans-serif;vertical-align:middle;width:100%}
 @media (max-width:640px){.content ul.options li span{padding-left:12px}
