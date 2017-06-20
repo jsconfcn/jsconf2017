@@ -55,12 +55,40 @@ function sticky() {
   // })
 }
 
+function switcher() {
+  var day1Btn = $('.switcher [data-index="0"]');
+  var day2Btn = $('.switcher [data-index="1"]');
+  var table1 = $('.time-table.day1');
+  var table2 = $('.time-table.day2');
+
+  day1Btn.on('click', function(event) {
+    event.preventDefault();
+    if (day1Btn.hasClass('active')) {
+      return;
+    }
+    day1Btn.addClass('active');
+    day2Btn.removeClass('active');
+    table2.hide();
+    table1.fadeIn("slow");
+  })
+  day2Btn.on('click', function(event) {
+    event.preventDefault();
+    if (day2Btn.hasClass('active')) {
+      return;
+    }
+    day2Btn.addClass('active');
+    day1Btn.removeClass('active');
+    table1.hide();
+    table2.fadeIn("slow");
+  })
+}
+
 $(document).ready(function() {
   toggleMenu();
   tab();
   toggleModal();
   sticky();
-
+  switcher();
   $('.back-to-top').click(function() {
     $("html,body").animate({ scrollTop: $(body).offset().top }, 200);
   })

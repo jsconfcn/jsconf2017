@@ -13,8 +13,6 @@
         <time>{% t july %} @ {% t shanghai %}</time>
         <p class='venue'><img src="/dist/images/location.png" height="12"> {% t venue_address %}</p>
         <a class='button primary cta' href='http://www.bagevent.com/event/455850' target='new'>{% t get_tickets %}</a>
-        <br/>
-        <span class='tip'>{% t tip %}</span>
       </div>
     </div>
   </div>
@@ -51,6 +49,47 @@
     </div> 
   </div>
 </section>
+<section id="schedule">
+  <div class='divider'></div>
+  <div class="wrapper">
+    <div class="switcher">
+      <a href="" class="button primary active" data-index="0">Day 1</a>
+      <a href="" class="button primary" data-index="1">Day 2</a>
+    </div>
+    <div class="schedule-details">
+      <div class="schedule-details-heading">
+        <div class="main">
+          <div class="title">{% t schedule_main_title  %}</div>
+        </div>
+        <div class="side">
+          <div class="title">{% t schedule_workshop_title  %}</div>
+        </div>
+      </div>
+      {% include schedule-day1.html %}
+      {% include schedule-day2.html %}
+    </div>
+  </div>
+</section>
+<section id="after-party">
+  <div class="wrapper">
+    <h2>{% t after_party %}</h2>
+    {% if site.lang == 'cn' %}
+      <p>在这里认识来自世界各地的极客们，一起举杯畅饮，结交基友！（我们会提供免费啤酒哦）</p>
+    {% else %}
+      <p>Join 1000+ other developers for After-party, the beers are on us! RSVP below to save your spot.</p>
+    {% endif %}
+    <div class="event">
+      <div class="event-details">
+        <img src='/dist/images/companies/nightplus.png'>
+        <div class="event-title">20:00-22:30, June 15th</div>
+        <div class="event-place">{% t after_party_place  %}</div>
+      </div>
+    </div>
+    <div class="action">
+      <a class="button primary cta" href="http://nightplus.sxl.cn/" target="_blank">RSVP</a>
+    </div>
+  </div>
+</section>
 <section id='past-speakers'>
   <div class='wrapper' style="margin-bottom: 0">
     <div class='album'>
@@ -78,7 +117,7 @@
     <ul>
       <li>
         <div>“The talks and people were fantastic! I made some amazing friends while at JSConf China. I'll never forget it, and I hope to return some day.”</div>
-        <div><img src='/dist/images/pastspeakers/ben-lesh.png' /><span>Ben Lesh<br/><em>Netflix</em></span></div>
+        <div><img src='/dist/images/pastspeakers/ben-lesh.png' /><span>Ben Lesh<br/><em>Google (Previous Netflix)</em></span></div>
       </li>
       <li>
         <div>“It was a fun experience to explain something complex in a short time, even more fun to see someone understood.”</div>
@@ -125,6 +164,16 @@
         <h4>{% t sponsors_speaker %}</h4>
         {% for company in site.companies %}
         {% if company.sponsor == 'speaker' %}
+        <a href='{{ company.link }}' class='c-logo' target='_blank'>
+          <img src='/dist/images/companies/{{ company.user }}.png'>
+        </a>
+        {% endif %}
+        {% endfor %}
+      </div>
+      <div class='specialSpeaker'>
+        <h4>{% t special_sponsor %}</h4>
+        {% for company in site.companies %}
+        {% if company.sponsor == 'special' %}
         <a href='{{ company.link }}' class='c-logo' target='_blank'>
           <img src='/dist/images/companies/{{ company.user }}.png'>
         </a>
