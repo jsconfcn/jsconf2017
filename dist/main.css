@@ -1,7 +1,7 @@
 @charset "UTF-8";
+.time-table-col.main-left,.time-table-row.heading-right,.time-table-row.nested .heading .heading-right,.time-table-row.nested>.time-table-col.side .tbd{text-align:center}
 .select:after,.slick-slide.dragging img{pointer-events:none}
 button,button.close:before,select{text-transform:none}
-#content section h2,.button,.slick-dots{text-align:center}
 #modal,.slick-loading .slick-slide,.slick-loading .slick-track{visibility:hidden}
 html{font-size:62.5%}
 body{font-family:"Proxima Nova",Arial,"Helvetica Neue",Helvetica,sans-serif;font-weight:300;line-height:160%;margin:0}
@@ -14,10 +14,28 @@ input,select,textarea{font-family:inherit;line-height:inherit}
 .select select:active,.select select:focus,input:not([type=submit]):active,input:not([type=submit]):focus,textarea:active,textarea:focus{background:#FFF;border-color:#3498db;outline:0}
 .select select[disabled=disabled],.select select[disabled=true],.select select[disabled],.select select[readonly=readonly],.select select[readonly=true],.select select[readonly],input:not([type=submit])[disabled=disabled],input:not([type=submit])[disabled=true],input:not([type=submit])[disabled],input:not([type=submit])[readonly=readonly],input:not([type=submit])[readonly=true],input:not([type=submit])[readonly],textarea[disabled=disabled],textarea[disabled=true],textarea[disabled],textarea[readonly=readonly],textarea[readonly=true],textarea[readonly]{border-color:#ecf0f1}
 .select select[disabled=disabled]:active,.select select[disabled=disabled]:focus,.select select[disabled=disabled]:hover,.select select[disabled=true]:active,.select select[disabled=true]:focus,.select select[disabled=true]:hover,.select select[disabled]:active,.select select[disabled]:focus,.select select[disabled]:hover,.select select[readonly=readonly]:active,.select select[readonly=readonly]:focus,.select select[readonly=readonly]:hover,.select select[readonly=true]:active,.select select[readonly=true]:focus,.select select[readonly=true]:hover,.select select[readonly]:active,.select select[readonly]:focus,.select select[readonly]:hover,input:not([type=submit])[disabled=disabled]:active,input:not([type=submit])[disabled=disabled]:focus,input:not([type=submit])[disabled=disabled]:hover,input:not([type=submit])[disabled=true]:active,input:not([type=submit])[disabled=true]:focus,input:not([type=submit])[disabled=true]:hover,input:not([type=submit])[disabled]:active,input:not([type=submit])[disabled]:focus,input:not([type=submit])[disabled]:hover,input:not([type=submit])[readonly=readonly]:active,input:not([type=submit])[readonly=readonly]:focus,input:not([type=submit])[readonly=readonly]:hover,input:not([type=submit])[readonly=true]:active,input:not([type=submit])[readonly=true]:focus,input:not([type=submit])[readonly=true]:hover,input:not([type=submit])[readonly]:active,input:not([type=submit])[readonly]:focus,input:not([type=submit])[readonly]:hover,textarea[disabled=disabled]:active,textarea[disabled=disabled]:focus,textarea[disabled=disabled]:hover,textarea[disabled=true]:active,textarea[disabled=true]:focus,textarea[disabled=true]:hover,textarea[disabled]:active,textarea[disabled]:focus,textarea[disabled]:hover,textarea[readonly=readonly]:active,textarea[readonly=readonly]:focus,textarea[readonly=readonly]:hover,textarea[readonly=true]:active,textarea[readonly=true]:focus,textarea[readonly=true]:hover,textarea[readonly]:active,textarea[readonly]:focus,textarea[readonly]:hover{background:#ecf0f1;border-color:#ecf0f1}
-img,legend{border:0}
 .select{cursor:pointer;display:inline-block;position:relative}
 .select>select{-webkit-appearance:none;-moz-appearance:none;-ms-appearance:none;-o-appearance:none;appearance:none;background:#FFF;cursor:pointer}
 .select:after{bottom:0;content:'▾';cursor:pointer;font-size:14px;font-size:1.4rem;line-height:140%;position:absolute;right:12px;top:50%;-webkit-transform:translateY(-50%);-moz-transform:translateY(-50%);-ms-transform:translateY(-50%);-o-transform:translateY(-50%);transform:translateY(-50%)}
+.time-table-row{display:table;width:100%;border-left:1px solid #ddd;border-right:1px solid #ddd}
+.time-table-row .time-table-row{border-left:0!important;border-right:0!important}
+.time-table-row.heading{background:#eee;color:#878787;border:1px solid #ddd;position:relative}
+.time-table-row.heading .time-table-col{padding-top:5px;padding-bottom:5px;text-align:center}
+.time-table-row.heading:first-child .time-table-col{display:inline-block;width:100%}
+.time-table-row.heading:first-child .heading-left{padding:5px 10px;position:absolute;left:0;top:0;width:auto;color:#4921CC}
+.time-table-row.border-bottom{border-bottom:1px solid #ddd}
+.time-table-row.nested>.time-table-col{padding:0}
+.time-table-row.nested>.time-table-col.side{border-top:1px solid #ddd;border-bottom:1px solid #ddd;vertical-align:middle}
+.time-table-col{display:table-cell;min-height:1px;padding:8px 0}
+.time-table-col.main-left{width:22%}
+.time-table-col.main-right{width:44%;text-align:left}
+#content section h2,.button,.slick-dots{text-align:center}
+.time-table-col.side{width:33.33%;border-left:1px solid #ddd}
+img,legend{border:0}
+.time-table-col.main{width:66%}
+.time-table-col.main .main-left{width:33%}
+.time-table-col.main .main-right{width:66%}
+.time-table .time{color:#4921CC;font-weight:700}
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}
 article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary{display:block}
@@ -399,6 +417,29 @@ button.close:hover:before{opacity:.8}
 #companies .wrapper .sponsors h4{color:#878787}
 #companies .wrapper .parterners{margin-top:3em}
 #companies .divider{height:2px;background:#ddd}
+#after-party{background:#F1F2F4}
+#after-party p{max-width:980px;margin:1em auto 2em;text-align:center}
+#after-party .event{width:100%;height:300px;max-width:800px;margin:auto;background-image:url(/dist/images/party.png);background-repeat:no-repeat;background-position:center;position:relative}
+#after-party .event-details{position:absolute;top:50%;left:2em;transform:translateY(-50%);color:#fff}
+#after-party .event-details img{width:6em}
+#after-party .event-title{font-size:2.4em;margin:20px}
+#after-party .event-place{margin-left:20px}
+#after-party .action{text-align:center;margin-top:2em}
+#after-party .action .button{width:10em}
+#schedule .divider{height:1px;background:#ddd;width:100%}
+#schedule .switcher{text-align:center;margin:-2em auto 2em}
+#schedule .switcher .button{width:8em;border-color:#4921CC;color:#4921CC;background-color:#fff}
+@media (min-width:1024px){#schedule .switcher .button{width:12em}
+}
+#schedule .switcher .button:first-child{border-top-right-radius:0;border-bottom-right-radius:0;margin-right:-2px}
+#schedule .switcher .button:last-child{border-top-left-radius:0;border-bottom-left-radius:0;margin-left:-2px}
+#schedule .switcher .button.active{background-color:#4921CC;color:#fff}
+#schedule .time-table.day2{display:none}
+#schedule .schedule-details-heading{display:table;width:100%}
+#schedule .schedule-details-heading .main{width:66%}
+#schedule .schedule-details-heading .side{width:33.33%}
+#schedule .schedule-details-heading .main,#schedule .schedule-details-heading .side{display:table-cell;padding:1em;text-align:center}
+#schedule .schedule-details-heading .title{font-size:1.5em;display:inline-block;color:#4921CC;border-bottom:2px solid #4921CC;line-height:1.2}
 .content h2{margin-bottom:48px}
 .content .action{width:100%;text-align:center}
 .content .action .button{display:inline-block;margin:84px auto}
@@ -406,7 +447,8 @@ button.close:hover:before{opacity:.8}
 .content ul.options li{float:left;display:table;margin-bottom:24px;padding-left:0}
 .content ul.options li:nth-child(2n){margin-right:0}
 .content ul.options li img{height:140px}
-@media (min-width:1024px){.content ul.options li img{height:160px;margin:0}
+@media (min-width:1024px){#schedule .schedule-details-heading .title{line-height:1.5}
+.content ul.options li img{height:160px;margin:0}
 }
 .content ul.options li span{font-family:"Proxima Nova","Helvetica Neue",Helvetica,sans-serif;vertical-align:middle;width:100%}
 @media (max-width:640px){.content ul.options li span{padding-left:12px}
