@@ -1,6 +1,6 @@
 titles:
   home: JavaScript Conference China 2017
-  call_for_speakers: JavaScript Conference China 2017 | Call For Speakers
+  call_for_speakers: JavaScript Conference China 2017  Call For Speakers
   call_for_sponsors: JavaScript Conference China 2017 | Call For Sponsors
   coc: JavaScript Conference China 2017 | Code Of Conduct
   media_page: JavaScript Conference China 2017 | Media Information
@@ -103,3 +103,21 @@ coc_intro: <h2>Short Version</h2>
   <p>We expect participants to follow these rules at all conference venues and conference-related social events.</p>
   <h4>License</h4>
   <p>This Code of Conduct was forked from the example policy from the Geek Feminism wiki, created by the Ada Initiative and other volunteers, which is under a Creative Commons Zero license.</p>
+
+after_party: After Party
+after_party_time: 20:00-22:30, June 15th
+after_party_place: JS Conf China 2017 Venue
+
+header_speakers: Speakers
+header_sponsors: Sponsors
+header_media: Media
+header_schedule: Schedule
+special_sponsor: Special Sponsor
+
+schedule_main_title: Main Stage
+schedule_workshop_title: Workshop Area
+schedule_check_in: Check In
+schedule_welcome: Welcome Speech
+schedule_coffee: Coffee Break
+schedule_lunch: Lunch
+schedule_end: End

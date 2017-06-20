@@ -1,0 +1,163 @@
+<div class="time-table day2">
+  <div class="time-table-row heading">
+    <div class="time-table-col heading-left" style="text-align: left">July 16</div>
+    <div class="time-table-col heading-right">8:30-9:30 {% t schedule_check_in %}</div>
+  </div>
+  <div class="time-table-row border-bottom">
+    <div class="time-table-col main-left"><div class="time">9:30 - 9:50</div></div>
+    <div class="time-table-col main-right">{% t schedule_welcome %}</div>
+    <div class="time-table-col side"></div>
+  </div>
+  <div class="time-table-row">
+    <div class="time-table-col main-left"><div class="time">9:50 - 10:30</div>Keynote</div>
+    <div class="time-table-col main-right">
+      {% assign wyattlyonpreul = site.presentspeakers | where:"user", "wyattlyonpreul" %}
+      <div class="topic">
+      {% if site.lang == 'cn' %}
+        {{ wyattlyonpreul[0].topicCN }}
+      {% else %}
+        {{ wyattlyonpreul[0].topicEN }}
+      {% endif %}
+      </div>
+      <div class="speaker">
+        {{ wyattlyonpreul[0].name }}
+      </div>
+    </div>
+    <div class="time-table-col side"></div>
+  </div>
+  <div class="time-table-row heading">
+    <div class="time-table-col">10:30-10:50 {% t schedule_coffee %}</div>
+  </div>
+  <div class="time-table-row">
+    <div class="time-table-col main-left"><span class="time">10:50 - 11:30</span></div>
+    <div class="time-table-col main-right">
+      {% assign puling = site.presentspeakers | where:"user", "puling" %}
+      <div class="topic">
+      {% if site.lang == 'cn' %}
+        {{ puling[0].topicCN }}
+      {% else %}
+        {{ puling[0].topicEN }}
+      {% endif %}
+      </div>
+      <div class="speaker">
+        {{ puling[0].name }}
+      </div>
+    </div>
+    <div class="time-table-col side"></div>
+  </div>
+  <div class="time-table-row heading">
+    <div class="time-table-col">11:30-11:50 {% t schedule_coffee %}</div>
+  </div>
+  <div class="time-table-row">
+    <div class="time-table-col main-left"><span class="time">11:50 - 12:30</span></div>
+    <div class="time-table-col main-right">
+      {% assign jonashelfer = site.presentspeakers | where:"user", "jonas-helfer" %}
+      <div class="topic">
+      {% if site.lang == 'cn' %}
+        {{ jonashelfer[0].topicCN }}
+      {% else %}
+        {{ jonashelfer[0].topicEN }}
+      {% endif %}
+      </div>
+      <div class="speaker">
+        {{ jonashelfer[0].name }}
+      </div>
+    </div>
+    <div class="time-table-col side"></div>
+  </div>
+  <div class="time-table-row heading">
+    <div class="time-table-col">12:30-13:30 {% t schedule_lunch %}</div>
+  </div>
+  <div class="time-table-row">
+    <div class="time-table-col main-left"><span class="time">13:30 - 14:10</span></div>
+    <div class="time-table-col main-right">
+      {% assign joelarvidsson = site.presentspeakers | where:"user", "joel-arvidsson" %}
+      <div class="topic">
+      {% if site.lang == 'cn' %}
+        {{ joelarvidsson[0].topicCN }}
+      {% else %}
+        {{ joelarvidsson[0].topicEN }}
+      {% endif %}
+      </div>
+      <div class="speaker">
+        {{ joelarvidsson[0].name }}
+      </div>
+    </div>
+    <div class="time-table-col side"></div>
+  </div>
+  <div class="time-table-row nested">
+    <div class="time-table-col main">
+      <div class="time-table-row heading">
+        <div class="time-table-col">14:10-14:30 {% t schedule_coffee %}</div>
+      </div>
+      <div class="time-table-row">
+        <div class="time-table-col main-left"><span class="time">14:30 - 15:10</span></div>
+        <div class="time-table-col main-right">
+          <div class="topic">
+            TBD
+          </div>
+          <div class="speaker">
+            Juha Suomalainen
+          </div>
+        </div>
+      </div>
+      <div class="time-table-row heading">
+        <div class="time-table-col main-right">15:10-15:30 {% t schedule_coffee %}</div>
+      </div>
+      <div class="time-table-row">
+        <div class="time-table-col main-left"><span class="time">15:30 - 16:10</span></div>
+        <div class="time-table-col main-right">
+          {% assign yangjianghua = site.presentspeakers | where:"user", "yangjianghua" %}
+          <div class="topic">
+          {% if site.lang == 'cn' %}
+            {{ yangjianghua[0].topicCN }}
+          {% else %}
+            {{ yangjianghua[0].topicEN }}
+          {% endif %}
+          </div>
+          <div class="speaker">
+            {{ yangjianghua[0].name }}
+          </div>
+        </div>
+      </div>
+      <div class="time-table-row heading">
+        <div class="time-table-col main-right">16:10-16:30 {% t schedule_coffee %}</div>
+      </div>
+      <div class="time-table-row">
+        <div class="time-table-col main-left"><span class="time">16:30 - 17:10</span></div>
+        <div class="time-table-col main-right">
+          {% assign zhenye = site.presentspeakers | where:"user", "zhenye" %}
+          <div class="topic">
+          {% if site.lang == 'cn' %}
+            {{ zhenye[0].topicCN }}
+          {% else %}
+            {{ zhenye[0].topicEN }}
+          {% endif %}
+          </div>
+          <div class="speaker">
+            {{ zhenye[0].name }}
+          </div>
+        </div>
+      </div>
+      <div class="time-table-row heading">
+        <div class="time-table-col main-right">17:10-17:30 {% t schedule_coffee %}</div>
+      </div>
+      <div class="time-table-row">
+        <div class="time-table-col main-left"><span class="time">17:30 - 18:00</span></div>
+        <div class="time-table-col main-right">
+          <div class="topic">
+            Panel QA
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="time-table-col side">
+      <div class="tbd">
+        <span class="time">14:10 - 18:10</span> Code + Learn Workshop
+      </div>
+    </div>
+  </div>
+  <div class="time-table-row heading">
+    <div class="time-table-col main-right">18:10-18:30 {% t schedule_end %}</div>
+  </div>
+</div>

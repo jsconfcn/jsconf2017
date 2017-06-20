@@ -6,15 +6,10 @@
 <button class='button nav'></button>
 <nav id='nav'>
   <div class='box'>
-    {% if site.lang == 'cn' %}
-      <a class="{% if page.url contains 'call-for-speakers' %}active{% endif %}" href='/call-for-speakers/'>{% t call_for_speakers %}</a>
-      <a class="{% if page.url contains 'call-for-sponsors' %}active{% endif %}" href='/call-for-sponsors/'>{% t call_for_sponsors %}</a>
-      <a class="{% if page.url contains 'press' %}active{% endif %}" href='/press'>{% t media %}</a>
-    {% else %}
-      <a class="{% if page.url contains 'call-for-speakers' %}active{% endif %}" href='/en/call-for-speakers/'>{% t call_for_speakers %}</a>
-      <a class="{% if page.url contains 'call-for-sponsors' %}active{% endif %}" href='/en/call-for-sponsors/'>{% t call_for_sponsors %}</a>
-      <a class="{% if page.url contains 'press' %}active{% endif %}" href='/en/press'>{% t media %}</a>
-    {% endif %}
+    <a href='#speakers'>{% t header_speakers %}</a>
+    <a href='#companies'>{% t header_sponsors %}</a>
+    <a href='#companies'>{% t header_media %}</a>
+    <a href='#schedule'>{% t header_schedule %}</a>
   </div>
   <button class='close'></button>
 </nav>

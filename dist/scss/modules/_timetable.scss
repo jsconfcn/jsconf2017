@@ -1,0 +1,85 @@
+.time-table {
+  &-row {
+    display: table;
+    width: 100%;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+
+    &.heading {
+      background: #eee;
+      color: $grey;
+      border: 1px solid #ddd;
+
+      .time-table-col {
+        padding-top: 5px;
+        padding-bottom: 5px;
+        text-align: center;
+      }
+
+      &:first-child {
+        .time-table-col {
+          display: block;
+        }
+        .heading-left {
+          float: left;
+        }
+      }
+    }
+    &.border-bottom {
+      border-bottom: 1px solid #ddd;
+    }
+    &.heading-right {
+      text-align: center;
+    }
+    &.nested {
+      > .time-table-col {
+        padding: 0;
+        &.side {
+          border-top: 1px solid #ddd;
+          border-bottom: 1px solid #ddd;
+          vertical-align: middle;
+          .tbd {
+            text-align: center;
+          }
+        }
+      }
+      .heading {
+        .heading-right {
+          text-align: center;
+        }
+      }
+    }
+  }
+
+  &-col {
+    display: table-cell;
+    min-height: 1px;
+    padding: 8px 0;
+
+    &.main-left {
+      width: 22%;
+      text-align: center;
+    }
+    &.main-right {
+      width: 44%;
+      text-align: left;
+    }
+    &.side {
+      width: 33.33%;
+      border-left: 1px solid #ddd;
+    }
+    &.main {
+      width: 66%;
+      .main-left {
+        width: 33%;
+      }
+      .main-right {
+        width: 66%;
+      }
+    }
+  }
+  .time {
+    color: $purple;
+    font-weight: bold;
+  }
+}
