@@ -510,6 +510,7 @@ button.close:hover:before{opacity:.8}
 .press-material .meterial-list .meterial-logo .content div img,.press-material .meterial-list .meterial-press .content div img{max-width:150px;margin-bottom:10px}
 .press-material .meterial-list .meterial-logo.meterial-logo,.press-material .meterial-list .meterial-press.meterial-logo{margin-bottom:24px}
 }
+.press-material .meterial-list .meterial-press .content div{margin-top:-86px}
 .press-material .meterial-list .meterial-logo .content div:nth-child(1) img{padding-top:1em}
 .press-material .meterial-list .background{line-height:0}
 .press-material p.request{color:#fff;margin-top:24px}
