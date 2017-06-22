@@ -155,6 +155,16 @@
         {% for company in site.companies %}
         {% if company.sponsor == 'silver' %}
         <a href='{{ company.link }}'  class='c-logo' target='_blank'>
+          <img src='/dist/images/companies/{{ company.user }}.png?'>
+        </a>
+        {% endif %} 
+        {% endfor %}
+      </div>
+      <div class='sponsorBronze'>
+        <h4>{% t sponsors_bronze %}</h4>
+        {% for company in site.companies %}
+        {% if company.sponsor == 'bronze' %}
+        <a href='{{ company.link }}'  class='c-logo' target='_blank'>
           <img src='/dist/images/companies/{{ company.user }}.png'>
         </a>
         {% endif %} 
