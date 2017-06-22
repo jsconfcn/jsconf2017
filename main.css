@@ -412,9 +412,10 @@ button.close:hover:before{opacity:.8}
 #companies .wrapper{text-align:center}
 @media (min-width:1024px){#companies .wrapper{width:60%}
 }
-#companies .wrapper .c-logo{display:inline-block;vertical-align:middle;text-align:center;max-width:10em;margin:1em}
-#companies .wrapper .c-logo>img{max-width:100%}
+#companies .wrapper .c-logo{display:inline-block;vertical-align:middle;text-align:center;margin:1.5em}
+#companies .wrapper .c-logo>img{max-width:15em;max-height:3.5em}
 #companies .wrapper .sponsors h4{color:#878787}
+#companies .wrapper .sponsors div{margin-bottom:20px}
 #companies .wrapper .parterners{margin-top:3em}
 #companies .divider{height:2px;background:#ddd}
 #after-party{background:#F1F2F4}
