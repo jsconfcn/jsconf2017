@@ -1,5 +1,5 @@
 ---
 user: freecodecamp
-link: https://www.freecodecamp.com/
+link: http://www.freecodecamp.cn/
 media: true
 ---

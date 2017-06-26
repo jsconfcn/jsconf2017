@@ -518,6 +518,7 @@
 #companies {
   .wrapper {
     text-align: center;
+    margin-top: 60px;
     @include breakpoint(desktop) {
       width: 60%;
     }
@@ -538,11 +539,23 @@
     }
     .parterners {
       margin-top: 3em;
+      .c-logo {
+        margin: 1.5em;
+        > img {
+          max-height: 4em;
+        }
+      }
     }
   }
   .divider {
     height: 2px;
     background: #ddd;
+  }
+  .parternersExc {
+    margin-top: 2em;
+    h4 {
+      color: #878787;
+    }
   }
 }
 
@@ -653,6 +666,27 @@
           line-height: 1.5;
         }
       }
+    }
+  }
+}
+
+#organizer {
+  .wrapper {
+    margin-bottom: 0;
+  }
+  .w-logo {
+    text-align: center;
+    margin-bottom: 2em;
+
+    img {
+      max-width: 10em;
+    }
+  }
+  p {
+    width: 100%;
+    margin: auto;
+    @include breakpoint(desktop) {
+      width: 60%;
     }
   }
 }
