@@ -86,7 +86,7 @@
       </div>
     </div>
     <div class="action">
-      <a class="button primary cta" href="http://nightplus.sxl.cn/" target="_blank">RSVP</a>
+      <a class="button primary cta" href="http://nightplus.sxl.cn/" target="_new">RSVP</a>
     </div>
   </div>
 </section>
@@ -146,15 +146,34 @@
     </ul>
   </div>
 </section>
+<section id='organizer'>
+  <div class='wrapper'>
+    <h2>{% t organizer %}</h2>
+    <div class="w-logo"><a href='https://wiredcraft.com/' target='_new'>
+      <img src='/dist/images/sponsors/wiredcraft.png'>
+    </a></div>
+    <p>{% t about_organizer %}</p>
+  </div>
+</section>
 <section id='companies'>
   <div class='wrapper'>
     <div class='sponsors'>
       <h2>{% t sponsors %}</h2>
+      <div class='sponsorGold'>
+        <h4>{% t sponsors_gold %}</h4>
+        {% for company in site.companies %}
+        {% if company.sponsor == 'gold' %}
+        <a href='{{ company.link }}'  class='c-logo' target='_new'>
+          <img src='/dist/images/companies/{{ company.user }}.png'>
+        </a>
+        {% endif %} 
+        {% endfor %}
+      </div>
       <div class='sponsorSilver'>
         <h4>{% t sponsors_silver %}</h4>
         {% for company in site.companies %}
         {% if company.sponsor == 'silver' %}
-        <a href='{{ company.link }}'  class='c-logo' target='_blank'>
+        <a href='{{ company.link }}'  class='c-logo' target='_new'>
           <img src='/dist/images/companies/{{ company.user }}.png?'>
         </a>
         {% endif %} 
@@ -164,7 +183,7 @@
         <h4>{% t sponsors_bronze %}</h4>
         {% for company in site.companies %}
         {% if company.sponsor == 'bronze' %}
-        <a href='{{ company.link }}'  class='c-logo' target='_blank'>
+        <a href='{{ company.link }}'  class='c-logo' target='_new'>
           <img src='/dist/images/companies/{{ company.user }}.png'>
         </a>
         {% endif %} 
@@ -174,7 +193,7 @@
         <h4>{% t sponsors_speaker %}</h4>
         {% for company in site.companies %}
         {% if company.sponsor == 'speaker' %}
-        <a href='{{ company.link }}' class='c-logo' target='_blank'>
+        <a href='{{ company.link }}' class='c-logo' target='_new'>
           <img src='/dist/images/companies/{{ company.user }}.png'>
         </a>
         {% endif %}
@@ -184,7 +203,7 @@
         <h4>{% t special_sponsor %}</h4>
         {% for company in site.companies %}
         {% if company.sponsor == 'special' %}
-        <a href='{{ company.link }}' class='c-logo' target='_blank'>
+        <a href='{{ company.link }}' class='c-logo' target='_new'>
           <img src='/dist/images/companies/{{ company.user }}.png'>
         </a>
         {% endif %}
@@ -194,7 +213,7 @@
         <h4>{% t sponsors_afterparty %}</h4>
         {% for company in site.companies %}
         {% if company.sponsor == 'afterparty' %}
-        <a href='{{ company.link }}' class='c-logo' target='_blank'>
+        <a href='{{ company.link }}' class='c-logo' target='_new'>
           <img src='/dist/images/companies/{{ company.user }}.png'>
         </a>
         {% endif %}
@@ -206,11 +225,17 @@
       <h2>{% t media_partner %}</h2>
       {% for company in site.companies %}
       {% if company.media %}
-      <a href='{{ company.link }}' class='c-logo' target='_blank'>
+      <a href='{{ company.link }}' class='c-logo' target='_new'>
         <img src='/dist/images/companies/{{ company.user }}.png'>
       </a>
       {% endif %}
       {% endfor %}
+    </div>
+    <div class='parternersExc'>
+      <h4>{% t media_partner_exclusive %}</h4>
+      <a href='http://www.itdks.com/dakashuo/new/index' class='c-logo' target='_new'>
+        <img src='/dist/images/companies/itdakashuo.jpg'>
+      </a>
     </div>
   </div>
 </section>

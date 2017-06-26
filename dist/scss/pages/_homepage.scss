@@ -518,6 +518,7 @@
 #companies {
   .wrapper {
     text-align: center;
+    margin-top: 60px;
     @include breakpoint(desktop) {
       width: 60%;
     }
@@ -528,8 +529,8 @@
       // max-width: 10em;
       margin: 1.5em;
       > img {
-        max-width: 15em;
-        max-height: 3.5em;
+        max-width: 14.5em;
+        max-height: 3.3em;
       }
     }
     .sponsors {
@@ -542,11 +543,47 @@
     }
     .parterners {
       margin-top: 3em;
+      .c-logo {
+        margin: 1.5em;
+        > img {
+          max-height: 4em;
+        }
+      }
+    }
+    .sponsorGold {
+      .c-logo {
+        > img {
+          max-width: 17em;
+          max-height: 5em;
+        }
+      }
+    }
+    .sponsorBronze {
+      .c-logo {
+        > img {
+          max-width: 14em;
+          max-height: 3em;
+        }
+      }
+    }
+    .parterners {
+      .c-logo {
+        > img {
+          max-width: 14em;
+          max-height: 3em;
+        }
+      }
     }
   }
   .divider {
     height: 2px;
     background: #ddd;
+  }
+  .parternersExc {
+    margin-top: 2em;
+    h4 {
+      color: #878787;
+    }
   }
 }
 
@@ -657,6 +694,26 @@
           line-height: 1.5;
         }
       }
+    }
+  }
+}
+
+#organizer {
+  .wrapper {
+    margin-bottom: 0;
+  }
+  .w-logo {
+    text-align: center;
+    margin-bottom: 2em;
+    img {
+      max-width: 16em;
+    }
+  }
+  p {
+    width: 100%;
+    margin: auto;
+    @include breakpoint(desktop) {
+      width: 60%;
     }
   }
 }
