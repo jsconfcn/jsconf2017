@@ -405,6 +405,11 @@ button.close:hover:before{opacity:.8}
 }
 #speakers .present-speakers{display:flex;flex-direction:row;flex-wrap:wrap;justify-content:center}
 #speakers .imgBox{width:222px}
+#speakers .imgBox.double{width:240px}
+#speakers .imgBox.double>a:first-child{display:block;width:100%;position:relative;height:140px}
+#speakers .imgBox.double .speakerImg{display:inline-block;max-width:120px;position:absolute;top:0;border:5px solid #fff}
+#speakers .imgBox.double .speakerImg:first-child{left:0;z-index:1}
+#speakers .imgBox.double .speakerImg:last-child{right:0}
 #speakers .speakerImg{display:block;max-width:140px;max-height:140px;margin:0 auto;border-radius:70px}
 #speakers .speakerName{display:block;width:222px;margin:10px 0;font-weight:700;text-align:center;color:#000}
 #speakers .speakerCompany{display:block;width:222px;color:#4A29AC;margin-bottom:30px;font-weight:bolder;text-align:center}
