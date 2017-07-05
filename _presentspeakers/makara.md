@@ -1,10 +1,10 @@
 ---
 user: makara
-name: Makara Wang
-topicEN: TBD
-topicCN: 待定
+name: Juha Suomalainen/Makara Wang
+topicEN: Graduating your node.js API to production environment
+topicCN: Graduating your node.js API to production environment
 company: Wiredcraft
-link: https://github.com/makara
-featured: true
+link: https://github.com/wiredcraft
+featured: false
 type: presentspeaker
 ---

@@ -484,6 +484,30 @@
   }
   .imgBox {
     width: 222px;
+    &.double {
+      width: 240px;
+      > a:first-child {
+        display: block;
+        width: 100%;
+        position: relative;
+        height: 140px;
+      }
+      .speakerImg {
+        display: inline-block;
+        max-width: 120px;
+        position: absolute;
+        top: 0;
+        border: 5px solid #fff;
+        &:first-child {
+          left: 0;
+          z-index: 1;
+        }
+        &:last-child {
+          right: 0;
+
+        }
+      }
+    }
   }
   .speakerImg {
     display: block;
