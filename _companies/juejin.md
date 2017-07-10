@@ -1,6 +1,6 @@
 ---
 user: juejin
-link: https://xitu.io/
+link: https://juejin.im/
 featured: true
 sponsor: bronze
 ---
