@@ -1,5 +1,6 @@
 ---
 user: mapbox
-link: 
+link: https://www.mapbox.com/
 featured: true
+sponsor: silver
 ---
