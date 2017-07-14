@@ -6,7 +6,7 @@
     width: 100%;
     display: inherit;
     @include breakpoint(mobile) {
-      width: 150%;
+      width: 180%;
       margin-left: -25%;
     }
   }
@@ -69,6 +69,31 @@
           color: $yellow;
           float: left;
           margin: $space/2 $space/4
+        }
+        @include breakpoint(mobile) {
+          display: block;
+          padding-top: 25px;
+        }
+      }
+      .streaming {
+        display: table-cell;
+        vertical-align: middle;
+        text-align: center;
+        padding-top: 53px;
+        h4 {
+          margin-bottom: 10px;
+          color: #fff;
+        }
+        img {
+          width: 200px;
+        }
+        @include breakpoint(mobile) {
+          display: block;
+          text-align: left;
+          padding-top: 10px;
+          img {
+            width: 160px;
+          }
         }
       }
     }
