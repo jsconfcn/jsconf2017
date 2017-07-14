@@ -305,7 +305,7 @@ button.close:hover:before{opacity:.8}
 #hero{margin-top:53px;position:relative;overflow:hidden}
 #hero .container,#hero .videos,#hero .videos:before{position:absolute;height:100%;top:0}
 #hero img.bg{width:100%;display:inherit}
-@media (max-width:640px){#hero img.bg{width:150%;margin-left:-25%}
+@media (max-width:640px){#hero img.bg{width:180%;margin-left:-25%}
 #hero .videos{display:none}
 }
 #hero .videos{width:calc(100% + 60px);margin-left:-30px}
@@ -317,6 +317,14 @@ button.close:hover:before{opacity:.8}
 #hero .container .wrapper .masthead time{color:#fff;display:block;font-size:18px;font-size:1.8rem;font-family:"Proxima Nova",Arial,"Helvetica Neue",Helvetica,sans-serif;margin-bottom:12px;text-transform:capitalize;width:100%}
 #hero .container .wrapper .masthead p.venue{color:rgba(255,255,255,.9)}
 #hero .container .wrapper .masthead .tip{color:#FFF029;float:left;margin:12px 6px}
+@media (max-width:640px){#hero .container .wrapper .masthead{display:block;padding-top:25px}
+}
+#hero .container .wrapper .streaming{display:table-cell;vertical-align:middle;text-align:center;padding-top:53px}
+#hero .container .wrapper .streaming h4{margin-bottom:10px;color:#fff}
+#hero .container .wrapper .streaming img{width:200px}
+@media (max-width:640px){#hero .container .wrapper .streaming{display:block;text-align:left;padding-top:10px}
+#hero .container .wrapper .streaming img{width:160px}
+}
 #callfor{background:#F1F2F4;margin-top:0}
 #callfor .left{padding-right:0}
 @media (min-width:1024px){#hero{margin-top:0}
