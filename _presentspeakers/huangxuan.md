@@ -7,7 +7,7 @@ company:
 titleEN: Independent Developer
 titleCN: 自由开发者
 link: https://github.com/huxpro
-file:
+file: https://huangxuan.me/jsconfcn2017/
 featured: true
 type: presentspeaker
 ---
