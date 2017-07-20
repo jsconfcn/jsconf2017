@@ -558,9 +558,12 @@
     text-align: center;
   }
   .speakerTopic {
-    color: #878787;
     text-align: center;
     line-height: 120%;
+    a {
+      color: #878787;
+
+    }
   }
 }
 

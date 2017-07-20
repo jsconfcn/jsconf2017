@@ -34,14 +34,24 @@
           {{ presentspeaker.name }}
         </span></a>
         {% if site.lang == 'cn' %}
-          <div class="speakerTopic">{{ presentspeaker.topicCN }}</div>
+          <div class="speakerTopic">
+            <a href="/files/{{presentspeaker.file}}" target="new">
+            {{ presentspeaker.topicCN }}
+            </a>
+          </div>
           {% if presentspeaker.company %}
             <div class="speakerCompany">{{ presentspeaker.company }}</div>
           {% else %}
-            <div class="speakerCompany">{{ presentspeaker.titleCN }}</div>
+            <div class="speakerCompany">
+              {{ presentspeaker.titleCN }}
+            </div>
           {% endif %}
         {% else %}
-          <div class="speakerTopic">{{ presentspeaker.topicEN }}</div>
+          <div class="speakerTopic">
+            <a href="/files/{{presentspeaker.file}}" target="new">
+            {{ presentspeaker.topicEN }}
+            <a>
+          </div>
           {% if presentspeaker.company %}
             <div class="speakerCompany">{{ presentspeaker.company }}</div>
           {% else %}
@@ -58,7 +68,11 @@
         <a href="https://github.com/wiredcraft"><span class="speakerName">
           Juha Suomalainen/Makara Wang
         </span></a>
-        <div class="speakerTopic">Graduating your node.js API to production environment</div>
+        <div class="speakerTopic">
+          <a href="/files/12-nodejs-for-the-production-juha-makara.pdf" target="new">
+            Graduating your node.js API to production environment
+          </a>
+        </div>
         <div class="speakerCompany">Wiredcraft</div>
       </div>
     </div> 
