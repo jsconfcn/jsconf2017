@@ -421,8 +421,8 @@ button.close:hover:before{opacity:.8}
 #speakers .speakerImg{display:block;max-width:140px;max-height:140px;margin:0 auto;border-radius:70px}
 #speakers .speakerName{display:block;width:222px;margin:10px 0;font-weight:700;text-align:center;color:#000}
 #speakers .speakerCompany{display:block;width:222px;color:#4A29AC;margin-bottom:30px;font-weight:bolder;text-align:center}
-#companies .parternersExc h4,#companies .wrapper .sponsors h4{color:#878787}
-#speakers .speakerTopic{color:#878787;text-align:center;line-height:120%}
+#companies .parternersExc h4,#companies .wrapper .sponsors h4,#speakers .speakerTopic a{color:#878787}
+#speakers .speakerTopic{text-align:center;line-height:120%}
 #companies .wrapper{text-align:center;margin-top:60px}
 @media (min-width:1024px){#companies .wrapper{width:60%}
 }
