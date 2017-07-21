@@ -110,6 +110,8 @@ td,th{padding:0}
 .slick-initialized .slick-slide{display:block}
 .slick-vertical .slick-slide{display:block;height:auto;border:1px solid transparent}
 @font-face{font-family:icons;src:url(/dist/fonts/icons.eot);src:url(/dist/fonts/icons.eot?#iefix) format("embedded-opentype"),url(/dist/fonts/icons.woff) format("woff"),url(/dist/fonts/icons.ttf) format("truetype"),url(/dist/fonts/icons.svg#Icons) format("svg");font-weight:400;font-style:normal}
+.icon-svg{display:inline-block;width:1rem;height:1.2rem;stroke-width:0;stroke:currentColor;fill:currentColor}
+.icon-download{width:.9287109375em}
 @media (max-width:640px){.slick-slide img{max-width:100%}
 html{font-size:50%}
 }
@@ -465,6 +467,7 @@ button.close:hover:before{opacity:.8}
 @media (min-width:1024px){#schedule .schedule-details-heading .title{line-height:1.5}
 #organizer p{width:60%}
 }
+.deck-link{display:inline-block;border:1px solid #4921CC;font-size:1.6rem;padding:0 5px;line-height:normal}
 .content h2{margin-bottom:48px}
 .content .action{width:100%;text-align:center}
 .content .action .button{display:inline-block;margin:84px auto}
