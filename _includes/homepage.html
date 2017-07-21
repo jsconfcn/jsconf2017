@@ -35,7 +35,11 @@
         </span></a>
         {% if site.lang == 'cn' %}
           <div class="speakerTopic">
+            {% if presentspeaker.user == 'huangxuan' %}
+            <a href="{{presentspeaker.file}}" target="new">
+            {% else %}
             <a href="/files/{{presentspeaker.file}}" target="new">
+            {% endif %}
             {{ presentspeaker.topicCN }}
             </a>
           </div>
@@ -48,7 +52,11 @@
           {% endif %}
         {% else %}
           <div class="speakerTopic">
+            {% if presentspeaker.user == 'huangxuan' %}
+            <a href="{{presentspeaker.file}}" target="new">
+            {% else %}
             <a href="/files/{{presentspeaker.file}}" target="new">
+            {% endif %}
             {{ presentspeaker.topicEN }}
             </a>
           </div>
