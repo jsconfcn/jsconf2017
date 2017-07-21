@@ -467,7 +467,8 @@ button.close:hover:before{opacity:.8}
 @media (min-width:1024px){#schedule .schedule-details-heading .title{line-height:1.5}
 #organizer p{width:60%}
 }
-.deck-link{display:inline-block;border:1px solid #4921CC;font-size:1.6rem;padding:0 5px;line-height:normal}
+.deck-link{display:inline-block;border:1px solid #4921CC;font-size:1.4rem;padding:0 5px;line-height:normal}
+.deck-link .icon-svg{vertical-align:middle}
 .content h2{margin-bottom:48px}
 .content .action{width:100%;text-align:center}
 .content .action .button{display:inline-block;margin:84px auto}
