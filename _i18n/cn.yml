@@ -25,8 +25,8 @@ venue_address: 上海商城，静安区南京西路1376号(近西康路)
 tip: 仅有100张早鸟票！
 call_for_speakers_sub: 分享你的观点经验，在这里遇到有趣的人
 call_for_speakers_p: 你有一个很酷的点子或者项目想和JavaScript社区分享么？2017年的JS中国开发者大会将于7月15至16日在上海举行，现已开放演讲者及赞助商的申请通道，截止时间为北京时间<strong>2017年6月5日24点</strong>。欢迎所有JavaScirpt开发者及爱好者的踊跃参与！
-call_for_sponsors_p0: JS中国开发者大会是以技术开发者为中心的非营利大会，你的支持对本次活动的成功至关重要，活动组织方承诺这些资金将被合理利用。本次大会提供金、银、铜三种不同赞助方案，具体细节请点击了解详情。我们也欢迎金钱以外其他方式的赞助，和组织方聊聊吧<a href='mailto:support@jsconf.cn'>support@jsconf.cn</a>。
-call_for_sponsors_p: 本次JS中国开发者大会将有三种赞助级别－金牌赞助商、银牌赞助商及铜牌赞助商。你的支持对本次活动的成功至关重要，活动组织方承诺这些资金将被合理利用。我们将不同的赞助级别的需求及回馈列在下面。我们也欢迎金钱以外其他方式的赞助，和组织方聊聊吧<a href='mailto:support@jsconf.cn'>support@jsconf.cn</a>.
+call_for_sponsors_p0: JS中国开发者大会是以技术开发者为中心的非营利大会，你的支持对本次活动的成功至关重要，活动组织方承诺这些资金将被合理利用。本次大会提供金、银、铜三种不同赞助方案，具体细节请点击了解详情。我们也欢迎金钱以外其他方式的赞助，和组织方聊聊吧<a href='mailto:support@jsconfchina.com'>support@jsconfchina.com</a>。
+call_for_sponsors_p: 本次JS中国开发者大会将有三种赞助级别－金牌赞助商、银牌赞助商及铜牌赞助商。你的支持对本次活动的成功至关重要，活动组织方承诺这些资金将被合理利用。我们将不同的赞助级别的需求及回馈列在下面。我们也欢迎金钱以外其他方式的赞助，和组织方聊聊吧<a href='mailto:support@jsconfchina.com'>support@jsconfchina.com</a>.
 join: 加入
 sponsor: 赞助
 sponsors: 赞助商
@@ -39,22 +39,22 @@ previous_speakers: 往年讲师
 present_speakers: 讲师
 company_participated_title: 历年赞助商
 about_us: 关于我们
-about_us_p: <p>JSConf China（JavaScript中国开发者大会）是一个为期两天的以技术开发者为中心的非营利国际性技术大会，主要关注JavaScript和Node.JS 方面的技术。期间我们将邀请众多国内外JavaScript社区著名的开发者来分享他们的知识及对JavaScript的独到见解。这里是过去几届活动的链接：<a href='http://jsconf.cn/' target='new'>JSConf China</a> 。过往的JS中国开发者大会视频可以在我们的 <a href='https://www.youtube.com/playlist?list=PLEHsmTsBKpKWWKs6gDQ_kssSV32UkaQNs' target='new'>YouTube</a> 和 <a href='http://www.tudou.com/listplay/hZyE_Jq3hkw.html' target='new'>Tudou</a>上看到。今年的JS中国开发者大会将于7月15-16日在上海举办。</p>
+about_us_p: <p>JSConf China（JavaScript中国开发者大会）是一个为期两天的以技术开发者为中心的非营利国际性技术大会，主要关注JavaScript和Node.JS 方面的技术。期间我们将邀请众多国内外JavaScript社区著名的开发者来分享他们的知识及对JavaScript的独到见解。这里是过去几届活动的链接：<a href='http://jsconfchina.com/' target='new'>JSConf China</a> 。过往的JS中国开发者大会视频可以在我们的 <a href='https://www.youtube.com/playlist?list=PLEHsmTsBKpKWWKs6gDQ_kssSV32UkaQNs' target='new'>YouTube</a> 和 <a href='http://www.tudou.com/listplay/hZyE_Jq3hkw.html' target='new'>Tudou</a>上看到。今年的JS中国开发者大会将于7月15-16日在上海举办。</p>
 years: 年
 attendees: 参会者
 talks: 演讲
 connections: 人脉
 pre_sponsors: 往年赞助商
 who_is_the_organizer: 大会组织者
-who_is_the_organizer_p: <a href='http://wiredcraft.com' target='new'>Wiredcraft</a>是一家本部位于上海的电子科技公司，在美国华盛顿及德国柏林均有分部。我们的专长是设计、数据科学，API和 DevOps，我们曾帮助世界银行实现开源数据门户的数据可视化，为25年来缅甸第一次民主选举设计选票系统。我们通过每月组织线下活动(UIUX meetup，JS meetup，Hacker News meetup，Docker meetup)来支持本土科技与设计社区，每年我们都组织<a href='http://2016.jsconf.cn' target='new'>JS Conf</a>及UIUX Conf。
+who_is_the_organizer_p: <a href='http://wiredcraft.com' target='new'>Wiredcraft</a>是一家本部位于上海的电子科技公司，在美国华盛顿及德国柏林均有分部。我们的专长是设计、数据科学，API和 DevOps，我们曾帮助世界银行实现开源数据门户的数据可视化，为25年来缅甸第一次民主选举设计选票系统。我们通过每月组织线下活动(UIUX meetup，JS meetup，Hacker News meetup，Docker meetup)来支持本土科技与设计社区，每年我们都组织<a href='http://2016.jsconfchina.com' target='new'>JS Conf</a>及UIUX Conf。
 organizer: 组织者
 ticket: 购票
 call_for_proposals: 话题征寻
 call_for_speakers_p1: 你有一个很酷的点子或者项目想和JavaScript社区分享么？2017年的JS中国开发者大会将于7月15至16日在上海举行，现已开放演讲者及赞助商的申请通道，截止时间为北京时间<strong>2017年6月5日24点</strong>。欢迎所有JavaScirpt 开发者及爱好者的踊跃参与！
 call_for_speakers_p2: JavaScript中国开发者大会（JSConf China）是一个围绕 JS 开发者为中心的活动。我们希望为来自中国本土及国际JS 社区的开发者们提供一个分享、讨论最前沿的JS 技术和工具的平台。你可以用英文或中文演讲。
-call_for_speakers_p3: 今年也是JS中国开发者大会的6周年，如果你想了解往届的活动，这里是过去几届活动的链接：<a href='http://jsconf.cn/' target='new'>JSConf China</a> 。过往的JS中国开发者大会视频可以在我们的 <a href='https://www.youtube.com/playlist?list=PLEHsmTsBKpKWWKs6gDQ_kssSV32UkaQNs' target='new'>YouTube</a> 和 <a href='http://www.tudou.com/listplay/hZyE_Jq3hkw.html' target='new'>Tudou</a>上看到。
+call_for_speakers_p3: 今年也是JS中国开发者大会的6周年，如果你想了解往届的活动，这里是过去几届活动的链接：<a href='http://jsconfchina.com/' target='new'>JSConf China</a> 。过往的JS中国开发者大会视频可以在我们的 <a href='https://www.youtube.com/playlist?list=PLEHsmTsBKpKWWKs6gDQ_kssSV32UkaQNs' target='new'>YouTube</a> 和 <a href='http://www.tudou.com/listplay/hZyE_Jq3hkw.html' target='new'>Tudou</a>上看到。
 call_for_speakers_p4: 如果你有新颖的观点要分享，请告诉我们。如果你知道其他的优秀讲者，请推荐他们。如果你有特别想了解的话题，请告诉我们，我们会尽力帮你找到匹配的讲者。
-call_for_speakers_p5: 我们欢迎任何形式的演讲，也非常愿意提供帮助。如果这是你的第一次演讲，并且想在提交申请前得到一些反馈，请联系活动组织者<a href='mailto:support@jsconf.cn'>support@jsoncf.cn</a>，我们会及时回复。<strong>注意，通过邮件提交的演讲将不会被接受</strong>，请通过<a href='https://wiredcraft.typeform.com/to/NHrDsG' target='new'>申请表格</a>提交。
+call_for_speakers_p5: 我们欢迎任何形式的演讲，也非常愿意提供帮助。如果这是你的第一次演讲，并且想在提交申请前得到一些反馈，请联系活动组织者<a href='mailto:support@jsconfchina.com'>support@jsoncf.cn</a>，我们会及时回复。<strong>注意，通过邮件提交的演讲将不会被接受</strong>，请通过<a href='https://wiredcraft.typeform.com/to/NHrDsG' target='new'>申请表格</a>提交。
 the_perks: 讲师特权
 the_perks_p1: <p>如果你被选为本次JS开发者大会的讲师，你将会得到以下大礼包：</p>
 the_perks_p2: <p>对了，如果你的公司可以报销你来往的交通费及住宿，我们将把他们列为讲师赞助商。具体信息请查看我们<a href='/call-for-sponsors/' target='new'>赞助商页面</a>。而我们将利用这部分钱把这次大会办的更好。</p>
@@ -82,7 +82,7 @@ download_package: 获取更多赞助详情
 press_head: 获取媒体宣传信息
 press_head_sub: 媒体报道及媒体合作请联系 <a href='mailto:coco@wiredcraft.com'>coco@wiredcraft.com</a>
 press_resources: 资源
-press_p: Like what you've heard about JSConf and want to feature us? We've got everything you need right here. If you've got questions or want to request more material, contact us at <a href='mailto:support@jsconf.cn'>support@jsconf.cn</a>.
+press_p: Like what you've heard about JSConf and want to feature us? We've got everything you need right here. If you've got questions or want to request more material, contact us at <a href='mailto:support@jsconfchina.com'>support@jsconfchina.com</a>.
 press_logo: JS中国开发者大会 Logo
 press_kit: 宣传资料包
 request: 如需媒体宣传资料，请联系大会组委会 <a href='mailto:coco@wiredcraft.com'>coco@wiredcraft.com</a>
